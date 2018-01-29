@@ -1,0 +1,6 @@
+framework module LITCommon {
+  umbrella header "LITCommon.h"
+
+  export *
+  module * { export * }
+}

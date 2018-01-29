@@ -1,0 +1,6 @@
+framework module LITUICommon {
+  umbrella header "LITUICommon.h"
+
+  export *
+  module * { export * }
+}

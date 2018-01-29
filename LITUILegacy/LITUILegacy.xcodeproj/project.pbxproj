@@ -1,0 +1,1385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AA78975201D778100C16251 /* LITUILegacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78973201D778100C16251 /* LITUILegacy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A7B201D7B4100C16251 /* DAButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78981201D7B3D00C16251 /* DAButtonItem.m */; };
+		4AA78A7C201D7B4100C16251 /* DAButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78982201D7B3D00C16251 /* DAButtonCell.m */; };
+		4AA78A7D201D7B4100C16251 /* AGButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78983201D7B3D00C16251 /* AGButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A7E201D7B4100C16251 /* DAButtonFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78984201D7B3D00C16251 /* DAButtonFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A7F201D7B4100C16251 /* AGButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78985201D7B3D00C16251 /* AGButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A80201D7B4100C16251 /* DAButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78986201D7B3D00C16251 /* DAButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A81201D7B4100C16251 /* DAButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78987201D7B3D00C16251 /* DAButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A82201D7B4100C16251 /* AGButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78988201D7B3D00C16251 /* AGButtonItem.m */; };
+		4AA78A83201D7B4100C16251 /* AGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78989201D7B3D00C16251 /* AGButton.m */; };
+		4AA78A84201D7B4100C16251 /* DAButtonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7898A201D7B3D00C16251 /* DAButtonFactory.m */; };
+		4AA78A8D201D7B4100C16251 /* AGPortraitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78994201D7B3D00C16251 /* AGPortraitView.m */; };
+		4AA78A8E201D7B4100C16251 /* AGQuantityPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78997201D7B3D00C16251 /* AGQuantityPickerView.m */; };
+		4AA78A8F201D7B4100C16251 /* AGQuantitySelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78998201D7B3D00C16251 /* AGQuantitySelector.m */; };
+		4AA78A90201D7B4100C16251 /* LITInteractivePanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78999201D7B3D00C16251 /* LITInteractivePanelView.m */; };
+		4AA78A91201D7B4100C16251 /* AGQuantityPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7899A201D7B3D00C16251 /* AGQuantityPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A92201D7B4100C16251 /* AGQuantitySelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7899B201D7B3D00C16251 /* AGQuantitySelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A93201D7B4100C16251 /* LITInteractivePanelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7899C201D7B3D00C16251 /* LITInteractivePanelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A94201D7B4100C16251 /* AGSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7899D201D7B3D00C16251 /* AGSelector.m */; };
+		4AA78A95201D7B4100C16251 /* AGPeriodSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7899E201D7B3D00C16251 /* AGPeriodSelector.m */; };
+		4AA78A96201D7B4100C16251 /* AGTextfieldEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7899F201D7B3D00C16251 /* AGTextfieldEditor.m */; };
+		4AA78A97201D7B4100C16251 /* AGExpirationDateSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789A0201D7B3D00C16251 /* AGExpirationDateSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A98201D7B4100C16251 /* AGTextSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789A1201D7B3D00C16251 /* AGTextSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A99201D7B4100C16251 /* AGDateSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789A2201D7B3D00C16251 /* AGDateSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A9A201D7B4100C16251 /* AGSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789A3201D7B3D00C16251 /* AGSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A9B201D7B4100C16251 /* AGPeriodSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789A4201D7B3D00C16251 /* AGPeriodSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A9C201D7B4100C16251 /* AGSelectorItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789A5201D7B3D00C16251 /* AGSelectorItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A9D201D7B4100C16251 /* AGExpirationDateSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789A6201D7B3D00C16251 /* AGExpirationDateSelector.m */; };
+		4AA78A9E201D7B4100C16251 /* AGTextfieldEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789A7201D7B3D00C16251 /* AGTextfieldEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78A9F201D7B4100C16251 /* AGDateSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789A8201D7B3D00C16251 /* AGDateSelector.m */; };
+		4AA78AA0201D7B4100C16251 /* AGTextSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789A9201D7B3D00C16251 /* AGTextSelector.m */; };
+		4AA78AA2201D7B4100C16251 /* AGTabBarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789AB201D7B3D00C16251 /* AGTabBarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AA3201D7B4100C16251 /* DSButtonCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789AC201D7B3E00C16251 /* DSButtonCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AA4201D7B4100C16251 /* AGMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789AF201D7B3E00C16251 /* AGMeta.m */; };
+		4AA78AA5201D7B4100C16251 /* AGManyCellsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789B0201D7B3E00C16251 /* AGManyCellsViewController.m */; };
+		4AA78AA6201D7B4100C16251 /* AGManyCellsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789B1201D7B3E00C16251 /* AGManyCellsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AA7201D7B4100C16251 /* AGMeta.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789B2201D7B3E00C16251 /* AGMeta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AA8201D7B4100C16251 /* AGViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789B3201D7B3E00C16251 /* AGViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AA9201D7B4100C16251 /* UITableViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789B4201D7B3E00C16251 /* UITableViewController+NavigationBar.m */; };
+		4AA78AAA201D7B4100C16251 /* AGViewController+Separator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789B5201D7B3E00C16251 /* AGViewController+Separator.m */; };
+		4AA78AAB201D7B4100C16251 /* DSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789B6201D7B3E00C16251 /* DSTabBarViewController.m */; };
+		4AA78AAC201D7B4100C16251 /* UIView+HeaderAndCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789B7201D7B3E00C16251 /* UIView+HeaderAndCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AAD201D7B4100C16251 /* AGVCConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789B8201D7B3E00C16251 /* AGVCConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AAE201D7B4100C16251 /* UITableViewController+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789B9201D7B3E00C16251 /* UITableViewController+Message.m */; };
+		4AA78AAF201D7B4100C16251 /* AGTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789BA201D7B3E00C16251 /* AGTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AB0201D7B4100C16251 /* DATableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789BB201D7B3E00C16251 /* DATableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AB1201D7B4100C16251 /* UITableViewController+NavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789BC201D7B3E00C16251 /* UITableViewController+NavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AB2201D7B4100C16251 /* AGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789BD201D7B3E00C16251 /* AGViewController.m */; };
+		4AA78AB3201D7B4100C16251 /* DSTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789BE201D7B3E00C16251 /* DSTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AB4201D7B4100C16251 /* AGVCSuccessMessagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789C0201D7B3E00C16251 /* AGVCSuccessMessagesView.m */; };
+		4AA78AB5201D7B4100C16251 /* AGVCMessagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789C1201D7B3E00C16251 /* AGVCMessagesView.m */; };
+		4AA78AB6201D7B4100C16251 /* AGVCFailureMessagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789C2201D7B3E00C16251 /* AGVCFailureMessagesView.m */; };
+		4AA78AB7201D7B4100C16251 /* AGVCMessagesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789C3201D7B3E00C16251 /* AGVCMessagesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AB8201D7B4100C16251 /* AGVCSuccessMessagesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789C4201D7B3E00C16251 /* AGVCSuccessMessagesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AB9201D7B4100C16251 /* AGVCFailureMessagesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789C5201D7B3E00C16251 /* AGVCFailureMessagesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78ABA201D7B4100C16251 /* AGViewController+Separator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789C6201D7B3E00C16251 /* AGViewController+Separator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78ABB201D7B4100C16251 /* AGVCConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789C7201D7B3E00C16251 /* AGVCConfiguration.m */; };
+		4AA78ABC201D7B4100C16251 /* UIView+HeaderAndCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789C8201D7B3E00C16251 /* UIView+HeaderAndCell.m */; };
+		4AA78ABD201D7B4100C16251 /* DATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789C9201D7B3E00C16251 /* DATableView.m */; };
+		4AA78ABE201D7B4100C16251 /* AGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789CA201D7B3E00C16251 /* AGTabBarController.m */; };
+		4AA78ABF201D7B4100C16251 /* UITableViewController+Message.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789CB201D7B3E00C16251 /* UITableViewController+Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AC0201D7B4100C16251 /* AGLogoHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789CD201D7B3E00C16251 /* AGLogoHeaderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AC1201D7B4100C16251 /* AGLoadingTipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789CE201D7B3E00C16251 /* AGLoadingTipCell.m */; };
+		4AA78AC2201D7B4100C16251 /* AGTipCellStyleMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789CF201D7B3E00C16251 /* AGTipCellStyleMore.m */; };
+		4AA78AC3201D7B4100C16251 /* AGTipCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789D0201D7B3E00C16251 /* AGTipCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AC4201D7B4100C16251 /* AGLogoHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789D1201D7B3E00C16251 /* AGLogoHeaderCell.m */; };
+		4AA78AC5201D7B4100C16251 /* AGLoadingTipCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789D2201D7B3E00C16251 /* AGLoadingTipCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AC6201D7B4100C16251 /* AGTipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789D3201D7B3E00C16251 /* AGTipCell.m */; };
+		4AA78AC7201D7B4100C16251 /* AGTipCellStyleMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789D4201D7B3E00C16251 /* AGTipCellStyleMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AC8201D7B4100C16251 /* AGHorizontalViewControllersCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789D6201D7B3E00C16251 /* AGHorizontalViewControllersCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AC9201D7B4100C16251 /* AGCollectionViewCellTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789D7201D7B3E00C16251 /* AGCollectionViewCellTab.m */; };
+		4AA78ACA201D7B4100C16251 /* AGCollectionViewCellOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789D8201D7B3E00C16251 /* AGCollectionViewCellOption.m */; };
+		4AA78ACB201D7B4100C16251 /* AGHorizontalPagesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789D9201D7B3E00C16251 /* AGHorizontalPagesCell.m */; };
+		4AA78ACC201D7B4100C16251 /* AGCollectionViewLayoutVerticalPages.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789DA201D7B3E00C16251 /* AGCollectionViewLayoutVerticalPages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78ACD201D7B4100C16251 /* AGCollectionViewLayoutHorizontalPages.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789DB201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalPages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78ACE201D7B4100C16251 /* AGCollectionViewCellValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789DC201D7B3E00C16251 /* AGCollectionViewCellValue.m */; };
+		4AA78ACF201D7B4100C16251 /* AGHorizontalUnitsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789DD201D7B3E00C16251 /* AGHorizontalUnitsCell.m */; };
+		4AA78AD0201D7B4100C16251 /* AGCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789DE201D7B3E00C16251 /* AGCollectionViewLayout.m */; };
+		4AA78AD1201D7B4100C16251 /* AGCollectionViewLayoutHorizontalUnits.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789DF201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalUnits.m */; };
+		4AA78AD2201D7B4100C16251 /* AGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789E0201D7B3E00C16251 /* AGCollectionViewCell.m */; };
+		4AA78AD3201D7B4100C16251 /* AGCollectionViewCellViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789E1201D7B3E00C16251 /* AGCollectionViewCellViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AD4201D7B4100C16251 /* AGCollectionViewLayoutVerticalPages.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789E2201D7B3E00C16251 /* AGCollectionViewLayoutVerticalPages.m */; };
+		4AA78AD5201D7B4100C16251 /* AGHorizontalPagesCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789E3201D7B3E00C16251 /* AGHorizontalPagesCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AD6201D7B4100C16251 /* AGCollectionViewCellOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789E4201D7B3E00C16251 /* AGCollectionViewCellOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AD7201D7B4100C16251 /* AGCollectionViewCellTab.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789E5201D7B3E00C16251 /* AGCollectionViewCellTab.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AD8201D7B4100C16251 /* AGHorizontalViewControllersCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789E6201D7B3E00C16251 /* AGHorizontalViewControllersCell.m */; };
+		4AA78AD9201D7B4100C16251 /* AGCollectionViewCellValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789E7201D7B3E00C16251 /* AGCollectionViewCellValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78ADA201D7B4100C16251 /* AGCollectionViewLayoutHorizontalPages.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789E8201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalPages.m */; };
+		4AA78ADB201D7B4100C16251 /* AGHorizontalUnitsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789E9201D7B3E00C16251 /* AGHorizontalUnitsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78ADC201D7B4100C16251 /* AGCollectionViewCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789EA201D7B3E00C16251 /* AGCollectionViewCellViewController.m */; };
+		4AA78ADD201D7B4100C16251 /* AGCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789EB201D7B3E00C16251 /* AGCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78ADE201D7B4100C16251 /* AGCollectionViewLayoutHorizontalUnits.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789EC201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalUnits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78ADF201D7B4100C16251 /* AGCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789ED201D7B3E00C16251 /* AGCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AE0201D7B4100C16251 /* AGTabBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789EE201D7B3E00C16251 /* AGTabBarCell.m */; };
+		4AA78AE1201D7B4100C16251 /* AGAssembler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789EF201D7B3E00C16251 /* AGAssembler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AE2201D7B4100C16251 /* AGNumberBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789F0201D7B3E00C16251 /* AGNumberBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AE3201D7B4100C16251 /* AGCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789F2201D7B3E00C16251 /* AGCircleProgressView.m */; };
+		4AA78AE4201D7B4100C16251 /* AGCircleProgressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789F3201D7B3E00C16251 /* AGCircleProgressCell.m */; };
+		4AA78AE5201D7B4100C16251 /* AGCircleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789F4201D7B3E00C16251 /* AGCircleProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AE6201D7B4100C16251 /* AGCircleProgressCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789F5201D7B3E00C16251 /* AGCircleProgressCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AE7201D7B4100C16251 /* AGPieChartCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789F6201D7B3E00C16251 /* AGPieChartCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AE8201D7B4100C16251 /* AGAssembler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789F7201D7B3E00C16251 /* AGAssembler.m */; };
+		4AA78AE9201D7B4100C16251 /* AGHeaderViewStyleDefault.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789F9201D7B3F00C16251 /* AGHeaderViewStyleDefault.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AEA201D7B4100C16251 /* AGHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789FA201D7B3F00C16251 /* AGHeaderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AEB201D7B4100C16251 /* AGHeader3Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789FB201D7B3F00C16251 /* AGHeader3Cell.m */; };
+		4AA78AEC201D7B4100C16251 /* AGHeaderViewStyleDarkCompact.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789FC201D7B3F00C16251 /* AGHeaderViewStyleDarkCompact.m */; };
+		4AA78AED201D7B4100C16251 /* AGHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789FD201D7B3F00C16251 /* AGHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AEE201D7B4100C16251 /* AGHeaderViewStyleDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA789FE201D7B3F00C16251 /* AGHeaderViewStyleDefault.m */; };
+		4AA78AEF201D7B4100C16251 /* AGHeaderViewStyleDarkCompact.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA789FF201D7B3F00C16251 /* AGHeaderViewStyleDarkCompact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AF0201D7B4100C16251 /* AGHeader3Cell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A00201D7B3F00C16251 /* AGHeader3Cell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AF1201D7B4100C16251 /* AGHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A01201D7B3F00C16251 /* AGHeaderCell.m */; };
+		4AA78AF2201D7B4100C16251 /* AGHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A02201D7B3F00C16251 /* AGHeaderView.m */; };
+		4AA78AF4201D7B4100C16251 /* NSObject+TextInputComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A05201D7B3F00C16251 /* NSObject+TextInputComponents.m */; };
+		4AA78AF5201D7B4100C16251 /* DATextInputDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A06201D7B3F00C16251 /* DATextInputDelegate.m */; };
+		4AA78AF6201D7B4100C16251 /* AGTextCellStyleMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A07201D7B3F00C16251 /* AGTextCellStyleMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AF7201D7B4100C16251 /* AGTextfieldCellStyleNoTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A08201D7B3F00C16251 /* AGTextfieldCellStyleNoTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AF8201D7B4100C16251 /* AGCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A09201D7B3F00C16251 /* AGCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AF9201D7B4100C16251 /* AGSeparatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A0A201D7B3F00C16251 /* AGSeparatorCell.m */; };
+		4AA78AFA201D7B4100C16251 /* AGSearchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A0B201D7B3F00C16251 /* AGSearchCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AFB201D7B4100C16251 /* AGCellAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A0C201D7B3F00C16251 /* AGCellAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AFC201D7B4100C16251 /* AGExpirationDateCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A0D201D7B3F00C16251 /* AGExpirationDateCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AFD201D7B4100C16251 /* AGTransparentButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A0E201D7B3F00C16251 /* AGTransparentButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AFE201D7B4100C16251 /* AGMultiLabelsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A0F201D7B3F00C16251 /* AGMultiLabelsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78AFF201D7B4100C16251 /* AGEndTimeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A10201D7B3F00C16251 /* AGEndTimeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B00201D7B4100C16251 /* AGButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A11201D7B3F00C16251 /* AGButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B01201D7B4100C16251 /* AGTextfieldCellStyleEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A12201D7B3F00C16251 /* AGTextfieldCellStyleEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B02201D7B4100C16251 /* AGStartTimeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A13201D7B3F00C16251 /* AGStartTimeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B03201D7B4100C16251 /* AGFancyTextfieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A14201D7B3F00C16251 /* AGFancyTextfieldCell.m */; };
+		4AA78B04201D7B4100C16251 /* AGAttributedStringCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A15201D7B3F00C16251 /* AGAttributedStringCell.m */; };
+		4AA78B05201D7B4100C16251 /* AGBirthDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A16201D7B3F00C16251 /* AGBirthDateCell.m */; };
+		4AA78B06201D7B4100C16251 /* AGTextfieldCellStyleLongNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A17201D7B3F00C16251 /* AGTextfieldCellStyleLongNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B07201D7B4100C16251 /* AGTextfieldCellStylePassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A18201D7B3F00C16251 /* AGTextfieldCellStylePassword.m */; };
+		4AA78B09201D7B4100C16251 /* AGSpaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A1A201D7B3F00C16251 /* AGSpaceCell.m */; };
+		4AA78B0A201D7B4100C16251 /* DACell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A1B201D7B3F00C16251 /* DACell.m */; };
+		4AA78B0B201D7B4100C16251 /* AGTextfieldCellStyleLong.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A1C201D7B3F00C16251 /* AGTextfieldCellStyleLong.m */; };
+		4AA78B0C201D7B4100C16251 /* AGTextBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A1D201D7B3F00C16251 /* AGTextBoxCell.m */; };
+		4AA78B0D201D7B4100C16251 /* AGTextCellStyleTitleOnly.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A1E201D7B3F00C16251 /* AGTextCellStyleTitleOnly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B0E201D7B4100C16251 /* AGPeriodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A1F201D7B3F00C16251 /* AGPeriodCell.m */; };
+		4AA78B0F201D7B4100C16251 /* AGTextfieldCellStyleNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A20201D7B3F00C16251 /* AGTextfieldCellStyleNumber.m */; };
+		4AA78B10201D7B4100C16251 /* AGTextfieldBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A21201D7B3F00C16251 /* AGTextfieldBoxCell.m */; };
+		4AA78B11201D7B4100C16251 /* AGTextfieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A22201D7B3F00C16251 /* AGTextfieldCell.m */; };
+		4AA78B12201D7B4100C16251 /* AGTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A23201D7B3F00C16251 /* AGTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B13201D7B4100C16251 /* AGHtmlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A24201D7B3F00C16251 /* AGHtmlCell.m */; };
+		4AA78B14201D7B4100C16251 /* AGTextfieldCellStyleOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A25201D7B3F00C16251 /* AGTextfieldCellStyleOptions.m */; };
+		4AA78B15201D7B4100C16251 /* AGSeparatorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A26201D7B3F00C16251 /* AGSeparatorCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B16201D7B4100C16251 /* AGCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A27201D7B3F00C16251 /* AGCell.m */; };
+		4AA78B17201D7B4100C16251 /* AGTextfieldCellStyleNoTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A28201D7B3F00C16251 /* AGTextfieldCellStyleNoTitle.m */; };
+		4AA78B18201D7B4100C16251 /* AGTextCellStyleMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A29201D7B3F00C16251 /* AGTextCellStyleMore.m */; };
+		4AA78B19201D7B4100C16251 /* DATextInputDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A2A201D7B3F00C16251 /* DATextInputDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B1A201D7B4100C16251 /* NSObject+TextInputComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A2B201D7B3F00C16251 /* NSObject+TextInputComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B1B201D7B4100C16251 /* AGButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A2C201D7B3F00C16251 /* AGButtonCell.m */; };
+		4AA78B1C201D7B4100C16251 /* AGTextfieldCellStyleEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A2D201D7B3F00C16251 /* AGTextfieldCellStyleEditor.m */; };
+		4AA78B1D201D7B4100C16251 /* AGStartTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A2E201D7B3F00C16251 /* AGStartTimeCell.m */; };
+		4AA78B1E201D7B4100C16251 /* AGMultiLabelsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A2F201D7B3F00C16251 /* AGMultiLabelsCell.m */; };
+		4AA78B1F201D7B4100C16251 /* AGEndTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A30201D7B3F00C16251 /* AGEndTimeCell.m */; };
+		4AA78B20201D7B4100C16251 /* AGCellAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A31201D7B3F00C16251 /* AGCellAction.m */; };
+		4AA78B21201D7B4100C16251 /* AGTransparentButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A32201D7B3F00C16251 /* AGTransparentButtonCell.m */; };
+		4AA78B22201D7B4100C16251 /* AGExpirationDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A33201D7B3F00C16251 /* AGExpirationDateCell.m */; };
+		4AA78B23201D7B4100C16251 /* AGSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A34201D7B3F00C16251 /* AGSearchCell.m */; };
+		4AA78B24201D7B4100C16251 /* DACell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A35201D7B3F00C16251 /* DACell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B25201D7B4100C16251 /* AGTextBoxCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A36201D7B3F00C16251 /* AGTextBoxCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B26201D7B4100C16251 /* AGTextfieldCellStyleLong.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A37201D7B3F00C16251 /* AGTextfieldCellStyleLong.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B27201D7B4100C16251 /* AGSpaceCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A38201D7B3F00C16251 /* AGSpaceCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B29201D7B4100C16251 /* AGTextfieldCellStylePassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A3A201D7B3F00C16251 /* AGTextfieldCellStylePassword.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B2A201D7B4100C16251 /* AGTextfieldCellStyleLongNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A3B201D7B3F00C16251 /* AGTextfieldCellStyleLongNumber.m */; };
+		4AA78B2B201D7B4100C16251 /* AGAttributedStringCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A3C201D7B3F00C16251 /* AGAttributedStringCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B2C201D7B4100C16251 /* AGBirthDateCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A3D201D7B3F00C16251 /* AGBirthDateCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B2D201D7B4100C16251 /* AGFancyTextfieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A3E201D7B3F00C16251 /* AGFancyTextfieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B2E201D7B4100C16251 /* AGTextfieldCellStyleOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A3F201D7B3F00C16251 /* AGTextfieldCellStyleOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B2F201D7B4100C16251 /* AGHtmlCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A40201D7B3F00C16251 /* AGHtmlCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B30201D7B4100C16251 /* AGTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A41201D7B3F00C16251 /* AGTextCell.m */; };
+		4AA78B31201D7B4100C16251 /* AGCollectionViewCellOfMultiHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A43201D7B3F00C16251 /* AGCollectionViewCellOfMultiHeaderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B32201D7B4100C16251 /* AGMultiValueCellSynchronizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A44201D7B3F00C16251 /* AGMultiValueCellSynchronizer.m */; };
+		4AA78B33201D7B4100C16251 /* AGCollectionViewLayoutHorizontalLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A45201D7B3F00C16251 /* AGCollectionViewLayoutHorizontalLabels.m */; };
+		4AA78B34201D7B4100C16251 /* AGMultiHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A46201D7B3F00C16251 /* AGMultiHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B35201D7B4100C16251 /* AGMultiValueCellLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A47201D7B3F00C16251 /* AGMultiValueCellLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B36201D7B4100C16251 /* AGMultiValueView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A48201D7B3F00C16251 /* AGMultiValueView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B37201D7B4100C16251 /* AGMultiValueCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A49201D7B3F00C16251 /* AGMultiValueCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B38201D7B4100C16251 /* AGCollectionViewCellOfMultiValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A4A201D7B3F00C16251 /* AGCollectionViewCellOfMultiValueCell.m */; };
+		4AA78B39201D7B4100C16251 /* AGMultiHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A4B201D7B3F00C16251 /* AGMultiHeaderView.m */; };
+		4AA78B3A201D7B4100C16251 /* AGCollectionViewLayoutHorizontalLabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A4C201D7B3F00C16251 /* AGCollectionViewLayoutHorizontalLabels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B3B201D7B4100C16251 /* AGMultiValueCellSynchronizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A4D201D7B3F00C16251 /* AGMultiValueCellSynchronizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B3C201D7B4100C16251 /* AGCollectionViewCellOfMultiHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A4E201D7B3F00C16251 /* AGCollectionViewCellOfMultiHeaderCell.m */; };
+		4AA78B3D201D7B4100C16251 /* AGMultiValueCellLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A4F201D7B3F00C16251 /* AGMultiValueCellLabel.m */; };
+		4AA78B3E201D7B4100C16251 /* AGMultiValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A50201D7B3F00C16251 /* AGMultiValueView.m */; };
+		4AA78B3F201D7B4100C16251 /* AGCollectionViewCellOfMultiValueCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A51201D7B3F00C16251 /* AGCollectionViewCellOfMultiValueCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B40201D7B4100C16251 /* AGMultiValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A52201D7B3F00C16251 /* AGMultiValueCell.m */; };
+		4AA78B41201D7B4100C16251 /* AGTextfieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A53201D7B3F00C16251 /* AGTextfieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B42201D7B4100C16251 /* AGTextfieldCellStyleNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A54201D7B3F00C16251 /* AGTextfieldCellStyleNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B43201D7B4100C16251 /* AGTextfieldBoxCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A55201D7B3F00C16251 /* AGTextfieldBoxCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B44201D7B4100C16251 /* AGPeriodCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A56201D7B3F00C16251 /* AGPeriodCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B45201D7B4100C16251 /* AGTextCellStyleTitleOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A57201D7B3F00C16251 /* AGTextCellStyleTitleOnly.m */; };
+		4AA78B46201D7B4100C16251 /* AGLineProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A59201D7B3F00C16251 /* AGLineProgressView.m */; };
+		4AA78B47201D7B4100C16251 /* AGLineProgressInnerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A5A201D7B3F00C16251 /* AGLineProgressInnerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B48201D7B4100C16251 /* AGLineProgressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A5B201D7B3F00C16251 /* AGLineProgressCell.m */; };
+		4AA78B49201D7B4100C16251 /* AGLineProgressViewLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A5C201D7B3F00C16251 /* AGLineProgressViewLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B4A201D7B4100C16251 /* AGProgressViewCellValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A5D201D7B3F00C16251 /* AGProgressViewCellValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B4B201D7B4100C16251 /* AGLineProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A5E201D7B3F00C16251 /* AGLineProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B4C201D7B4100C16251 /* AGLineProgressInnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A5F201D7B3F00C16251 /* AGLineProgressInnerView.m */; };
+		4AA78B4D201D7B4100C16251 /* AGLineProgressViewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A60201D7B3F00C16251 /* AGLineProgressViewLabel.m */; };
+		4AA78B4E201D7B4100C16251 /* AGLineProgressCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A61201D7B3F00C16251 /* AGLineProgressCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B4F201D7B4100C16251 /* AGProgressViewCellValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A62201D7B3F00C16251 /* AGProgressViewCellValue.m */; };
+		4AA78B50201D7B4100C16251 /* AGPortraitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A63201D7B3F00C16251 /* AGPortraitView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B51201D7B4100C16251 /* AGPieChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A64201D7B3F00C16251 /* AGPieChartCell.m */; };
+		4AA78B54201D7B4100C16251 /* AGSectionLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A68201D7B4000C16251 /* AGSectionLoader.m */; };
+		4AA78B55201D7B4100C16251 /* AGSectionUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A69201D7B4000C16251 /* AGSectionUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B56201D7B4100C16251 /* DASectionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A6B201D7B4000C16251 /* DASectionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B57201D7B4100C16251 /* DASectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A6C201D7B4000C16251 /* DASectionButton.m */; };
+		4AA78B58201D7B4100C16251 /* AGSectionUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A6D201D7B4000C16251 /* AGSectionUnit.m */; };
+		4AA78B59201D7B4100C16251 /* AGSectionLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A6E201D7B4000C16251 /* AGSectionLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B5A201D7B4100C16251 /* DSButtonCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A6F201D7B4000C16251 /* DSButtonCreator.m */; };
+		4AA78B5B201D7B4100C16251 /* AGLabelStyleTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A71201D7B4000C16251 /* AGLabelStyleTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B5C201D7B4100C16251 /* AGLabelStyleSubtitleTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A72201D7B4000C16251 /* AGLabelStyleSubtitleTextCell.m */; };
+		4AA78B5D201D7B4100C16251 /* AGCellInnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A73201D7B4000C16251 /* AGCellInnerView.m */; };
+		4AA78B5E201D7B4100C16251 /* AGLabelStyleTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A74201D7B4000C16251 /* AGLabelStyleTextCell.m */; };
+		4AA78B5F201D7B4100C16251 /* AGCellInnerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A75201D7B4000C16251 /* AGCellInnerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B60201D7B4100C16251 /* AGLabelStyleSubtitleTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78A76201D7B4000C16251 /* AGLabelStyleSubtitleTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B61201D7B4100C16251 /* AGNumberBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78A77201D7B4000C16251 /* AGNumberBox.m */; };
+		4AA78B66201D7B4800C16251 /* LITCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA78B65201D7B4800C16251 /* LITCommon.framework */; };
+		4AA78B68201D7B7600C16251 /* LITNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA78B67201D7B7500C16251 /* LITNetwork.framework */; };
+		4AA78B6D201D7BBB00C16251 /* NSObject+VC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78B69201D7BBB00C16251 /* NSObject+VC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78B6E201D7BBB00C16251 /* NSObject+VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78B6A201D7BBB00C16251 /* NSObject+VC.m */; };
+		4AA78B6F201D7BBB00C16251 /* NSObject+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78B6B201D7BBB00C16251 /* NSObject+Cell.m */; };
+		4AA78B70201D7BBB00C16251 /* NSObject+Cell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78B6C201D7BBB00C16251 /* NSObject+Cell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78BCE201D7F0100C16251 /* DSLayoutUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78BCC201D7F0100C16251 /* DSLayoutUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78BCF201D7F0100C16251 /* DSLayoutUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78BCD201D7F0100C16251 /* DSLayoutUtil.m */; };
+		4AA78BF0201D80FC00C16251 /* LITUICommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA78BEF201D80FC00C16251 /* LITUICommon.framework */; };
+		4AA78BF3201D839A00C16251 /* DSAlertUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78BF1201D839900C16251 /* DSAlertUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78BF4201D839A00C16251 /* DSAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78BF2201D839A00C16251 /* DSAlertUtil.m */; };
+		4AA78E73201ED45200C16251 /* MDRadialProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA78E72201ED45200C16251 /* MDRadialProgress.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AA78970201D778100C16251 /* LITUILegacy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LITUILegacy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA78973201D778100C16251 /* LITUILegacy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITUILegacy.h; sourceTree = "<group>"; };
+		4AA78974201D778100C16251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA78981201D7B3D00C16251 /* DAButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAButtonItem.m; sourceTree = "<group>"; };
+		4AA78982201D7B3D00C16251 /* DAButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAButtonCell.m; sourceTree = "<group>"; };
+		4AA78983201D7B3D00C16251 /* AGButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGButtonItem.h; sourceTree = "<group>"; };
+		4AA78984201D7B3D00C16251 /* DAButtonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAButtonFactory.h; sourceTree = "<group>"; };
+		4AA78985201D7B3D00C16251 /* AGButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGButton.h; sourceTree = "<group>"; };
+		4AA78986201D7B3D00C16251 /* DAButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAButtonCell.h; sourceTree = "<group>"; };
+		4AA78987201D7B3D00C16251 /* DAButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAButtonItem.h; sourceTree = "<group>"; };
+		4AA78988201D7B3D00C16251 /* AGButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGButtonItem.m; sourceTree = "<group>"; };
+		4AA78989201D7B3D00C16251 /* AGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGButton.m; sourceTree = "<group>"; };
+		4AA7898A201D7B3D00C16251 /* DAButtonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAButtonFactory.m; sourceTree = "<group>"; };
+		4AA78994201D7B3D00C16251 /* AGPortraitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPortraitView.m; sourceTree = "<group>"; };
+		4AA78997201D7B3D00C16251 /* AGQuantityPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGQuantityPickerView.m; sourceTree = "<group>"; };
+		4AA78998201D7B3D00C16251 /* AGQuantitySelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGQuantitySelector.m; sourceTree = "<group>"; };
+		4AA78999201D7B3D00C16251 /* LITInteractivePanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITInteractivePanelView.m; sourceTree = "<group>"; };
+		4AA7899A201D7B3D00C16251 /* AGQuantityPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGQuantityPickerView.h; sourceTree = "<group>"; };
+		4AA7899B201D7B3D00C16251 /* AGQuantitySelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGQuantitySelector.h; sourceTree = "<group>"; };
+		4AA7899C201D7B3D00C16251 /* LITInteractivePanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITInteractivePanelView.h; sourceTree = "<group>"; };
+		4AA7899D201D7B3D00C16251 /* AGSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSelector.m; sourceTree = "<group>"; };
+		4AA7899E201D7B3D00C16251 /* AGPeriodSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPeriodSelector.m; sourceTree = "<group>"; };
+		4AA7899F201D7B3D00C16251 /* AGTextfieldEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextfieldEditor.m; sourceTree = "<group>"; };
+		4AA789A0201D7B3D00C16251 /* AGExpirationDateSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGExpirationDateSelector.h; sourceTree = "<group>"; };
+		4AA789A1201D7B3D00C16251 /* AGTextSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextSelector.h; sourceTree = "<group>"; };
+		4AA789A2201D7B3D00C16251 /* AGDateSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGDateSelector.h; sourceTree = "<group>"; };
+		4AA789A3201D7B3D00C16251 /* AGSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSelector.h; sourceTree = "<group>"; };
+		4AA789A4201D7B3D00C16251 /* AGPeriodSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPeriodSelector.h; sourceTree = "<group>"; };
+		4AA789A5201D7B3D00C16251 /* AGSelectorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSelectorItem.h; sourceTree = "<group>"; };
+		4AA789A6201D7B3D00C16251 /* AGExpirationDateSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGExpirationDateSelector.m; sourceTree = "<group>"; };
+		4AA789A7201D7B3D00C16251 /* AGTextfieldEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextfieldEditor.h; sourceTree = "<group>"; };
+		4AA789A8201D7B3D00C16251 /* AGDateSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGDateSelector.m; sourceTree = "<group>"; };
+		4AA789A9201D7B3D00C16251 /* AGTextSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextSelector.m; sourceTree = "<group>"; };
+		4AA789AB201D7B3D00C16251 /* AGTabBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTabBarCell.h; sourceTree = "<group>"; };
+		4AA789AC201D7B3E00C16251 /* DSButtonCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSButtonCreator.h; sourceTree = "<group>"; };
+		4AA789AF201D7B3E00C16251 /* AGMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMeta.m; sourceTree = "<group>"; };
+		4AA789B0201D7B3E00C16251 /* AGManyCellsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGManyCellsViewController.m; sourceTree = "<group>"; };
+		4AA789B1201D7B3E00C16251 /* AGManyCellsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGManyCellsViewController.h; sourceTree = "<group>"; };
+		4AA789B2201D7B3E00C16251 /* AGMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMeta.h; sourceTree = "<group>"; };
+		4AA789B3201D7B3E00C16251 /* AGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGViewController.h; sourceTree = "<group>"; };
+		4AA789B4201D7B3E00C16251 /* UITableViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		4AA789B5201D7B3E00C16251 /* AGViewController+Separator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGViewController+Separator.m"; sourceTree = "<group>"; };
+		4AA789B6201D7B3E00C16251 /* DSTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTabBarViewController.m; sourceTree = "<group>"; };
+		4AA789B7201D7B3E00C16251 /* UIView+HeaderAndCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HeaderAndCell.h"; sourceTree = "<group>"; };
+		4AA789B8201D7B3E00C16251 /* AGVCConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGVCConfiguration.h; sourceTree = "<group>"; };
+		4AA789B9201D7B3E00C16251 /* UITableViewController+Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+Message.m"; sourceTree = "<group>"; };
+		4AA789BA201D7B3E00C16251 /* AGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTabBarController.h; sourceTree = "<group>"; };
+		4AA789BB201D7B3E00C16251 /* DATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DATableView.h; sourceTree = "<group>"; };
+		4AA789BC201D7B3E00C16251 /* UITableViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		4AA789BD201D7B3E00C16251 /* AGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGViewController.m; sourceTree = "<group>"; };
+		4AA789BE201D7B3E00C16251 /* DSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTabBarViewController.h; sourceTree = "<group>"; };
+		4AA789C0201D7B3E00C16251 /* AGVCSuccessMessagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGVCSuccessMessagesView.m; sourceTree = "<group>"; };
+		4AA789C1201D7B3E00C16251 /* AGVCMessagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGVCMessagesView.m; sourceTree = "<group>"; };
+		4AA789C2201D7B3E00C16251 /* AGVCFailureMessagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGVCFailureMessagesView.m; sourceTree = "<group>"; };
+		4AA789C3201D7B3E00C16251 /* AGVCMessagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGVCMessagesView.h; sourceTree = "<group>"; };
+		4AA789C4201D7B3E00C16251 /* AGVCSuccessMessagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGVCSuccessMessagesView.h; sourceTree = "<group>"; };
+		4AA789C5201D7B3E00C16251 /* AGVCFailureMessagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGVCFailureMessagesView.h; sourceTree = "<group>"; };
+		4AA789C6201D7B3E00C16251 /* AGViewController+Separator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGViewController+Separator.h"; sourceTree = "<group>"; };
+		4AA789C7201D7B3E00C16251 /* AGVCConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGVCConfiguration.m; sourceTree = "<group>"; };
+		4AA789C8201D7B3E00C16251 /* UIView+HeaderAndCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HeaderAndCell.m"; sourceTree = "<group>"; };
+		4AA789C9201D7B3E00C16251 /* DATableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DATableView.m; sourceTree = "<group>"; };
+		4AA789CA201D7B3E00C16251 /* AGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTabBarController.m; sourceTree = "<group>"; };
+		4AA789CB201D7B3E00C16251 /* UITableViewController+Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+Message.h"; sourceTree = "<group>"; };
+		4AA789CD201D7B3E00C16251 /* AGLogoHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLogoHeaderCell.h; sourceTree = "<group>"; };
+		4AA789CE201D7B3E00C16251 /* AGLoadingTipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLoadingTipCell.m; sourceTree = "<group>"; };
+		4AA789CF201D7B3E00C16251 /* AGTipCellStyleMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTipCellStyleMore.m; sourceTree = "<group>"; };
+		4AA789D0201D7B3E00C16251 /* AGTipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTipCell.h; sourceTree = "<group>"; };
+		4AA789D1201D7B3E00C16251 /* AGLogoHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLogoHeaderCell.m; sourceTree = "<group>"; };
+		4AA789D2201D7B3E00C16251 /* AGLoadingTipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLoadingTipCell.h; sourceTree = "<group>"; };
+		4AA789D3201D7B3E00C16251 /* AGTipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTipCell.m; sourceTree = "<group>"; };
+		4AA789D4201D7B3E00C16251 /* AGTipCellStyleMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTipCellStyleMore.h; sourceTree = "<group>"; };
+		4AA789D6201D7B3E00C16251 /* AGHorizontalViewControllersCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHorizontalViewControllersCell.h; sourceTree = "<group>"; };
+		4AA789D7201D7B3E00C16251 /* AGCollectionViewCellTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewCellTab.m; sourceTree = "<group>"; };
+		4AA789D8201D7B3E00C16251 /* AGCollectionViewCellOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewCellOption.m; sourceTree = "<group>"; };
+		4AA789D9201D7B3E00C16251 /* AGHorizontalPagesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHorizontalPagesCell.m; sourceTree = "<group>"; };
+		4AA789DA201D7B3E00C16251 /* AGCollectionViewLayoutVerticalPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewLayoutVerticalPages.h; sourceTree = "<group>"; };
+		4AA789DB201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewLayoutHorizontalPages.h; sourceTree = "<group>"; };
+		4AA789DC201D7B3E00C16251 /* AGCollectionViewCellValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewCellValue.m; sourceTree = "<group>"; };
+		4AA789DD201D7B3E00C16251 /* AGHorizontalUnitsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHorizontalUnitsCell.m; sourceTree = "<group>"; };
+		4AA789DE201D7B3E00C16251 /* AGCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewLayout.m; sourceTree = "<group>"; };
+		4AA789DF201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalUnits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewLayoutHorizontalUnits.m; sourceTree = "<group>"; };
+		4AA789E0201D7B3E00C16251 /* AGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewCell.m; sourceTree = "<group>"; };
+		4AA789E1201D7B3E00C16251 /* AGCollectionViewCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewCellViewController.h; sourceTree = "<group>"; };
+		4AA789E2201D7B3E00C16251 /* AGCollectionViewLayoutVerticalPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewLayoutVerticalPages.m; sourceTree = "<group>"; };
+		4AA789E3201D7B3E00C16251 /* AGHorizontalPagesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHorizontalPagesCell.h; sourceTree = "<group>"; };
+		4AA789E4201D7B3E00C16251 /* AGCollectionViewCellOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewCellOption.h; sourceTree = "<group>"; };
+		4AA789E5201D7B3E00C16251 /* AGCollectionViewCellTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewCellTab.h; sourceTree = "<group>"; };
+		4AA789E6201D7B3E00C16251 /* AGHorizontalViewControllersCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHorizontalViewControllersCell.m; sourceTree = "<group>"; };
+		4AA789E7201D7B3E00C16251 /* AGCollectionViewCellValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewCellValue.h; sourceTree = "<group>"; };
+		4AA789E8201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewLayoutHorizontalPages.m; sourceTree = "<group>"; };
+		4AA789E9201D7B3E00C16251 /* AGHorizontalUnitsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHorizontalUnitsCell.h; sourceTree = "<group>"; };
+		4AA789EA201D7B3E00C16251 /* AGCollectionViewCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewCellViewController.m; sourceTree = "<group>"; };
+		4AA789EB201D7B3E00C16251 /* AGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewCell.h; sourceTree = "<group>"; };
+		4AA789EC201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalUnits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewLayoutHorizontalUnits.h; sourceTree = "<group>"; };
+		4AA789ED201D7B3E00C16251 /* AGCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewLayout.h; sourceTree = "<group>"; };
+		4AA789EE201D7B3E00C16251 /* AGTabBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTabBarCell.m; sourceTree = "<group>"; };
+		4AA789EF201D7B3E00C16251 /* AGAssembler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAssembler.h; sourceTree = "<group>"; };
+		4AA789F0201D7B3E00C16251 /* AGNumberBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGNumberBox.h; sourceTree = "<group>"; };
+		4AA789F2201D7B3E00C16251 /* AGCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCircleProgressView.m; sourceTree = "<group>"; };
+		4AA789F3201D7B3E00C16251 /* AGCircleProgressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCircleProgressCell.m; sourceTree = "<group>"; };
+		4AA789F4201D7B3E00C16251 /* AGCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCircleProgressView.h; sourceTree = "<group>"; };
+		4AA789F5201D7B3E00C16251 /* AGCircleProgressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCircleProgressCell.h; sourceTree = "<group>"; };
+		4AA789F6201D7B3E00C16251 /* AGPieChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPieChartCell.h; sourceTree = "<group>"; };
+		4AA789F7201D7B3E00C16251 /* AGAssembler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAssembler.m; sourceTree = "<group>"; };
+		4AA789F9201D7B3F00C16251 /* AGHeaderViewStyleDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHeaderViewStyleDefault.h; sourceTree = "<group>"; };
+		4AA789FA201D7B3F00C16251 /* AGHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHeaderCell.h; sourceTree = "<group>"; };
+		4AA789FB201D7B3F00C16251 /* AGHeader3Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHeader3Cell.m; sourceTree = "<group>"; };
+		4AA789FC201D7B3F00C16251 /* AGHeaderViewStyleDarkCompact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHeaderViewStyleDarkCompact.m; sourceTree = "<group>"; };
+		4AA789FD201D7B3F00C16251 /* AGHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHeaderView.h; sourceTree = "<group>"; };
+		4AA789FE201D7B3F00C16251 /* AGHeaderViewStyleDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHeaderViewStyleDefault.m; sourceTree = "<group>"; };
+		4AA789FF201D7B3F00C16251 /* AGHeaderViewStyleDarkCompact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHeaderViewStyleDarkCompact.h; sourceTree = "<group>"; };
+		4AA78A00201D7B3F00C16251 /* AGHeader3Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHeader3Cell.h; sourceTree = "<group>"; };
+		4AA78A01201D7B3F00C16251 /* AGHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHeaderCell.m; sourceTree = "<group>"; };
+		4AA78A02201D7B3F00C16251 /* AGHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHeaderView.m; sourceTree = "<group>"; };
+		4AA78A05201D7B3F00C16251 /* NSObject+TextInputComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TextInputComponents.m"; sourceTree = "<group>"; };
+		4AA78A06201D7B3F00C16251 /* DATextInputDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DATextInputDelegate.m; sourceTree = "<group>"; };
+		4AA78A07201D7B3F00C16251 /* AGTextCellStyleMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextCellStyleMore.h; sourceTree = "<group>"; };
+		4AA78A08201D7B3F00C16251 /* AGTextfieldCellStyleNoTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextfieldCellStyleNoTitle.h; sourceTree = "<group>"; };
+		4AA78A09201D7B3F00C16251 /* AGCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCell.h; sourceTree = "<group>"; };
+		4AA78A0A201D7B3F00C16251 /* AGSeparatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSeparatorCell.m; sourceTree = "<group>"; };
+		4AA78A0B201D7B3F00C16251 /* AGSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSearchCell.h; sourceTree = "<group>"; };
+		4AA78A0C201D7B3F00C16251 /* AGCellAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCellAction.h; sourceTree = "<group>"; };
+		4AA78A0D201D7B3F00C16251 /* AGExpirationDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGExpirationDateCell.h; sourceTree = "<group>"; };
+		4AA78A0E201D7B3F00C16251 /* AGTransparentButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTransparentButtonCell.h; sourceTree = "<group>"; };
+		4AA78A0F201D7B3F00C16251 /* AGMultiLabelsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMultiLabelsCell.h; sourceTree = "<group>"; };
+		4AA78A10201D7B3F00C16251 /* AGEndTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGEndTimeCell.h; sourceTree = "<group>"; };
+		4AA78A11201D7B3F00C16251 /* AGButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGButtonCell.h; sourceTree = "<group>"; };
+		4AA78A12201D7B3F00C16251 /* AGTextfieldCellStyleEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextfieldCellStyleEditor.h; sourceTree = "<group>"; };
+		4AA78A13201D7B3F00C16251 /* AGStartTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGStartTimeCell.h; sourceTree = "<group>"; };
+		4AA78A14201D7B3F00C16251 /* AGFancyTextfieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGFancyTextfieldCell.m; sourceTree = "<group>"; };
+		4AA78A15201D7B3F00C16251 /* AGAttributedStringCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAttributedStringCell.m; sourceTree = "<group>"; };
+		4AA78A16201D7B3F00C16251 /* AGBirthDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGBirthDateCell.m; sourceTree = "<group>"; };
+		4AA78A17201D7B3F00C16251 /* AGTextfieldCellStyleLongNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextfieldCellStyleLongNumber.h; sourceTree = "<group>"; };
+		4AA78A18201D7B3F00C16251 /* AGTextfieldCellStylePassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextfieldCellStylePassword.m; sourceTree = "<group>"; };
+		4AA78A1A201D7B3F00C16251 /* AGSpaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSpaceCell.m; sourceTree = "<group>"; };
+		4AA78A1B201D7B3F00C16251 /* DACell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACell.m; sourceTree = "<group>"; };
+		4AA78A1C201D7B3F00C16251 /* AGTextfieldCellStyleLong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextfieldCellStyleLong.m; sourceTree = "<group>"; };
+		4AA78A1D201D7B3F00C16251 /* AGTextBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextBoxCell.m; sourceTree = "<group>"; };
+		4AA78A1E201D7B3F00C16251 /* AGTextCellStyleTitleOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextCellStyleTitleOnly.h; sourceTree = "<group>"; };
+		4AA78A1F201D7B3F00C16251 /* AGPeriodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPeriodCell.m; sourceTree = "<group>"; };
+		4AA78A20201D7B3F00C16251 /* AGTextfieldCellStyleNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextfieldCellStyleNumber.m; sourceTree = "<group>"; };
+		4AA78A21201D7B3F00C16251 /* AGTextfieldBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextfieldBoxCell.m; sourceTree = "<group>"; };
+		4AA78A22201D7B3F00C16251 /* AGTextfieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextfieldCell.m; sourceTree = "<group>"; };
+		4AA78A23201D7B3F00C16251 /* AGTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextCell.h; sourceTree = "<group>"; };
+		4AA78A24201D7B3F00C16251 /* AGHtmlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHtmlCell.m; sourceTree = "<group>"; };
+		4AA78A25201D7B3F00C16251 /* AGTextfieldCellStyleOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextfieldCellStyleOptions.m; sourceTree = "<group>"; };
+		4AA78A26201D7B3F00C16251 /* AGSeparatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSeparatorCell.h; sourceTree = "<group>"; };
+		4AA78A27201D7B3F00C16251 /* AGCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCell.m; sourceTree = "<group>"; };
+		4AA78A28201D7B3F00C16251 /* AGTextfieldCellStyleNoTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextfieldCellStyleNoTitle.m; sourceTree = "<group>"; };
+		4AA78A29201D7B3F00C16251 /* AGTextCellStyleMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextCellStyleMore.m; sourceTree = "<group>"; };
+		4AA78A2A201D7B3F00C16251 /* DATextInputDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DATextInputDelegate.h; sourceTree = "<group>"; };
+		4AA78A2B201D7B3F00C16251 /* NSObject+TextInputComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TextInputComponents.h"; sourceTree = "<group>"; };
+		4AA78A2C201D7B3F00C16251 /* AGButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGButtonCell.m; sourceTree = "<group>"; };
+		4AA78A2D201D7B3F00C16251 /* AGTextfieldCellStyleEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextfieldCellStyleEditor.m; sourceTree = "<group>"; };
+		4AA78A2E201D7B3F00C16251 /* AGStartTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGStartTimeCell.m; sourceTree = "<group>"; };
+		4AA78A2F201D7B3F00C16251 /* AGMultiLabelsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMultiLabelsCell.m; sourceTree = "<group>"; };
+		4AA78A30201D7B3F00C16251 /* AGEndTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGEndTimeCell.m; sourceTree = "<group>"; };
+		4AA78A31201D7B3F00C16251 /* AGCellAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCellAction.m; sourceTree = "<group>"; };
+		4AA78A32201D7B3F00C16251 /* AGTransparentButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTransparentButtonCell.m; sourceTree = "<group>"; };
+		4AA78A33201D7B3F00C16251 /* AGExpirationDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGExpirationDateCell.m; sourceTree = "<group>"; };
+		4AA78A34201D7B3F00C16251 /* AGSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSearchCell.m; sourceTree = "<group>"; };
+		4AA78A35201D7B3F00C16251 /* DACell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACell.h; sourceTree = "<group>"; };
+		4AA78A36201D7B3F00C16251 /* AGTextBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextBoxCell.h; sourceTree = "<group>"; };
+		4AA78A37201D7B3F00C16251 /* AGTextfieldCellStyleLong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextfieldCellStyleLong.h; sourceTree = "<group>"; };
+		4AA78A38201D7B3F00C16251 /* AGSpaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSpaceCell.h; sourceTree = "<group>"; };
+		4AA78A3A201D7B3F00C16251 /* AGTextfieldCellStylePassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextfieldCellStylePassword.h; sourceTree = "<group>"; };
+		4AA78A3B201D7B3F00C16251 /* AGTextfieldCellStyleLongNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextfieldCellStyleLongNumber.m; sourceTree = "<group>"; };
+		4AA78A3C201D7B3F00C16251 /* AGAttributedStringCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAttributedStringCell.h; sourceTree = "<group>"; };
+		4AA78A3D201D7B3F00C16251 /* AGBirthDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGBirthDateCell.h; sourceTree = "<group>"; };
+		4AA78A3E201D7B3F00C16251 /* AGFancyTextfieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGFancyTextfieldCell.h; sourceTree = "<group>"; };
+		4AA78A3F201D7B3F00C16251 /* AGTextfieldCellStyleOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextfieldCellStyleOptions.h; sourceTree = "<group>"; };
+		4AA78A40201D7B3F00C16251 /* AGHtmlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHtmlCell.h; sourceTree = "<group>"; };
+		4AA78A41201D7B3F00C16251 /* AGTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextCell.m; sourceTree = "<group>"; };
+		4AA78A43201D7B3F00C16251 /* AGCollectionViewCellOfMultiHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewCellOfMultiHeaderCell.h; sourceTree = "<group>"; };
+		4AA78A44201D7B3F00C16251 /* AGMultiValueCellSynchronizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMultiValueCellSynchronizer.m; sourceTree = "<group>"; };
+		4AA78A45201D7B3F00C16251 /* AGCollectionViewLayoutHorizontalLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewLayoutHorizontalLabels.m; sourceTree = "<group>"; };
+		4AA78A46201D7B3F00C16251 /* AGMultiHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMultiHeaderView.h; sourceTree = "<group>"; };
+		4AA78A47201D7B3F00C16251 /* AGMultiValueCellLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMultiValueCellLabel.h; sourceTree = "<group>"; };
+		4AA78A48201D7B3F00C16251 /* AGMultiValueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMultiValueView.h; sourceTree = "<group>"; };
+		4AA78A49201D7B3F00C16251 /* AGMultiValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMultiValueCell.h; sourceTree = "<group>"; };
+		4AA78A4A201D7B3F00C16251 /* AGCollectionViewCellOfMultiValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewCellOfMultiValueCell.m; sourceTree = "<group>"; };
+		4AA78A4B201D7B3F00C16251 /* AGMultiHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMultiHeaderView.m; sourceTree = "<group>"; };
+		4AA78A4C201D7B3F00C16251 /* AGCollectionViewLayoutHorizontalLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewLayoutHorizontalLabels.h; sourceTree = "<group>"; };
+		4AA78A4D201D7B3F00C16251 /* AGMultiValueCellSynchronizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMultiValueCellSynchronizer.h; sourceTree = "<group>"; };
+		4AA78A4E201D7B3F00C16251 /* AGCollectionViewCellOfMultiHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCollectionViewCellOfMultiHeaderCell.m; sourceTree = "<group>"; };
+		4AA78A4F201D7B3F00C16251 /* AGMultiValueCellLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMultiValueCellLabel.m; sourceTree = "<group>"; };
+		4AA78A50201D7B3F00C16251 /* AGMultiValueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMultiValueView.m; sourceTree = "<group>"; };
+		4AA78A51201D7B3F00C16251 /* AGCollectionViewCellOfMultiValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCollectionViewCellOfMultiValueCell.h; sourceTree = "<group>"; };
+		4AA78A52201D7B3F00C16251 /* AGMultiValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMultiValueCell.m; sourceTree = "<group>"; };
+		4AA78A53201D7B3F00C16251 /* AGTextfieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextfieldCell.h; sourceTree = "<group>"; };
+		4AA78A54201D7B3F00C16251 /* AGTextfieldCellStyleNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextfieldCellStyleNumber.h; sourceTree = "<group>"; };
+		4AA78A55201D7B3F00C16251 /* AGTextfieldBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTextfieldBoxCell.h; sourceTree = "<group>"; };
+		4AA78A56201D7B3F00C16251 /* AGPeriodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPeriodCell.h; sourceTree = "<group>"; };
+		4AA78A57201D7B3F00C16251 /* AGTextCellStyleTitleOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTextCellStyleTitleOnly.m; sourceTree = "<group>"; };
+		4AA78A59201D7B3F00C16251 /* AGLineProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLineProgressView.m; sourceTree = "<group>"; };
+		4AA78A5A201D7B3F00C16251 /* AGLineProgressInnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLineProgressInnerView.h; sourceTree = "<group>"; };
+		4AA78A5B201D7B3F00C16251 /* AGLineProgressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLineProgressCell.m; sourceTree = "<group>"; };
+		4AA78A5C201D7B3F00C16251 /* AGLineProgressViewLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLineProgressViewLabel.h; sourceTree = "<group>"; };
+		4AA78A5D201D7B3F00C16251 /* AGProgressViewCellValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGProgressViewCellValue.h; sourceTree = "<group>"; };
+		4AA78A5E201D7B3F00C16251 /* AGLineProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLineProgressView.h; sourceTree = "<group>"; };
+		4AA78A5F201D7B3F00C16251 /* AGLineProgressInnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLineProgressInnerView.m; sourceTree = "<group>"; };
+		4AA78A60201D7B3F00C16251 /* AGLineProgressViewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLineProgressViewLabel.m; sourceTree = "<group>"; };
+		4AA78A61201D7B3F00C16251 /* AGLineProgressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLineProgressCell.h; sourceTree = "<group>"; };
+		4AA78A62201D7B3F00C16251 /* AGProgressViewCellValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGProgressViewCellValue.m; sourceTree = "<group>"; };
+		4AA78A63201D7B3F00C16251 /* AGPortraitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPortraitView.h; sourceTree = "<group>"; };
+		4AA78A64201D7B3F00C16251 /* AGPieChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPieChartCell.m; sourceTree = "<group>"; };
+		4AA78A68201D7B4000C16251 /* AGSectionLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSectionLoader.m; sourceTree = "<group>"; };
+		4AA78A69201D7B4000C16251 /* AGSectionUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSectionUnit.h; sourceTree = "<group>"; };
+		4AA78A6B201D7B4000C16251 /* DASectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DASectionButton.h; sourceTree = "<group>"; };
+		4AA78A6C201D7B4000C16251 /* DASectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DASectionButton.m; sourceTree = "<group>"; };
+		4AA78A6D201D7B4000C16251 /* AGSectionUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSectionUnit.m; sourceTree = "<group>"; };
+		4AA78A6E201D7B4000C16251 /* AGSectionLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSectionLoader.h; sourceTree = "<group>"; };
+		4AA78A6F201D7B4000C16251 /* DSButtonCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSButtonCreator.m; sourceTree = "<group>"; };
+		4AA78A71201D7B4000C16251 /* AGLabelStyleTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLabelStyleTextCell.h; sourceTree = "<group>"; };
+		4AA78A72201D7B4000C16251 /* AGLabelStyleSubtitleTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLabelStyleSubtitleTextCell.m; sourceTree = "<group>"; };
+		4AA78A73201D7B4000C16251 /* AGCellInnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCellInnerView.m; sourceTree = "<group>"; };
+		4AA78A74201D7B4000C16251 /* AGLabelStyleTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLabelStyleTextCell.m; sourceTree = "<group>"; };
+		4AA78A75201D7B4000C16251 /* AGCellInnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCellInnerView.h; sourceTree = "<group>"; };
+		4AA78A76201D7B4000C16251 /* AGLabelStyleSubtitleTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLabelStyleSubtitleTextCell.h; sourceTree = "<group>"; };
+		4AA78A77201D7B4000C16251 /* AGNumberBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGNumberBox.m; sourceTree = "<group>"; };
+		4AA78B65201D7B4800C16251 /* LITCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITCommon.framework; sourceTree = "<group>"; };
+		4AA78B67201D7B7500C16251 /* LITNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITNetwork.framework; sourceTree = "<group>"; };
+		4AA78B69201D7BBB00C16251 /* NSObject+VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+VC.h"; sourceTree = "<group>"; };
+		4AA78B6A201D7BBB00C16251 /* NSObject+VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VC.m"; sourceTree = "<group>"; };
+		4AA78B6B201D7BBB00C16251 /* NSObject+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Cell.m"; sourceTree = "<group>"; };
+		4AA78B6C201D7BBB00C16251 /* NSObject+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Cell.h"; sourceTree = "<group>"; };
+		4AA78BCC201D7F0100C16251 /* DSLayoutUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLayoutUtil.h; sourceTree = "<group>"; };
+		4AA78BCD201D7F0100C16251 /* DSLayoutUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLayoutUtil.m; sourceTree = "<group>"; };
+		4AA78BEF201D80FC00C16251 /* LITUICommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITUICommon.framework; sourceTree = "<group>"; };
+		4AA78BF1201D839900C16251 /* DSAlertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAlertUtil.h; sourceTree = "<group>"; };
+		4AA78BF2201D839A00C16251 /* DSAlertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAlertUtil.m; sourceTree = "<group>"; };
+		4AA78E72201ED45200C16251 /* MDRadialProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MDRadialProgress.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA7896C201D778100C16251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA78B66201D7B4800C16251 /* LITCommon.framework in Frameworks */,
+				4AA78E73201ED45200C16251 /* MDRadialProgress.framework in Frameworks */,
+				4AA78B68201D7B7600C16251 /* LITNetwork.framework in Frameworks */,
+				4AA78BF0201D80FC00C16251 /* LITUICommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA78966201D778100C16251 = {
+			isa = PBXGroup;
+			children = (
+				4AA78E72201ED45200C16251 /* MDRadialProgress.framework */,
+				4AA78BEF201D80FC00C16251 /* LITUICommon.framework */,
+				4AA78B65201D7B4800C16251 /* LITCommon.framework */,
+				4AA78B67201D7B7500C16251 /* LITNetwork.framework */,
+				4AA78972201D778100C16251 /* LITUILegacy */,
+				4AA78971201D778100C16251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA78971201D778100C16251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78970201D778100C16251 /* LITUILegacy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA78972201D778100C16251 /* LITUILegacy */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78BF1201D839900C16251 /* DSAlertUtil.h */,
+				4AA78BF2201D839A00C16251 /* DSAlertUtil.m */,
+				4AA78BCC201D7F0100C16251 /* DSLayoutUtil.h */,
+				4AA78BCD201D7F0100C16251 /* DSLayoutUtil.m */,
+				4AA78B6C201D7BBB00C16251 /* NSObject+Cell.h */,
+				4AA78B6B201D7BBB00C16251 /* NSObject+Cell.m */,
+				4AA78B69201D7BBB00C16251 /* NSObject+VC.h */,
+				4AA78B6A201D7BBB00C16251 /* NSObject+VC.m */,
+				4AA789EF201D7B3E00C16251 /* AGAssembler.h */,
+				4AA789F7201D7B3E00C16251 /* AGAssembler.m */,
+				4AA789F0201D7B3E00C16251 /* AGNumberBox.h */,
+				4AA78A77201D7B4000C16251 /* AGNumberBox.m */,
+				4AA789F6201D7B3E00C16251 /* AGPieChartCell.h */,
+				4AA78A64201D7B3F00C16251 /* AGPieChartCell.m */,
+				4AA78A63201D7B3F00C16251 /* AGPortraitView.h */,
+				4AA78994201D7B3D00C16251 /* AGPortraitView.m */,
+				4AA789AB201D7B3D00C16251 /* AGTabBarCell.h */,
+				4AA789EE201D7B3E00C16251 /* AGTabBarCell.m */,
+				4AA78980201D7B3D00C16251 /* Button */,
+				4AA78A04201D7B3F00C16251 /* Cell */,
+				4AA78A70201D7B4000C16251 /* CellInnerView */,
+				4AA789F1201D7B3E00C16251 /* CircleProgress */,
+				4AA789D5201D7B3E00C16251 /* CollectionViewCell */,
+				4AA789AC201D7B3E00C16251 /* DSButtonCreator.h */,
+				4AA78A6F201D7B4000C16251 /* DSButtonCreator.m */,
+				4AA789F8201D7B3F00C16251 /* Header */,
+				4AA78A58201D7B3F00C16251 /* LineProgress */,
+				4AA78A67201D7B4000C16251 /* Section */,
+				4AA78995201D7B3D00C16251 /* Selector */,
+				4AA789CC201D7B3E00C16251 /* Tip */,
+				4AA789AD201D7B3E00C16251 /* ViewController */,
+				4AA78973201D778100C16251 /* LITUILegacy.h */,
+				4AA78974201D778100C16251 /* Info.plist */,
+			);
+			path = LITUILegacy;
+			sourceTree = "<group>";
+		};
+		4AA78980201D7B3D00C16251 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78981201D7B3D00C16251 /* DAButtonItem.m */,
+				4AA78982201D7B3D00C16251 /* DAButtonCell.m */,
+				4AA78983201D7B3D00C16251 /* AGButtonItem.h */,
+				4AA78984201D7B3D00C16251 /* DAButtonFactory.h */,
+				4AA78986201D7B3D00C16251 /* DAButtonCell.h */,
+				4AA78987201D7B3D00C16251 /* DAButtonItem.h */,
+				4AA78988201D7B3D00C16251 /* AGButtonItem.m */,
+				4AA78985201D7B3D00C16251 /* AGButton.h */,
+				4AA78989201D7B3D00C16251 /* AGButton.m */,
+				4AA7898A201D7B3D00C16251 /* DAButtonFactory.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		4AA78995201D7B3D00C16251 /* Selector */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78996201D7B3D00C16251 /* QuantityPicker */,
+				4AA7899D201D7B3D00C16251 /* AGSelector.m */,
+				4AA7899E201D7B3D00C16251 /* AGPeriodSelector.m */,
+				4AA7899F201D7B3D00C16251 /* AGTextfieldEditor.m */,
+				4AA789A0201D7B3D00C16251 /* AGExpirationDateSelector.h */,
+				4AA789A1201D7B3D00C16251 /* AGTextSelector.h */,
+				4AA789A2201D7B3D00C16251 /* AGDateSelector.h */,
+				4AA789A3201D7B3D00C16251 /* AGSelector.h */,
+				4AA789A4201D7B3D00C16251 /* AGPeriodSelector.h */,
+				4AA789A5201D7B3D00C16251 /* AGSelectorItem.h */,
+				4AA789A6201D7B3D00C16251 /* AGExpirationDateSelector.m */,
+				4AA789A7201D7B3D00C16251 /* AGTextfieldEditor.h */,
+				4AA789A8201D7B3D00C16251 /* AGDateSelector.m */,
+				4AA789A9201D7B3D00C16251 /* AGTextSelector.m */,
+			);
+			path = Selector;
+			sourceTree = "<group>";
+		};
+		4AA78996201D7B3D00C16251 /* QuantityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78997201D7B3D00C16251 /* AGQuantityPickerView.m */,
+				4AA78998201D7B3D00C16251 /* AGQuantitySelector.m */,
+				4AA78999201D7B3D00C16251 /* LITInteractivePanelView.m */,
+				4AA7899A201D7B3D00C16251 /* AGQuantityPickerView.h */,
+				4AA7899B201D7B3D00C16251 /* AGQuantitySelector.h */,
+				4AA7899C201D7B3D00C16251 /* LITInteractivePanelView.h */,
+			);
+			path = QuantityPicker;
+			sourceTree = "<group>";
+		};
+		4AA789AD201D7B3E00C16251 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4AA789AE201D7B3E00C16251 /* ManyCells */,
+				4AA789B3201D7B3E00C16251 /* AGViewController.h */,
+				4AA789B4201D7B3E00C16251 /* UITableViewController+NavigationBar.m */,
+				4AA789B5201D7B3E00C16251 /* AGViewController+Separator.m */,
+				4AA789B6201D7B3E00C16251 /* DSTabBarViewController.m */,
+				4AA789B7201D7B3E00C16251 /* UIView+HeaderAndCell.h */,
+				4AA789B8201D7B3E00C16251 /* AGVCConfiguration.h */,
+				4AA789B9201D7B3E00C16251 /* UITableViewController+Message.m */,
+				4AA789BA201D7B3E00C16251 /* AGTabBarController.h */,
+				4AA789BB201D7B3E00C16251 /* DATableView.h */,
+				4AA789BC201D7B3E00C16251 /* UITableViewController+NavigationBar.h */,
+				4AA789BD201D7B3E00C16251 /* AGViewController.m */,
+				4AA789BE201D7B3E00C16251 /* DSTabBarViewController.h */,
+				4AA789BF201D7B3E00C16251 /* MessageControl */,
+				4AA789C6201D7B3E00C16251 /* AGViewController+Separator.h */,
+				4AA789C7201D7B3E00C16251 /* AGVCConfiguration.m */,
+				4AA789C8201D7B3E00C16251 /* UIView+HeaderAndCell.m */,
+				4AA789C9201D7B3E00C16251 /* DATableView.m */,
+				4AA789CA201D7B3E00C16251 /* AGTabBarController.m */,
+				4AA789CB201D7B3E00C16251 /* UITableViewController+Message.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4AA789AE201D7B3E00C16251 /* ManyCells */ = {
+			isa = PBXGroup;
+			children = (
+				4AA789AF201D7B3E00C16251 /* AGMeta.m */,
+				4AA789B0201D7B3E00C16251 /* AGManyCellsViewController.m */,
+				4AA789B1201D7B3E00C16251 /* AGManyCellsViewController.h */,
+				4AA789B2201D7B3E00C16251 /* AGMeta.h */,
+			);
+			path = ManyCells;
+			sourceTree = "<group>";
+		};
+		4AA789BF201D7B3E00C16251 /* MessageControl */ = {
+			isa = PBXGroup;
+			children = (
+				4AA789C0201D7B3E00C16251 /* AGVCSuccessMessagesView.m */,
+				4AA789C1201D7B3E00C16251 /* AGVCMessagesView.m */,
+				4AA789C2201D7B3E00C16251 /* AGVCFailureMessagesView.m */,
+				4AA789C3201D7B3E00C16251 /* AGVCMessagesView.h */,
+				4AA789C4201D7B3E00C16251 /* AGVCSuccessMessagesView.h */,
+				4AA789C5201D7B3E00C16251 /* AGVCFailureMessagesView.h */,
+			);
+			path = MessageControl;
+			sourceTree = "<group>";
+		};
+		4AA789CC201D7B3E00C16251 /* Tip */ = {
+			isa = PBXGroup;
+			children = (
+				4AA789CD201D7B3E00C16251 /* AGLogoHeaderCell.h */,
+				4AA789CE201D7B3E00C16251 /* AGLoadingTipCell.m */,
+				4AA789CF201D7B3E00C16251 /* AGTipCellStyleMore.m */,
+				4AA789D0201D7B3E00C16251 /* AGTipCell.h */,
+				4AA789D1201D7B3E00C16251 /* AGLogoHeaderCell.m */,
+				4AA789D2201D7B3E00C16251 /* AGLoadingTipCell.h */,
+				4AA789D3201D7B3E00C16251 /* AGTipCell.m */,
+				4AA789D4201D7B3E00C16251 /* AGTipCellStyleMore.h */,
+			);
+			path = Tip;
+			sourceTree = "<group>";
+		};
+		4AA789D5201D7B3E00C16251 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AA789D6201D7B3E00C16251 /* AGHorizontalViewControllersCell.h */,
+				4AA789D7201D7B3E00C16251 /* AGCollectionViewCellTab.m */,
+				4AA789D8201D7B3E00C16251 /* AGCollectionViewCellOption.m */,
+				4AA789D9201D7B3E00C16251 /* AGHorizontalPagesCell.m */,
+				4AA789DA201D7B3E00C16251 /* AGCollectionViewLayoutVerticalPages.h */,
+				4AA789DB201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalPages.h */,
+				4AA789DC201D7B3E00C16251 /* AGCollectionViewCellValue.m */,
+				4AA789DD201D7B3E00C16251 /* AGHorizontalUnitsCell.m */,
+				4AA789DE201D7B3E00C16251 /* AGCollectionViewLayout.m */,
+				4AA789DF201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalUnits.m */,
+				4AA789E0201D7B3E00C16251 /* AGCollectionViewCell.m */,
+				4AA789E1201D7B3E00C16251 /* AGCollectionViewCellViewController.h */,
+				4AA789E2201D7B3E00C16251 /* AGCollectionViewLayoutVerticalPages.m */,
+				4AA789E3201D7B3E00C16251 /* AGHorizontalPagesCell.h */,
+				4AA789E4201D7B3E00C16251 /* AGCollectionViewCellOption.h */,
+				4AA789E5201D7B3E00C16251 /* AGCollectionViewCellTab.h */,
+				4AA789E6201D7B3E00C16251 /* AGHorizontalViewControllersCell.m */,
+				4AA789E7201D7B3E00C16251 /* AGCollectionViewCellValue.h */,
+				4AA789E8201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalPages.m */,
+				4AA789E9201D7B3E00C16251 /* AGHorizontalUnitsCell.h */,
+				4AA789EA201D7B3E00C16251 /* AGCollectionViewCellViewController.m */,
+				4AA789EB201D7B3E00C16251 /* AGCollectionViewCell.h */,
+				4AA789EC201D7B3E00C16251 /* AGCollectionViewLayoutHorizontalUnits.h */,
+				4AA789ED201D7B3E00C16251 /* AGCollectionViewLayout.h */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4AA789F1201D7B3E00C16251 /* CircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				4AA789F2201D7B3E00C16251 /* AGCircleProgressView.m */,
+				4AA789F3201D7B3E00C16251 /* AGCircleProgressCell.m */,
+				4AA789F4201D7B3E00C16251 /* AGCircleProgressView.h */,
+				4AA789F5201D7B3E00C16251 /* AGCircleProgressCell.h */,
+			);
+			path = CircleProgress;
+			sourceTree = "<group>";
+		};
+		4AA789F8201D7B3F00C16251 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				4AA789F9201D7B3F00C16251 /* AGHeaderViewStyleDefault.h */,
+				4AA789FA201D7B3F00C16251 /* AGHeaderCell.h */,
+				4AA789FB201D7B3F00C16251 /* AGHeader3Cell.m */,
+				4AA789FC201D7B3F00C16251 /* AGHeaderViewStyleDarkCompact.m */,
+				4AA789FD201D7B3F00C16251 /* AGHeaderView.h */,
+				4AA789FE201D7B3F00C16251 /* AGHeaderViewStyleDefault.m */,
+				4AA789FF201D7B3F00C16251 /* AGHeaderViewStyleDarkCompact.h */,
+				4AA78A00201D7B3F00C16251 /* AGHeader3Cell.h */,
+				4AA78A01201D7B3F00C16251 /* AGHeaderCell.m */,
+				4AA78A02201D7B3F00C16251 /* AGHeaderView.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		4AA78A04201D7B3F00C16251 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78A05201D7B3F00C16251 /* NSObject+TextInputComponents.m */,
+				4AA78A06201D7B3F00C16251 /* DATextInputDelegate.m */,
+				4AA78A07201D7B3F00C16251 /* AGTextCellStyleMore.h */,
+				4AA78A08201D7B3F00C16251 /* AGTextfieldCellStyleNoTitle.h */,
+				4AA78A09201D7B3F00C16251 /* AGCell.h */,
+				4AA78A0A201D7B3F00C16251 /* AGSeparatorCell.m */,
+				4AA78A0B201D7B3F00C16251 /* AGSearchCell.h */,
+				4AA78A0C201D7B3F00C16251 /* AGCellAction.h */,
+				4AA78A0D201D7B3F00C16251 /* AGExpirationDateCell.h */,
+				4AA78A0E201D7B3F00C16251 /* AGTransparentButtonCell.h */,
+				4AA78A0F201D7B3F00C16251 /* AGMultiLabelsCell.h */,
+				4AA78A10201D7B3F00C16251 /* AGEndTimeCell.h */,
+				4AA78A11201D7B3F00C16251 /* AGButtonCell.h */,
+				4AA78A12201D7B3F00C16251 /* AGTextfieldCellStyleEditor.h */,
+				4AA78A13201D7B3F00C16251 /* AGStartTimeCell.h */,
+				4AA78A14201D7B3F00C16251 /* AGFancyTextfieldCell.m */,
+				4AA78A15201D7B3F00C16251 /* AGAttributedStringCell.m */,
+				4AA78A16201D7B3F00C16251 /* AGBirthDateCell.m */,
+				4AA78A17201D7B3F00C16251 /* AGTextfieldCellStyleLongNumber.h */,
+				4AA78A18201D7B3F00C16251 /* AGTextfieldCellStylePassword.m */,
+				4AA78A1A201D7B3F00C16251 /* AGSpaceCell.m */,
+				4AA78A1B201D7B3F00C16251 /* DACell.m */,
+				4AA78A1C201D7B3F00C16251 /* AGTextfieldCellStyleLong.m */,
+				4AA78A1D201D7B3F00C16251 /* AGTextBoxCell.m */,
+				4AA78A1E201D7B3F00C16251 /* AGTextCellStyleTitleOnly.h */,
+				4AA78A1F201D7B3F00C16251 /* AGPeriodCell.m */,
+				4AA78A20201D7B3F00C16251 /* AGTextfieldCellStyleNumber.m */,
+				4AA78A21201D7B3F00C16251 /* AGTextfieldBoxCell.m */,
+				4AA78A22201D7B3F00C16251 /* AGTextfieldCell.m */,
+				4AA78A23201D7B3F00C16251 /* AGTextCell.h */,
+				4AA78A24201D7B3F00C16251 /* AGHtmlCell.m */,
+				4AA78A25201D7B3F00C16251 /* AGTextfieldCellStyleOptions.m */,
+				4AA78A26201D7B3F00C16251 /* AGSeparatorCell.h */,
+				4AA78A27201D7B3F00C16251 /* AGCell.m */,
+				4AA78A28201D7B3F00C16251 /* AGTextfieldCellStyleNoTitle.m */,
+				4AA78A29201D7B3F00C16251 /* AGTextCellStyleMore.m */,
+				4AA78A2A201D7B3F00C16251 /* DATextInputDelegate.h */,
+				4AA78A2B201D7B3F00C16251 /* NSObject+TextInputComponents.h */,
+				4AA78A2C201D7B3F00C16251 /* AGButtonCell.m */,
+				4AA78A2D201D7B3F00C16251 /* AGTextfieldCellStyleEditor.m */,
+				4AA78A2E201D7B3F00C16251 /* AGStartTimeCell.m */,
+				4AA78A2F201D7B3F00C16251 /* AGMultiLabelsCell.m */,
+				4AA78A30201D7B3F00C16251 /* AGEndTimeCell.m */,
+				4AA78A31201D7B3F00C16251 /* AGCellAction.m */,
+				4AA78A32201D7B3F00C16251 /* AGTransparentButtonCell.m */,
+				4AA78A33201D7B3F00C16251 /* AGExpirationDateCell.m */,
+				4AA78A34201D7B3F00C16251 /* AGSearchCell.m */,
+				4AA78A35201D7B3F00C16251 /* DACell.h */,
+				4AA78A36201D7B3F00C16251 /* AGTextBoxCell.h */,
+				4AA78A37201D7B3F00C16251 /* AGTextfieldCellStyleLong.h */,
+				4AA78A38201D7B3F00C16251 /* AGSpaceCell.h */,
+				4AA78A3A201D7B3F00C16251 /* AGTextfieldCellStylePassword.h */,
+				4AA78A3B201D7B3F00C16251 /* AGTextfieldCellStyleLongNumber.m */,
+				4AA78A3C201D7B3F00C16251 /* AGAttributedStringCell.h */,
+				4AA78A3D201D7B3F00C16251 /* AGBirthDateCell.h */,
+				4AA78A3E201D7B3F00C16251 /* AGFancyTextfieldCell.h */,
+				4AA78A3F201D7B3F00C16251 /* AGTextfieldCellStyleOptions.h */,
+				4AA78A40201D7B3F00C16251 /* AGHtmlCell.h */,
+				4AA78A41201D7B3F00C16251 /* AGTextCell.m */,
+				4AA78A42201D7B3F00C16251 /* AGMultiValueCell */,
+				4AA78A53201D7B3F00C16251 /* AGTextfieldCell.h */,
+				4AA78A54201D7B3F00C16251 /* AGTextfieldCellStyleNumber.h */,
+				4AA78A55201D7B3F00C16251 /* AGTextfieldBoxCell.h */,
+				4AA78A56201D7B3F00C16251 /* AGPeriodCell.h */,
+				4AA78A57201D7B3F00C16251 /* AGTextCellStyleTitleOnly.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4AA78A42201D7B3F00C16251 /* AGMultiValueCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78A43201D7B3F00C16251 /* AGCollectionViewCellOfMultiHeaderCell.h */,
+				4AA78A44201D7B3F00C16251 /* AGMultiValueCellSynchronizer.m */,
+				4AA78A45201D7B3F00C16251 /* AGCollectionViewLayoutHorizontalLabels.m */,
+				4AA78A46201D7B3F00C16251 /* AGMultiHeaderView.h */,
+				4AA78A47201D7B3F00C16251 /* AGMultiValueCellLabel.h */,
+				4AA78A48201D7B3F00C16251 /* AGMultiValueView.h */,
+				4AA78A49201D7B3F00C16251 /* AGMultiValueCell.h */,
+				4AA78A4A201D7B3F00C16251 /* AGCollectionViewCellOfMultiValueCell.m */,
+				4AA78A4B201D7B3F00C16251 /* AGMultiHeaderView.m */,
+				4AA78A4C201D7B3F00C16251 /* AGCollectionViewLayoutHorizontalLabels.h */,
+				4AA78A4D201D7B3F00C16251 /* AGMultiValueCellSynchronizer.h */,
+				4AA78A4E201D7B3F00C16251 /* AGCollectionViewCellOfMultiHeaderCell.m */,
+				4AA78A4F201D7B3F00C16251 /* AGMultiValueCellLabel.m */,
+				4AA78A50201D7B3F00C16251 /* AGMultiValueView.m */,
+				4AA78A51201D7B3F00C16251 /* AGCollectionViewCellOfMultiValueCell.h */,
+				4AA78A52201D7B3F00C16251 /* AGMultiValueCell.m */,
+			);
+			path = AGMultiValueCell;
+			sourceTree = "<group>";
+		};
+		4AA78A58201D7B3F00C16251 /* LineProgress */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78A59201D7B3F00C16251 /* AGLineProgressView.m */,
+				4AA78A5A201D7B3F00C16251 /* AGLineProgressInnerView.h */,
+				4AA78A5B201D7B3F00C16251 /* AGLineProgressCell.m */,
+				4AA78A5C201D7B3F00C16251 /* AGLineProgressViewLabel.h */,
+				4AA78A5D201D7B3F00C16251 /* AGProgressViewCellValue.h */,
+				4AA78A5E201D7B3F00C16251 /* AGLineProgressView.h */,
+				4AA78A5F201D7B3F00C16251 /* AGLineProgressInnerView.m */,
+				4AA78A60201D7B3F00C16251 /* AGLineProgressViewLabel.m */,
+				4AA78A61201D7B3F00C16251 /* AGLineProgressCell.h */,
+				4AA78A62201D7B3F00C16251 /* AGProgressViewCellValue.m */,
+			);
+			path = LineProgress;
+			sourceTree = "<group>";
+		};
+		4AA78A67201D7B4000C16251 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78A68201D7B4000C16251 /* AGSectionLoader.m */,
+				4AA78A69201D7B4000C16251 /* AGSectionUnit.h */,
+				4AA78A6A201D7B4000C16251 /* SectionButton */,
+				4AA78A6D201D7B4000C16251 /* AGSectionUnit.m */,
+				4AA78A6E201D7B4000C16251 /* AGSectionLoader.h */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		4AA78A6A201D7B4000C16251 /* SectionButton */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78A6B201D7B4000C16251 /* DASectionButton.h */,
+				4AA78A6C201D7B4000C16251 /* DASectionButton.m */,
+			);
+			path = SectionButton;
+			sourceTree = "<group>";
+		};
+		4AA78A70201D7B4000C16251 /* CellInnerView */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78A71201D7B4000C16251 /* AGLabelStyleTextCell.h */,
+				4AA78A72201D7B4000C16251 /* AGLabelStyleSubtitleTextCell.m */,
+				4AA78A73201D7B4000C16251 /* AGCellInnerView.m */,
+				4AA78A74201D7B4000C16251 /* AGLabelStyleTextCell.m */,
+				4AA78A75201D7B4000C16251 /* AGCellInnerView.h */,
+				4AA78A76201D7B4000C16251 /* AGLabelStyleSubtitleTextCell.h */,
+			);
+			path = CellInnerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AA7896D201D778100C16251 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA78AE5201D7B4100C16251 /* AGCircleProgressView.h in Headers */,
+				4AA78AD3201D7B4100C16251 /* AGCollectionViewCellViewController.h in Headers */,
+				4AA78BCE201D7F0100C16251 /* DSLayoutUtil.h in Headers */,
+				4AA78A7F201D7B4100C16251 /* AGButton.h in Headers */,
+				4AA78AF0201D7B4100C16251 /* AGHeader3Cell.h in Headers */,
+				4AA78B56201D7B4100C16251 /* DASectionButton.h in Headers */,
+				4AA78AFD201D7B4100C16251 /* AGTransparentButtonCell.h in Headers */,
+				4AA78B6D201D7BBB00C16251 /* NSObject+VC.h in Headers */,
+				4AA78B2E201D7B4100C16251 /* AGTextfieldCellStyleOptions.h in Headers */,
+				4AA78A9E201D7B4100C16251 /* AGTextfieldEditor.h in Headers */,
+				4AA78B59201D7B4100C16251 /* AGSectionLoader.h in Headers */,
+				4AA78AED201D7B4100C16251 /* AGHeaderView.h in Headers */,
+				4AA78B2D201D7B4100C16251 /* AGFancyTextfieldCell.h in Headers */,
+				4AA78B50201D7B4100C16251 /* AGPortraitView.h in Headers */,
+				4AA78AA3201D7B4100C16251 /* DSButtonCreator.h in Headers */,
+				4AA78AB9201D7B4100C16251 /* AGVCFailureMessagesView.h in Headers */,
+				4AA78B02201D7B4100C16251 /* AGStartTimeCell.h in Headers */,
+				4AA78A9A201D7B4100C16251 /* AGSelector.h in Headers */,
+				4AA78B70201D7BBB00C16251 /* NSObject+Cell.h in Headers */,
+				4AA78B60201D7B4100C16251 /* AGLabelStyleSubtitleTextCell.h in Headers */,
+				4AA78AA8201D7B4100C16251 /* AGViewController.h in Headers */,
+				4AA78B43201D7B4100C16251 /* AGTextfieldBoxCell.h in Headers */,
+				4AA78AA2201D7B4100C16251 /* AGTabBarCell.h in Headers */,
+				4AA78B06201D7B4100C16251 /* AGTextfieldCellStyleLongNumber.h in Headers */,
+				4AA78AEF201D7B4100C16251 /* AGHeaderViewStyleDarkCompact.h in Headers */,
+				4AA78B31201D7B4100C16251 /* AGCollectionViewCellOfMultiHeaderCell.h in Headers */,
+				4AA78B36201D7B4100C16251 /* AGMultiValueView.h in Headers */,
+				4AA78B15201D7B4100C16251 /* AGSeparatorCell.h in Headers */,
+				4AA78AC5201D7B4100C16251 /* AGLoadingTipCell.h in Headers */,
+				4AA78ADD201D7B4100C16251 /* AGCollectionViewCell.h in Headers */,
+				4AA78AA7201D7B4100C16251 /* AGMeta.h in Headers */,
+				4AA78B47201D7B4100C16251 /* AGLineProgressInnerView.h in Headers */,
+				4AA78B3B201D7B4100C16251 /* AGMultiValueCellSynchronizer.h in Headers */,
+				4AA78ADF201D7B4100C16251 /* AGCollectionViewLayout.h in Headers */,
+				4AA78A9B201D7B4100C16251 /* AGPeriodSelector.h in Headers */,
+				4AA78B1A201D7B4100C16251 /* NSObject+TextInputComponents.h in Headers */,
+				4AA78B4B201D7B4100C16251 /* AGLineProgressView.h in Headers */,
+				4AA78AE1201D7B4100C16251 /* AGAssembler.h in Headers */,
+				4AA78B26201D7B4100C16251 /* AGTextfieldCellStyleLong.h in Headers */,
+				4AA78B55201D7B4100C16251 /* AGSectionUnit.h in Headers */,
+				4AA78ACC201D7B4100C16251 /* AGCollectionViewLayoutVerticalPages.h in Headers */,
+				4AA78AB8201D7B4100C16251 /* AGVCSuccessMessagesView.h in Headers */,
+				4AA78A7E201D7B4100C16251 /* DAButtonFactory.h in Headers */,
+				4AA78AF8201D7B4100C16251 /* AGCell.h in Headers */,
+				4AA78A92201D7B4100C16251 /* AGQuantitySelector.h in Headers */,
+				4AA78AE7201D7B4100C16251 /* AGPieChartCell.h in Headers */,
+				4AA78AD5201D7B4100C16251 /* AGHorizontalPagesCell.h in Headers */,
+				4AA78A98201D7B4100C16251 /* AGTextSelector.h in Headers */,
+				4AA78AAD201D7B4100C16251 /* AGVCConfiguration.h in Headers */,
+				4AA78AC3201D7B4100C16251 /* AGTipCell.h in Headers */,
+				4AA78B3F201D7B4100C16251 /* AGCollectionViewCellOfMultiValueCell.h in Headers */,
+				4AA78ABF201D7B4100C16251 /* UITableViewController+Message.h in Headers */,
+				4AA78AE2201D7B4100C16251 /* AGNumberBox.h in Headers */,
+				4AA78B27201D7B4100C16251 /* AGSpaceCell.h in Headers */,
+				4AA78AE9201D7B4100C16251 /* AGHeaderViewStyleDefault.h in Headers */,
+				4AA78ADE201D7B4100C16251 /* AGCollectionViewLayoutHorizontalUnits.h in Headers */,
+				4AA78AB1201D7B4100C16251 /* UITableViewController+NavigationBar.h in Headers */,
+				4AA78B37201D7B4100C16251 /* AGMultiValueCell.h in Headers */,
+				4AA78B2F201D7B4100C16251 /* AGHtmlCell.h in Headers */,
+				4AA78B29201D7B4100C16251 /* AGTextfieldCellStylePassword.h in Headers */,
+				4AA78AE6201D7B4100C16251 /* AGCircleProgressCell.h in Headers */,
+				4AA78A81201D7B4100C16251 /* DAButtonItem.h in Headers */,
+				4AA78AEA201D7B4100C16251 /* AGHeaderCell.h in Headers */,
+				4AA78B0D201D7B4100C16251 /* AGTextCellStyleTitleOnly.h in Headers */,
+				4AA78975201D778100C16251 /* LITUILegacy.h in Headers */,
+				4AA78AAC201D7B4100C16251 /* UIView+HeaderAndCell.h in Headers */,
+				4AA78AA6201D7B4100C16251 /* AGManyCellsViewController.h in Headers */,
+				4AA78B25201D7B4100C16251 /* AGTextBoxCell.h in Headers */,
+				4AA78ABA201D7B4100C16251 /* AGViewController+Separator.h in Headers */,
+				4AA78A97201D7B4100C16251 /* AGExpirationDateSelector.h in Headers */,
+				4AA78B4A201D7B4100C16251 /* AGProgressViewCellValue.h in Headers */,
+				4AA78B3A201D7B4100C16251 /* AGCollectionViewLayoutHorizontalLabels.h in Headers */,
+				4AA78B42201D7B4100C16251 /* AGTextfieldCellStyleNumber.h in Headers */,
+				4AA78A93201D7B4100C16251 /* LITInteractivePanelView.h in Headers */,
+				4AA78AB3201D7B4100C16251 /* DSTabBarViewController.h in Headers */,
+				4AA78AF7201D7B4100C16251 /* AGTextfieldCellStyleNoTitle.h in Headers */,
+				4AA78AC8201D7B4100C16251 /* AGHorizontalViewControllersCell.h in Headers */,
+				4AA78ADB201D7B4100C16251 /* AGHorizontalUnitsCell.h in Headers */,
+				4AA78AC7201D7B4100C16251 /* AGTipCellStyleMore.h in Headers */,
+				4AA78AFA201D7B4100C16251 /* AGSearchCell.h in Headers */,
+				4AA78B41201D7B4100C16251 /* AGTextfieldCell.h in Headers */,
+				4AA78B5B201D7B4100C16251 /* AGLabelStyleTextCell.h in Headers */,
+				4AA78B4E201D7B4100C16251 /* AGLineProgressCell.h in Headers */,
+				4AA78B2C201D7B4100C16251 /* AGBirthDateCell.h in Headers */,
+				4AA78B35201D7B4100C16251 /* AGMultiValueCellLabel.h in Headers */,
+				4AA78A7D201D7B4100C16251 /* AGButtonItem.h in Headers */,
+				4AA78A91201D7B4100C16251 /* AGQuantityPickerView.h in Headers */,
+				4AA78AFE201D7B4100C16251 /* AGMultiLabelsCell.h in Headers */,
+				4AA78A9C201D7B4100C16251 /* AGSelectorItem.h in Headers */,
+				4AA78B12201D7B4100C16251 /* AGTextCell.h in Headers */,
+				4AA78B01201D7B4100C16251 /* AGTextfieldCellStyleEditor.h in Headers */,
+				4AA78B2B201D7B4100C16251 /* AGAttributedStringCell.h in Headers */,
+				4AA78AD7201D7B4100C16251 /* AGCollectionViewCellTab.h in Headers */,
+				4AA78A99201D7B4100C16251 /* AGDateSelector.h in Headers */,
+				4AA78B24201D7B4100C16251 /* DACell.h in Headers */,
+				4AA78B44201D7B4100C16251 /* AGPeriodCell.h in Headers */,
+				4AA78B5F201D7B4100C16251 /* AGCellInnerView.h in Headers */,
+				4AA78B49201D7B4100C16251 /* AGLineProgressViewLabel.h in Headers */,
+				4AA78ACD201D7B4100C16251 /* AGCollectionViewLayoutHorizontalPages.h in Headers */,
+				4AA78AB7201D7B4100C16251 /* AGVCMessagesView.h in Headers */,
+				4AA78AC0201D7B4100C16251 /* AGLogoHeaderCell.h in Headers */,
+				4AA78B34201D7B4100C16251 /* AGMultiHeaderView.h in Headers */,
+				4AA78AD6201D7B4100C16251 /* AGCollectionViewCellOption.h in Headers */,
+				4AA78BF3201D839A00C16251 /* DSAlertUtil.h in Headers */,
+				4AA78AFC201D7B4100C16251 /* AGExpirationDateCell.h in Headers */,
+				4AA78AAF201D7B4100C16251 /* AGTabBarController.h in Headers */,
+				4AA78AF6201D7B4100C16251 /* AGTextCellStyleMore.h in Headers */,
+				4AA78AFF201D7B4100C16251 /* AGEndTimeCell.h in Headers */,
+				4AA78AD9201D7B4100C16251 /* AGCollectionViewCellValue.h in Headers */,
+				4AA78B19201D7B4100C16251 /* DATextInputDelegate.h in Headers */,
+				4AA78B00201D7B4100C16251 /* AGButtonCell.h in Headers */,
+				4AA78A80201D7B4100C16251 /* DAButtonCell.h in Headers */,
+				4AA78AFB201D7B4100C16251 /* AGCellAction.h in Headers */,
+				4AA78AB0201D7B4100C16251 /* DATableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AA7896F201D778100C16251 /* LITUILegacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA78978201D778100C16251 /* Build configuration list for PBXNativeTarget "LITUILegacy" */;
+			buildPhases = (
+				4AA7896B201D778100C16251 /* Sources */,
+				4AA7896C201D778100C16251 /* Frameworks */,
+				4AA7896D201D778100C16251 /* Headers */,
+				4AA7896E201D778100C16251 /* Resources */,
+				4AA7897F201D7B1200C16251 /* lipo */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LITUILegacy;
+			productName = LITUILegacy;
+			productReference = 4AA78970201D778100C16251 /* LITUILegacy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA78967201D778100C16251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = abovegem;
+				TargetAttributes = {
+					4AA7896F201D778100C16251 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4AA7896A201D778100C16251 /* Build configuration list for PBXProject "LITUILegacy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AA78966201D778100C16251;
+			productRefGroup = 4AA78971201D778100C16251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA7896F201D778100C16251 /* LITUILegacy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA7896E201D778100C16251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AA7897F201D7B1200C16251 /* lipo */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = lipo;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ..\n./do_lipo_for_framework.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA7896B201D778100C16251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA78AD8201D7B4100C16251 /* AGHorizontalViewControllersCell.m in Sources */,
+				4AA78A95201D7B4100C16251 /* AGPeriodSelector.m in Sources */,
+				4AA78B1E201D7B4100C16251 /* AGMultiLabelsCell.m in Sources */,
+				4AA78B46201D7B4100C16251 /* AGLineProgressView.m in Sources */,
+				4AA78A8E201D7B4100C16251 /* AGQuantityPickerView.m in Sources */,
+				4AA78B3E201D7B4100C16251 /* AGMultiValueView.m in Sources */,
+				4AA78AF4201D7B4100C16251 /* NSObject+TextInputComponents.m in Sources */,
+				4AA78AE3201D7B4100C16251 /* AGCircleProgressView.m in Sources */,
+				4AA78AB5201D7B4100C16251 /* AGVCMessagesView.m in Sources */,
+				4AA78A7C201D7B4100C16251 /* DAButtonCell.m in Sources */,
+				4AA78AD4201D7B4100C16251 /* AGCollectionViewLayoutVerticalPages.m in Sources */,
+				4AA78B0C201D7B4100C16251 /* AGTextBoxCell.m in Sources */,
+				4AA78B5A201D7B4100C16251 /* DSButtonCreator.m in Sources */,
+				4AA78B0F201D7B4100C16251 /* AGTextfieldCellStyleNumber.m in Sources */,
+				4AA78BF4201D839A00C16251 /* DSAlertUtil.m in Sources */,
+				4AA78A8F201D7B4100C16251 /* AGQuantitySelector.m in Sources */,
+				4AA78B04201D7B4100C16251 /* AGAttributedStringCell.m in Sources */,
+				4AA78B13201D7B4100C16251 /* AGHtmlCell.m in Sources */,
+				4AA78AB4201D7B4100C16251 /* AGVCSuccessMessagesView.m in Sources */,
+				4AA78ACF201D7B4100C16251 /* AGHorizontalUnitsCell.m in Sources */,
+				4AA78B33201D7B4100C16251 /* AGCollectionViewLayoutHorizontalLabels.m in Sources */,
+				4AA78AD2201D7B4100C16251 /* AGCollectionViewCell.m in Sources */,
+				4AA78ADC201D7B4100C16251 /* AGCollectionViewCellViewController.m in Sources */,
+				4AA78B39201D7B4100C16251 /* AGMultiHeaderView.m in Sources */,
+				4AA78B1D201D7B4100C16251 /* AGStartTimeCell.m in Sources */,
+				4AA78AC2201D7B4100C16251 /* AGTipCellStyleMore.m in Sources */,
+				4AA78B32201D7B4100C16251 /* AGMultiValueCellSynchronizer.m in Sources */,
+				4AA78AC9201D7B4100C16251 /* AGCollectionViewCellTab.m in Sources */,
+				4AA78AA4201D7B4100C16251 /* AGMeta.m in Sources */,
+				4AA78B40201D7B4100C16251 /* AGMultiValueCell.m in Sources */,
+				4AA78AF2201D7B4100C16251 /* AGHeaderView.m in Sources */,
+				4AA78AAE201D7B4100C16251 /* UITableViewController+Message.m in Sources */,
+				4AA78A9F201D7B4100C16251 /* AGDateSelector.m in Sources */,
+				4AA78B5C201D7B4100C16251 /* AGLabelStyleSubtitleTextCell.m in Sources */,
+				4AA78A96201D7B4100C16251 /* AGTextfieldEditor.m in Sources */,
+				4AA78B6E201D7BBB00C16251 /* NSObject+VC.m in Sources */,
+				4AA78B21201D7B4100C16251 /* AGTransparentButtonCell.m in Sources */,
+				4AA78AE0201D7B4100C16251 /* AGTabBarCell.m in Sources */,
+				4AA78B17201D7B4100C16251 /* AGTextfieldCellStyleNoTitle.m in Sources */,
+				4AA78A83201D7B4100C16251 /* AGButton.m in Sources */,
+				4AA78B18201D7B4100C16251 /* AGTextCellStyleMore.m in Sources */,
+				4AA78AEB201D7B4100C16251 /* AGHeader3Cell.m in Sources */,
+				4AA78B0B201D7B4100C16251 /* AGTextfieldCellStyleLong.m in Sources */,
+				4AA78AEC201D7B4100C16251 /* AGHeaderViewStyleDarkCompact.m in Sources */,
+				4AA78B16201D7B4100C16251 /* AGCell.m in Sources */,
+				4AA78AF1201D7B4100C16251 /* AGHeaderCell.m in Sources */,
+				4AA78AD0201D7B4100C16251 /* AGCollectionViewLayout.m in Sources */,
+				4AA78AAA201D7B4100C16251 /* AGViewController+Separator.m in Sources */,
+				4AA78B14201D7B4100C16251 /* AGTextfieldCellStyleOptions.m in Sources */,
+				4AA78B54201D7B4100C16251 /* AGSectionLoader.m in Sources */,
+				4AA78B0E201D7B4100C16251 /* AGPeriodCell.m in Sources */,
+				4AA78B07201D7B4100C16251 /* AGTextfieldCellStylePassword.m in Sources */,
+				4AA78B11201D7B4100C16251 /* AGTextfieldCell.m in Sources */,
+				4AA78AC1201D7B4100C16251 /* AGLoadingTipCell.m in Sources */,
+				4AA78B22201D7B4100C16251 /* AGExpirationDateCell.m in Sources */,
+				4AA78AA9201D7B4100C16251 /* UITableViewController+NavigationBar.m in Sources */,
+				4AA78AEE201D7B4100C16251 /* AGHeaderViewStyleDefault.m in Sources */,
+				4AA78ABD201D7B4100C16251 /* DATableView.m in Sources */,
+				4AA78A8D201D7B4100C16251 /* AGPortraitView.m in Sources */,
+				4AA78B48201D7B4100C16251 /* AGLineProgressCell.m in Sources */,
+				4AA78B05201D7B4100C16251 /* AGBirthDateCell.m in Sources */,
+				4AA78ABC201D7B4100C16251 /* UIView+HeaderAndCell.m in Sources */,
+				4AA78B20201D7B4100C16251 /* AGCellAction.m in Sources */,
+				4AA78B38201D7B4100C16251 /* AGCollectionViewCellOfMultiValueCell.m in Sources */,
+				4AA78A90201D7B4100C16251 /* LITInteractivePanelView.m in Sources */,
+				4AA78B58201D7B4100C16251 /* AGSectionUnit.m in Sources */,
+				4AA78B0A201D7B4100C16251 /* DACell.m in Sources */,
+				4AA78B1C201D7B4100C16251 /* AGTextfieldCellStyleEditor.m in Sources */,
+				4AA78ADA201D7B4100C16251 /* AGCollectionViewLayoutHorizontalPages.m in Sources */,
+				4AA78B4C201D7B4100C16251 /* AGLineProgressInnerView.m in Sources */,
+				4AA78ACB201D7B4100C16251 /* AGHorizontalPagesCell.m in Sources */,
+				4AA78ACA201D7B4100C16251 /* AGCollectionViewCellOption.m in Sources */,
+				4AA78B10201D7B4100C16251 /* AGTextfieldBoxCell.m in Sources */,
+				4AA78B2A201D7B4100C16251 /* AGTextfieldCellStyleLongNumber.m in Sources */,
+				4AA78A94201D7B4100C16251 /* AGSelector.m in Sources */,
+				4AA78AE4201D7B4100C16251 /* AGCircleProgressCell.m in Sources */,
+				4AA78AB2201D7B4100C16251 /* AGViewController.m in Sources */,
+				4AA78AAB201D7B4100C16251 /* DSTabBarViewController.m in Sources */,
+				4AA78AF5201D7B4100C16251 /* DATextInputDelegate.m in Sources */,
+				4AA78A82201D7B4100C16251 /* AGButtonItem.m in Sources */,
+				4AA78BCF201D7F0100C16251 /* DSLayoutUtil.m in Sources */,
+				4AA78B03201D7B4100C16251 /* AGFancyTextfieldCell.m in Sources */,
+				4AA78AD1201D7B4100C16251 /* AGCollectionViewLayoutHorizontalUnits.m in Sources */,
+				4AA78B23201D7B4100C16251 /* AGSearchCell.m in Sources */,
+				4AA78B6F201D7BBB00C16251 /* NSObject+Cell.m in Sources */,
+				4AA78B61201D7B4100C16251 /* AGNumberBox.m in Sources */,
+				4AA78AF9201D7B4100C16251 /* AGSeparatorCell.m in Sources */,
+				4AA78AE8201D7B4100C16251 /* AGAssembler.m in Sources */,
+				4AA78B51201D7B4100C16251 /* AGPieChartCell.m in Sources */,
+				4AA78A84201D7B4100C16251 /* DAButtonFactory.m in Sources */,
+				4AA78AA0201D7B4100C16251 /* AGTextSelector.m in Sources */,
+				4AA78B4F201D7B4100C16251 /* AGProgressViewCellValue.m in Sources */,
+				4AA78AB6201D7B4100C16251 /* AGVCFailureMessagesView.m in Sources */,
+				4AA78AA5201D7B4100C16251 /* AGManyCellsViewController.m in Sources */,
+				4AA78ABB201D7B4100C16251 /* AGVCConfiguration.m in Sources */,
+				4AA78ACE201D7B4100C16251 /* AGCollectionViewCellValue.m in Sources */,
+				4AA78B1F201D7B4100C16251 /* AGEndTimeCell.m in Sources */,
+				4AA78AC4201D7B4100C16251 /* AGLogoHeaderCell.m in Sources */,
+				4AA78ABE201D7B4100C16251 /* AGTabBarController.m in Sources */,
+				4AA78B5E201D7B4100C16251 /* AGLabelStyleTextCell.m in Sources */,
+				4AA78B45201D7B4100C16251 /* AGTextCellStyleTitleOnly.m in Sources */,
+				4AA78A9D201D7B4100C16251 /* AGExpirationDateSelector.m in Sources */,
+				4AA78B3D201D7B4100C16251 /* AGMultiValueCellLabel.m in Sources */,
+				4AA78B5D201D7B4100C16251 /* AGCellInnerView.m in Sources */,
+				4AA78B3C201D7B4100C16251 /* AGCollectionViewCellOfMultiHeaderCell.m in Sources */,
+				4AA78A7B201D7B4100C16251 /* DAButtonItem.m in Sources */,
+				4AA78B57201D7B4100C16251 /* DASectionButton.m in Sources */,
+				4AA78B1B201D7B4100C16251 /* AGButtonCell.m in Sources */,
+				4AA78B4D201D7B4100C16251 /* AGLineProgressViewLabel.m in Sources */,
+				4AA78B30201D7B4100C16251 /* AGTextCell.m in Sources */,
+				4AA78AC6201D7B4100C16251 /* AGTipCell.m in Sources */,
+				4AA78B09201D7B4100C16251 /* AGSpaceCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AA78976201D778100C16251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AA78977201D778100C16251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AA78979201D778100C16251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LITUILegacy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abovegem.app.framework.LITUILegacy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AA7897A201D778100C16251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LITUILegacy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abovegem.app.framework.LITUILegacy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA7896A201D778100C16251 /* Build configuration list for PBXProject "LITUILegacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA78976201D778100C16251 /* Debug */,
+				4AA78977201D778100C16251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA78978201D778100C16251 /* Build configuration list for PBXNativeTarget "LITUILegacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA78979201D778100C16251 /* Debug */,
+				4AA7897A201D778100C16251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AA78967201D778100C16251 /* Project object */;
+}

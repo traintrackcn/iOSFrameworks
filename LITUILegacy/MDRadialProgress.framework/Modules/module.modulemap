@@ -1,0 +1,6 @@
+framework module MDRadialProgress {
+  umbrella header "MDRadialProgress.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AA78E13201EC93B00C16251 /* EBPhotoPages.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E11201EC93B00C16251 /* EBPhotoPages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E3C201EC95000C16251 /* EBPhotoPagesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E19201EC94A00C16251 /* EBPhotoPagesOperation.m */; };
+		4AA78E3D201EC95000C16251 /* EBTagPopoverDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E1A201EC94A00C16251 /* EBTagPopoverDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E3E201EC95000C16251 /* EBPhotoPagesState.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E1B201EC94A00C16251 /* EBPhotoPagesState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E3F201EC95000C16251 /* EBCommentsViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E1C201EC94A00C16251 /* EBCommentsViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E40201EC95000C16251 /* EBCommentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E1D201EC94A00C16251 /* EBCommentsView.m */; };
+		4AA78E41201EC95000C16251 /* EBPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E1E201EC94A00C16251 /* EBPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E42201EC95000C16251 /* EBPhotoPagesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E1F201EC94A00C16251 /* EBPhotoPagesFactory.m */; };
+		4AA78E43201EC95000C16251 /* EBPhotoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E20201EC94B00C16251 /* EBPhotoToolbar.m */; };
+		4AA78E44201EC95000C16251 /* EBCommentsTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E21201EC94B00C16251 /* EBCommentsTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E45201EC95000C16251 /* EBPhotoPagesState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E22201EC94B00C16251 /* EBPhotoPagesState.m */; };
+		4AA78E46201EC95000C16251 /* EBTagPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E23201EC94B00C16251 /* EBTagPopover.m */; };
+		4AA78E47201EC95000C16251 /* EBCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E24201EC94B00C16251 /* EBCaptionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E48201EC95000C16251 /* EBPhotoPagesFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E25201EC94B00C16251 /* EBPhotoPagesFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E49201EC95000C16251 /* EBPhotoPagesDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E26201EC94B00C16251 /* EBPhotoPagesDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E4A201EC95000C16251 /* EBPhotoCommentProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E27201EC94B00C16251 /* EBPhotoCommentProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E4B201EC95000C16251 /* EBPhotoPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E28201EC94C00C16251 /* EBPhotoPagesController.m */; };
+		4AA78E4C201EC95000C16251 /* EBPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E29201EC94C00C16251 /* EBPhotoView.m */; };
+		4AA78E4D201EC95000C16251 /* EBPhotoPagesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E2A201EC94C00C16251 /* EBPhotoPagesController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E4E201EC95000C16251 /* EBCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E2B201EC94C00C16251 /* EBCommentCell.m */; };
+		4AA78E4F201EC95000C16251 /* EBPhotoPagesNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E2C201EC94C00C16251 /* EBPhotoPagesNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E50201EC95000C16251 /* EBCommentsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E2D201EC94C00C16251 /* EBCommentsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E51201EC95000C16251 /* EBPhotoToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E2E201EC94D00C16251 /* EBPhotoToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E52201EC95000C16251 /* EBPhotoViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E2F201EC94D00C16251 /* EBPhotoViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E53201EC95000C16251 /* EBTagPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E30201EC94D00C16251 /* EBTagPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E54201EC95000C16251 /* EBPhotoTagProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E31201EC94D00C16251 /* EBPhotoTagProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E55201EC95000C16251 /* EBCommentsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E32201EC94E00C16251 /* EBCommentsTableView.m */; };
+		4AA78E56201EC95000C16251 /* EBCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E33201EC94E00C16251 /* EBCaptionView.m */; };
+		4AA78E57201EC95000C16251 /* EBPhotoPagesDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E34201EC94E00C16251 /* EBPhotoPagesDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E58201EC95000C16251 /* EBCommentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E35201EC94E00C16251 /* EBCommentCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E59201EC95000C16251 /* EBPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E36201EC94E00C16251 /* EBPhotoViewController.m */; };
+		4AA78E5A201EC95000C16251 /* EBShadedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E37201EC94F00C16251 /* EBShadedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E5B201EC95000C16251 /* EBShadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78E38201EC94F00C16251 /* EBShadedView.m */; };
+		4AA78E5C201EC95000C16251 /* EBPhotoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E39201EC94F00C16251 /* EBPhotoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E5D201EC95000C16251 /* EBPhotoPagesOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E3A201EC95000C16251 /* EBPhotoPagesOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78E5E201EC95000C16251 /* EBPhotoPagesStateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78E3B201EC95000C16251 /* EBPhotoPagesStateDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AA78E0E201EC93B00C16251 /* EBPhotoPages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EBPhotoPages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA78E11201EC93B00C16251 /* EBPhotoPages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBPhotoPages.h; sourceTree = "<group>"; };
+		4AA78E12201EC93B00C16251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA78E19201EC94A00C16251 /* EBPhotoPagesOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBPhotoPagesOperation.m; sourceTree = "<group>"; };
+		4AA78E1A201EC94A00C16251 /* EBTagPopoverDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBTagPopoverDelegate.h; sourceTree = "<group>"; };
+		4AA78E1B201EC94A00C16251 /* EBPhotoPagesState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoPagesState.h; sourceTree = "<group>"; };
+		4AA78E1C201EC94A00C16251 /* EBCommentsViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCommentsViewDelegate.h; sourceTree = "<group>"; };
+		4AA78E1D201EC94A00C16251 /* EBCommentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCommentsView.m; sourceTree = "<group>"; };
+		4AA78E1E201EC94A00C16251 /* EBPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoViewController.h; sourceTree = "<group>"; };
+		4AA78E1F201EC94A00C16251 /* EBPhotoPagesFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBPhotoPagesFactory.m; sourceTree = "<group>"; };
+		4AA78E20201EC94B00C16251 /* EBPhotoToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBPhotoToolbar.m; sourceTree = "<group>"; };
+		4AA78E21201EC94B00C16251 /* EBCommentsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCommentsTableView.h; sourceTree = "<group>"; };
+		4AA78E22201EC94B00C16251 /* EBPhotoPagesState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBPhotoPagesState.m; sourceTree = "<group>"; };
+		4AA78E23201EC94B00C16251 /* EBTagPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBTagPopover.m; sourceTree = "<group>"; };
+		4AA78E24201EC94B00C16251 /* EBCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCaptionView.h; sourceTree = "<group>"; };
+		4AA78E25201EC94B00C16251 /* EBPhotoPagesFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoPagesFactory.h; sourceTree = "<group>"; };
+		4AA78E26201EC94B00C16251 /* EBPhotoPagesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoPagesDataSource.h; sourceTree = "<group>"; };
+		4AA78E27201EC94B00C16251 /* EBPhotoCommentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoCommentProtocol.h; sourceTree = "<group>"; };
+		4AA78E28201EC94C00C16251 /* EBPhotoPagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBPhotoPagesController.m; sourceTree = "<group>"; };
+		4AA78E29201EC94C00C16251 /* EBPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBPhotoView.m; sourceTree = "<group>"; };
+		4AA78E2A201EC94C00C16251 /* EBPhotoPagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoPagesController.h; sourceTree = "<group>"; };
+		4AA78E2B201EC94C00C16251 /* EBCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCommentCell.m; sourceTree = "<group>"; };
+		4AA78E2C201EC94C00C16251 /* EBPhotoPagesNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoPagesNotifications.h; sourceTree = "<group>"; };
+		4AA78E2D201EC94C00C16251 /* EBCommentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCommentsView.h; sourceTree = "<group>"; };
+		4AA78E2E201EC94D00C16251 /* EBPhotoToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoToolbar.h; sourceTree = "<group>"; };
+		4AA78E2F201EC94D00C16251 /* EBPhotoViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoViewControllerDelegate.h; sourceTree = "<group>"; };
+		4AA78E30201EC94D00C16251 /* EBTagPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBTagPopover.h; sourceTree = "<group>"; };
+		4AA78E31201EC94D00C16251 /* EBPhotoTagProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoTagProtocol.h; sourceTree = "<group>"; };
+		4AA78E32201EC94E00C16251 /* EBCommentsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCommentsTableView.m; sourceTree = "<group>"; };
+		4AA78E33201EC94E00C16251 /* EBCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCaptionView.m; sourceTree = "<group>"; };
+		4AA78E34201EC94E00C16251 /* EBPhotoPagesDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoPagesDelegate.h; sourceTree = "<group>"; };
+		4AA78E35201EC94E00C16251 /* EBCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCommentCell.h; sourceTree = "<group>"; };
+		4AA78E36201EC94E00C16251 /* EBPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBPhotoViewController.m; sourceTree = "<group>"; };
+		4AA78E37201EC94F00C16251 /* EBShadedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBShadedView.h; sourceTree = "<group>"; };
+		4AA78E38201EC94F00C16251 /* EBShadedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBShadedView.m; sourceTree = "<group>"; };
+		4AA78E39201EC94F00C16251 /* EBPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoView.h; sourceTree = "<group>"; };
+		4AA78E3A201EC95000C16251 /* EBPhotoPagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoPagesOperation.h; sourceTree = "<group>"; };
+		4AA78E3B201EC95000C16251 /* EBPhotoPagesStateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPhotoPagesStateDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA78E0A201EC93B00C16251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA78E04201EC93B00C16251 = {
+			isa = PBXGroup;
+			children = (
+				4AA78E10201EC93B00C16251 /* EBPhotoPages */,
+				4AA78E0F201EC93B00C16251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA78E0F201EC93B00C16251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78E0E201EC93B00C16251 /* EBPhotoPages.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA78E10201EC93B00C16251 /* EBPhotoPages */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78E24201EC94B00C16251 /* EBCaptionView.h */,
+				4AA78E33201EC94E00C16251 /* EBCaptionView.m */,
+				4AA78E35201EC94E00C16251 /* EBCommentCell.h */,
+				4AA78E2B201EC94C00C16251 /* EBCommentCell.m */,
+				4AA78E21201EC94B00C16251 /* EBCommentsTableView.h */,
+				4AA78E32201EC94E00C16251 /* EBCommentsTableView.m */,
+				4AA78E2D201EC94C00C16251 /* EBCommentsView.h */,
+				4AA78E1D201EC94A00C16251 /* EBCommentsView.m */,
+				4AA78E1C201EC94A00C16251 /* EBCommentsViewDelegate.h */,
+				4AA78E27201EC94B00C16251 /* EBPhotoCommentProtocol.h */,
+				4AA78E2A201EC94C00C16251 /* EBPhotoPagesController.h */,
+				4AA78E28201EC94C00C16251 /* EBPhotoPagesController.m */,
+				4AA78E26201EC94B00C16251 /* EBPhotoPagesDataSource.h */,
+				4AA78E34201EC94E00C16251 /* EBPhotoPagesDelegate.h */,
+				4AA78E25201EC94B00C16251 /* EBPhotoPagesFactory.h */,
+				4AA78E1F201EC94A00C16251 /* EBPhotoPagesFactory.m */,
+				4AA78E2C201EC94C00C16251 /* EBPhotoPagesNotifications.h */,
+				4AA78E3A201EC95000C16251 /* EBPhotoPagesOperation.h */,
+				4AA78E19201EC94A00C16251 /* EBPhotoPagesOperation.m */,
+				4AA78E1B201EC94A00C16251 /* EBPhotoPagesState.h */,
+				4AA78E22201EC94B00C16251 /* EBPhotoPagesState.m */,
+				4AA78E3B201EC95000C16251 /* EBPhotoPagesStateDelegate.h */,
+				4AA78E31201EC94D00C16251 /* EBPhotoTagProtocol.h */,
+				4AA78E2E201EC94D00C16251 /* EBPhotoToolbar.h */,
+				4AA78E20201EC94B00C16251 /* EBPhotoToolbar.m */,
+				4AA78E39201EC94F00C16251 /* EBPhotoView.h */,
+				4AA78E29201EC94C00C16251 /* EBPhotoView.m */,
+				4AA78E1E201EC94A00C16251 /* EBPhotoViewController.h */,
+				4AA78E36201EC94E00C16251 /* EBPhotoViewController.m */,
+				4AA78E2F201EC94D00C16251 /* EBPhotoViewControllerDelegate.h */,
+				4AA78E37201EC94F00C16251 /* EBShadedView.h */,
+				4AA78E38201EC94F00C16251 /* EBShadedView.m */,
+				4AA78E30201EC94D00C16251 /* EBTagPopover.h */,
+				4AA78E23201EC94B00C16251 /* EBTagPopover.m */,
+				4AA78E1A201EC94A00C16251 /* EBTagPopoverDelegate.h */,
+				4AA78E11201EC93B00C16251 /* EBPhotoPages.h */,
+				4AA78E12201EC93B00C16251 /* Info.plist */,
+			);
+			path = EBPhotoPages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AA78E0B201EC93B00C16251 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA78E57201EC95000C16251 /* EBPhotoPagesDelegate.h in Headers */,
+				4AA78E4F201EC95000C16251 /* EBPhotoPagesNotifications.h in Headers */,
+				4AA78E5E201EC95000C16251 /* EBPhotoPagesStateDelegate.h in Headers */,
+				4AA78E52201EC95000C16251 /* EBPhotoViewControllerDelegate.h in Headers */,
+				4AA78E53201EC95000C16251 /* EBTagPopover.h in Headers */,
+				4AA78E49201EC95000C16251 /* EBPhotoPagesDataSource.h in Headers */,
+				4AA78E5C201EC95000C16251 /* EBPhotoView.h in Headers */,
+				4AA78E47201EC95000C16251 /* EBCaptionView.h in Headers */,
+				4AA78E3E201EC95000C16251 /* EBPhotoPagesState.h in Headers */,
+				4AA78E5A201EC95000C16251 /* EBShadedView.h in Headers */,
+				4AA78E51201EC95000C16251 /* EBPhotoToolbar.h in Headers */,
+				4AA78E58201EC95000C16251 /* EBCommentCell.h in Headers */,
+				4AA78E3F201EC95000C16251 /* EBCommentsViewDelegate.h in Headers */,
+				4AA78E4A201EC95000C16251 /* EBPhotoCommentProtocol.h in Headers */,
+				4AA78E54201EC95000C16251 /* EBPhotoTagProtocol.h in Headers */,
+				4AA78E41201EC95000C16251 /* EBPhotoViewController.h in Headers */,
+				4AA78E48201EC95000C16251 /* EBPhotoPagesFactory.h in Headers */,
+				4AA78E3D201EC95000C16251 /* EBTagPopoverDelegate.h in Headers */,
+				4AA78E44201EC95000C16251 /* EBCommentsTableView.h in Headers */,
+				4AA78E5D201EC95000C16251 /* EBPhotoPagesOperation.h in Headers */,
+				4AA78E4D201EC95000C16251 /* EBPhotoPagesController.h in Headers */,
+				4AA78E50201EC95000C16251 /* EBCommentsView.h in Headers */,
+				4AA78E13201EC93B00C16251 /* EBPhotoPages.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AA78E0D201EC93B00C16251 /* EBPhotoPages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA78E16201EC93B00C16251 /* Build configuration list for PBXNativeTarget "EBPhotoPages" */;
+			buildPhases = (
+				4AA78E09201EC93B00C16251 /* Sources */,
+				4AA78E0A201EC93B00C16251 /* Frameworks */,
+				4AA78E0B201EC93B00C16251 /* Headers */,
+				4AA78E0C201EC93B00C16251 /* Resources */,
+				4AA78E60201ECA2000C16251 /* lipo */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EBPhotoPages;
+			productName = EBPhotoPages;
+			productReference = 4AA78E0E201EC93B00C16251 /* EBPhotoPages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA78E05201EC93B00C16251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = abovegem;
+				TargetAttributes = {
+					4AA78E0D201EC93B00C16251 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4AA78E08201EC93B00C16251 /* Build configuration list for PBXProject "EBPhotoPages" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AA78E04201EC93B00C16251;
+			productRefGroup = 4AA78E0F201EC93B00C16251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA78E0D201EC93B00C16251 /* EBPhotoPages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA78E0C201EC93B00C16251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AA78E60201ECA2000C16251 /* lipo */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = lipo;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ..\n./do_lipo_for_framework.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA78E09201EC93B00C16251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA78E42201EC95000C16251 /* EBPhotoPagesFactory.m in Sources */,
+				4AA78E56201EC95000C16251 /* EBCaptionView.m in Sources */,
+				4AA78E46201EC95000C16251 /* EBTagPopover.m in Sources */,
+				4AA78E55201EC95000C16251 /* EBCommentsTableView.m in Sources */,
+				4AA78E3C201EC95000C16251 /* EBPhotoPagesOperation.m in Sources */,
+				4AA78E4E201EC95000C16251 /* EBCommentCell.m in Sources */,
+				4AA78E59201EC95000C16251 /* EBPhotoViewController.m in Sources */,
+				4AA78E45201EC95000C16251 /* EBPhotoPagesState.m in Sources */,
+				4AA78E4C201EC95000C16251 /* EBPhotoView.m in Sources */,
+				4AA78E4B201EC95000C16251 /* EBPhotoPagesController.m in Sources */,
+				4AA78E40201EC95000C16251 /* EBCommentsView.m in Sources */,
+				4AA78E5B201EC95000C16251 /* EBShadedView.m in Sources */,
+				4AA78E43201EC95000C16251 /* EBPhotoToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AA78E14201EC93B00C16251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AA78E15201EC93B00C16251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AA78E17201EC93B00C16251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EBPhotoPages/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abovegem.app.framework.EBPhotoPages;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AA78E18201EC93B00C16251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EBPhotoPages/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abovegem.app.framework.EBPhotoPages;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA78E08201EC93B00C16251 /* Build configuration list for PBXProject "EBPhotoPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA78E14201EC93B00C16251 /* Debug */,
+				4AA78E15201EC93B00C16251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA78E16201EC93B00C16251 /* Build configuration list for PBXNativeTarget "EBPhotoPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA78E17201EC93B00C16251 /* Debug */,
+				4AA78E18201EC93B00C16251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AA78E05201EC93B00C16251 /* Project object */;
+}

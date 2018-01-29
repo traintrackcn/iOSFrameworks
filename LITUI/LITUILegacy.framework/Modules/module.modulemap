@@ -1,0 +1,6 @@
+framework module LITUILegacy {
+  umbrella header "LITUILegacy.h"
+
+  export *
+  module * { export * }
+}

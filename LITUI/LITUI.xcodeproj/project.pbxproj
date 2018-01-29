@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AA78278201D5A9400C16251 /* LITUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78276201D5A9400C16251 /* LITUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA7876F201D655E00C16251 /* LITCellForSectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785D8201D655400C16251 /* LITCellForSectionButton.m */; };
+		4AA78770201D655E00C16251 /* LITItemForSectionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785D9201D655400C16251 /* LITItemForSectionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78771201D655E00C16251 /* LITSectionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785DA201D655400C16251 /* LITSectionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78772201D655E00C16251 /* LITCellForSectionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785DB201D655400C16251 /* LITCellForSectionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78773201D655E00C16251 /* LITItemForSectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785DC201D655400C16251 /* LITItemForSectionButton.m */; };
+		4AA78774201D655E00C16251 /* LITSectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785DD201D655400C16251 /* LITSectionButton.m */; };
+		4AA78775201D655E00C16251 /* LITTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785DF201D655400C16251 /* LITTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78776201D655E00C16251 /* LITTextFieldCellForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785E0201D655400C16251 /* LITTextFieldCellForm.m */; };
+		4AA78777201D655E00C16251 /* LITTextFieldCellFormPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785E1201D655400C16251 /* LITTextFieldCellFormPassword.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78778201D655E00C16251 /* LITTextFieldCellForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785E2201D655400C16251 /* LITTextFieldCellForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78779201D655E00C16251 /* LITTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785E3201D655400C16251 /* LITTextFieldCell.m */; };
+		4AA7877A201D655E00C16251 /* LITTextFieldCellFormPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785E4201D655400C16251 /* LITTextFieldCellFormPassword.m */; };
+		4AA78780201D655E00C16251 /* DAActivityViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785EB201D655500C16251 /* DAActivityViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78783201D655E00C16251 /* LITCell+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785EF201D655500C16251 /* LITCell+Borders.m */; };
+		4AA78784201D655E00C16251 /* LITCellSeparator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785F0201D655500C16251 /* LITCellSeparator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78785201D655E00C16251 /* LITCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785F1201D655500C16251 /* LITCell.m */; };
+		4AA78786201D655E00C16251 /* LITCellSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785F2201D655500C16251 /* LITCellSpace.m */; };
+		4AA78787201D655E00C16251 /* LITCellSpaceAsBG.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785F3201D655500C16251 /* LITCellSpaceAsBG.m */; };
+		4AA78788201D655E00C16251 /* LITCellValueStoredInAssociatedVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785F4201D655500C16251 /* LITCellValueStoredInAssociatedVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78789201D655E00C16251 /* LITCellCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785F5201D655500C16251 /* LITCellCharacter.m */; };
+		4AA7878A201D655E00C16251 /* LITCellBigTick.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785F6201D655500C16251 /* LITCellBigTick.m */; };
+		4AA7878B201D655E00C16251 /* LITCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785F7201D655500C16251 /* LITCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA7878C201D655E00C16251 /* LITCellSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785F8201D655500C16251 /* LITCellSeparator.m */; };
+		4AA7878D201D655E00C16251 /* LITCell+Borders.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785F9201D655500C16251 /* LITCell+Borders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA7878E201D655E00C16251 /* LITCellSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785FA201D655500C16251 /* LITCellSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA7878F201D655E00C16251 /* LITCellCharacter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785FB201D655500C16251 /* LITCellCharacter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78790201D655E00C16251 /* LITCellValueStoredInAssociatedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785FC201D655500C16251 /* LITCellValueStoredInAssociatedVC.m */; };
+		4AA78791201D655E00C16251 /* LITCellSpaceAsBG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785FD201D655500C16251 /* LITCellSpaceAsBG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78792201D655E00C16251 /* LITCellBigTick.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785FE201D655500C16251 /* LITCellBigTick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA7879D201D655E00C16251 /* LITWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7860B201D655600C16251 /* LITWindow.m */; };
+		4AA787BB201D655E00C16251 /* DAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7862D201D655600C16251 /* DAView.m */; };
+		4AA787BC201D655E00C16251 /* LITHeaderViewTitledCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7862F201D655600C16251 /* LITHeaderViewTitledCheckBox.m */; };
+		4AA787BD201D655E00C16251 /* LITHeaderViewHorizontalUnits.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78630201D655600C16251 /* LITHeaderViewHorizontalUnits.m */; };
+		4AA787BE201D655E00C16251 /* LITHeaderViewSmallLight.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78631201D655600C16251 /* LITHeaderViewSmallLight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA787BF201D655E00C16251 /* LITHeaderViewTinyDark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78632201D655600C16251 /* LITHeaderViewTinyDark.m */; };
+		4AA787C0201D655E00C16251 /* LITHeaderViewMediumDark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78633201D655600C16251 /* LITHeaderViewMediumDark.m */; };
+		4AA787C1201D655E00C16251 /* LITHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78634201D655600C16251 /* LITHeaderView.m */; };
+		4AA787C2201D655E00C16251 /* LITHeaderViewSmallLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78635201D655600C16251 /* LITHeaderViewSmallLight.m */; };
+		4AA787C3201D655E00C16251 /* LITHeaderViewHorizontalUnits.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78636201D655600C16251 /* LITHeaderViewHorizontalUnits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA787C4201D655E00C16251 /* LITHeaderViewTitledCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78637201D655600C16251 /* LITHeaderViewTitledCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA787C5201D655E00C16251 /* LITHeaderViewMediumDark.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78638201D655600C16251 /* LITHeaderViewMediumDark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA787C6201D655E00C16251 /* LITHeaderViewTinyDark.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78639201D655600C16251 /* LITHeaderViewTinyDark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA787C7201D655E00C16251 /* LITHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7863A201D655600C16251 /* LITHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA787C8201D655E00C16251 /* LITSectionUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7863C201D655600C16251 /* LITSectionUnit.m */; };
+		4AA787C9201D655E00C16251 /* LITSectionUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7863D201D655600C16251 /* LITSectionUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA787D2201D655E00C16251 /* LITHorizontalUnitsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78647201D655700C16251 /* LITHorizontalUnitsCell.m */; };
+		4AA787DA201D655E00C16251 /* LITTipCellCenterDark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78651201D655700C16251 /* LITTipCellCenterDark.m */; };
+		4AA787DB201D655E00C16251 /* LITTipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78652201D655700C16251 /* LITTipCell.m */; };
+		4AA787DC201D655E00C16251 /* LITTipCellDarkTextNormalBG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78653201D655700C16251 /* LITTipCellDarkTextNormalBG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA787DD201D655E00C16251 /* LITTipCellCenterDark.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78654201D655700C16251 /* LITTipCellCenterDark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA787DE201D655E00C16251 /* LITTipCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78655201D655700C16251 /* LITTipCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA787DF201D655E00C16251 /* LITTipCellDarkTextNormalBG.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78656201D655700C16251 /* LITTipCellDarkTextNormalBG.m */; };
+		4AA787E8201D655E00C16251 /* LITHorizontalUnitsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78660201D655800C16251 /* LITHorizontalUnitsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78855201D655E00C16251 /* NSObject+SectionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA786D3201D655900C16251 /* NSObject+SectionUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA7885A201D655E00C16251 /* NSObject+SectionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA786D9201D655900C16251 /* NSObject+SectionUtils.m */; };
+		4AA78887201D655F00C16251 /* DAView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7870B201D655B00C16251 /* DAView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78888201D655F00C16251 /* LITVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7870C201D655B00C16251 /* LITVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA7888C201D655F00C16251 /* LITTextCellMultiLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78712201D655B00C16251 /* LITTextCellMultiLine.m */; };
+		4AA7888D201D655F00C16251 /* LITTextCellLongTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78713201D655B00C16251 /* LITTextCellLongTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA7888E201D655F00C16251 /* LITTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78714201D655B00C16251 /* LITTextCell.m */; };
+		4AA7888F201D655F00C16251 /* LITTextCellFormLongValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78715201D655B00C16251 /* LITTextCellFormLongValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78890201D655F00C16251 /* LITCellBackgroundTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78716201D655B00C16251 /* LITCellBackgroundTip.m */; };
+		4AA78891201D655F00C16251 /* LITTextCellTitleOnly.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78717201D655B00C16251 /* LITTextCellTitleOnly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78892201D655F00C16251 /* LITTextCellLongValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78718201D655B00C16251 /* LITTextCellLongValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78893201D655F00C16251 /* LITTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78719201D655B00C16251 /* LITTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78894201D655F00C16251 /* LITTextCellLongTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7871A201D655B00C16251 /* LITTextCellLongTitle.m */; };
+		4AA78895201D655F00C16251 /* LITTextCellMultiLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7871B201D655B00C16251 /* LITTextCellMultiLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA78896201D655F00C16251 /* LITTextCellFormLongValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7871C201D655B00C16251 /* LITTextCellFormLongValue.m */; };
+		4AA78897201D655F00C16251 /* LITTextCellLongValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7871D201D655B00C16251 /* LITTextCellLongValue.m */; };
+		4AA78898201D655F00C16251 /* LITTextCellTitleOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7871E201D655B00C16251 /* LITTextCellTitleOnly.m */; };
+		4AA78899201D655F00C16251 /* LITCellBackgroundTip.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7871F201D655B00C16251 /* LITCellBackgroundTip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA7889C201D655F00C16251 /* LITVCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78722201D655C00C16251 /* LITVCCore.m */; };
+		4AA7889E201D655F00C16251 /* LITWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78724201D655C00C16251 /* LITWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA7889F201D655F00C16251 /* LITVCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78725201D655C00C16251 /* LITVCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA788D2201D655F00C16251 /* LITTriggerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7875D201D655C00C16251 /* LITTriggerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA788D3201D655F00C16251 /* LITTriggerCellLongValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7875E201D655C00C16251 /* LITTriggerCellLongValue.m */; };
+		4AA788D4201D655F00C16251 /* LITTriggerCellFormLongValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7875F201D655C00C16251 /* LITTriggerCellFormLongValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA788D5201D655F00C16251 /* LITTriggerCellLongTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78760201D655C00C16251 /* LITTriggerCellLongTitle.m */; };
+		4AA788D6201D655F00C16251 /* LITTriggerCellLongValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78761201D655C00C16251 /* LITTriggerCellLongValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA788D7201D655F00C16251 /* LITTriggerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78762201D655C00C16251 /* LITTriggerCell.m */; };
+		4AA788D8201D655F00C16251 /* LITTriggerCellLongTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78763201D655C00C16251 /* LITTriggerCellLongTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA788D9201D655F00C16251 /* LITTriggerCellFormLongValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78764201D655C00C16251 /* LITTriggerCellFormLongValue.m */; };
+		4AA788DA201D655F00C16251 /* LITVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78765201D655D00C16251 /* LITVC.m */; };
+		4AA788DE201D655F00C16251 /* DAActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7876A201D655D00C16251 /* DAActivityViewController.m */; };
+		4AA788E6201D66BF00C16251 /* LITCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA788E4201D66BF00C16251 /* LITCommon.framework */; };
+		4AA788E7201D66BF00C16251 /* LITNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA788E5201D66BF00C16251 /* LITNetwork.framework */; };
+		4AA78C07201D851500C16251 /* LITUICommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA78C06201D851500C16251 /* LITUICommon.framework */; };
+		4AA78C09201D854800C16251 /* LITUILegacy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA78C08201D854700C16251 /* LITUILegacy.framework */; };
+		4AA78E90201EFB9A00C16251 /* BEMCheckBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA78E8F201EFB9900C16251 /* BEMCheckBox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AA78273201D5A9400C16251 /* LITUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LITUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA78276201D5A9400C16251 /* LITUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITUI.h; sourceTree = "<group>"; };
+		4AA78277201D5A9400C16251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA785D8201D655400C16251 /* LITCellForSectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCellForSectionButton.m; sourceTree = "<group>"; };
+		4AA785D9201D655400C16251 /* LITItemForSectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITItemForSectionButton.h; sourceTree = "<group>"; };
+		4AA785DA201D655400C16251 /* LITSectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSectionButton.h; sourceTree = "<group>"; };
+		4AA785DB201D655400C16251 /* LITCellForSectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCellForSectionButton.h; sourceTree = "<group>"; };
+		4AA785DC201D655400C16251 /* LITItemForSectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITItemForSectionButton.m; sourceTree = "<group>"; };
+		4AA785DD201D655400C16251 /* LITSectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSectionButton.m; sourceTree = "<group>"; };
+		4AA785DF201D655400C16251 /* LITTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTextFieldCell.h; sourceTree = "<group>"; };
+		4AA785E0201D655400C16251 /* LITTextFieldCellForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTextFieldCellForm.m; sourceTree = "<group>"; };
+		4AA785E1201D655400C16251 /* LITTextFieldCellFormPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTextFieldCellFormPassword.h; sourceTree = "<group>"; };
+		4AA785E2201D655400C16251 /* LITTextFieldCellForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTextFieldCellForm.h; sourceTree = "<group>"; };
+		4AA785E3201D655400C16251 /* LITTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTextFieldCell.m; sourceTree = "<group>"; };
+		4AA785E4201D655400C16251 /* LITTextFieldCellFormPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTextFieldCellFormPassword.m; sourceTree = "<group>"; };
+		4AA785EB201D655500C16251 /* DAActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAActivityViewController.h; sourceTree = "<group>"; };
+		4AA785EF201D655500C16251 /* LITCell+Borders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LITCell+Borders.m"; sourceTree = "<group>"; };
+		4AA785F0201D655500C16251 /* LITCellSeparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCellSeparator.h; sourceTree = "<group>"; };
+		4AA785F1201D655500C16251 /* LITCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCell.m; sourceTree = "<group>"; };
+		4AA785F2201D655500C16251 /* LITCellSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCellSpace.m; sourceTree = "<group>"; };
+		4AA785F3201D655500C16251 /* LITCellSpaceAsBG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCellSpaceAsBG.m; sourceTree = "<group>"; };
+		4AA785F4201D655500C16251 /* LITCellValueStoredInAssociatedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCellValueStoredInAssociatedVC.h; sourceTree = "<group>"; };
+		4AA785F5201D655500C16251 /* LITCellCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCellCharacter.m; sourceTree = "<group>"; };
+		4AA785F6201D655500C16251 /* LITCellBigTick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCellBigTick.m; sourceTree = "<group>"; };
+		4AA785F7201D655500C16251 /* LITCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCell.h; sourceTree = "<group>"; };
+		4AA785F8201D655500C16251 /* LITCellSeparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCellSeparator.m; sourceTree = "<group>"; };
+		4AA785F9201D655500C16251 /* LITCell+Borders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LITCell+Borders.h"; sourceTree = "<group>"; };
+		4AA785FA201D655500C16251 /* LITCellSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCellSpace.h; sourceTree = "<group>"; };
+		4AA785FB201D655500C16251 /* LITCellCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCellCharacter.h; sourceTree = "<group>"; };
+		4AA785FC201D655500C16251 /* LITCellValueStoredInAssociatedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCellValueStoredInAssociatedVC.m; sourceTree = "<group>"; };
+		4AA785FD201D655500C16251 /* LITCellSpaceAsBG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCellSpaceAsBG.h; sourceTree = "<group>"; };
+		4AA785FE201D655500C16251 /* LITCellBigTick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCellBigTick.h; sourceTree = "<group>"; };
+		4AA7860B201D655600C16251 /* LITWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITWindow.m; sourceTree = "<group>"; };
+		4AA7862D201D655600C16251 /* DAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAView.m; sourceTree = "<group>"; };
+		4AA7862F201D655600C16251 /* LITHeaderViewTitledCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITHeaderViewTitledCheckBox.m; sourceTree = "<group>"; };
+		4AA78630201D655600C16251 /* LITHeaderViewHorizontalUnits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITHeaderViewHorizontalUnits.m; sourceTree = "<group>"; };
+		4AA78631201D655600C16251 /* LITHeaderViewSmallLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHeaderViewSmallLight.h; sourceTree = "<group>"; };
+		4AA78632201D655600C16251 /* LITHeaderViewTinyDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITHeaderViewTinyDark.m; sourceTree = "<group>"; };
+		4AA78633201D655600C16251 /* LITHeaderViewMediumDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITHeaderViewMediumDark.m; sourceTree = "<group>"; };
+		4AA78634201D655600C16251 /* LITHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITHeaderView.m; sourceTree = "<group>"; };
+		4AA78635201D655600C16251 /* LITHeaderViewSmallLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITHeaderViewSmallLight.m; sourceTree = "<group>"; };
+		4AA78636201D655600C16251 /* LITHeaderViewHorizontalUnits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHeaderViewHorizontalUnits.h; sourceTree = "<group>"; };
+		4AA78637201D655600C16251 /* LITHeaderViewTitledCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHeaderViewTitledCheckBox.h; sourceTree = "<group>"; };
+		4AA78638201D655600C16251 /* LITHeaderViewMediumDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHeaderViewMediumDark.h; sourceTree = "<group>"; };
+		4AA78639201D655600C16251 /* LITHeaderViewTinyDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHeaderViewTinyDark.h; sourceTree = "<group>"; };
+		4AA7863A201D655600C16251 /* LITHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHeaderView.h; sourceTree = "<group>"; };
+		4AA7863C201D655600C16251 /* LITSectionUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSectionUnit.m; sourceTree = "<group>"; };
+		4AA7863D201D655600C16251 /* LITSectionUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSectionUnit.h; sourceTree = "<group>"; };
+		4AA78647201D655700C16251 /* LITHorizontalUnitsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITHorizontalUnitsCell.m; sourceTree = "<group>"; };
+		4AA78651201D655700C16251 /* LITTipCellCenterDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTipCellCenterDark.m; sourceTree = "<group>"; };
+		4AA78652201D655700C16251 /* LITTipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTipCell.m; sourceTree = "<group>"; };
+		4AA78653201D655700C16251 /* LITTipCellDarkTextNormalBG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTipCellDarkTextNormalBG.h; sourceTree = "<group>"; };
+		4AA78654201D655700C16251 /* LITTipCellCenterDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTipCellCenterDark.h; sourceTree = "<group>"; };
+		4AA78655201D655700C16251 /* LITTipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTipCell.h; sourceTree = "<group>"; };
+		4AA78656201D655700C16251 /* LITTipCellDarkTextNormalBG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTipCellDarkTextNormalBG.m; sourceTree = "<group>"; };
+		4AA78660201D655800C16251 /* LITHorizontalUnitsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHorizontalUnitsCell.h; sourceTree = "<group>"; };
+		4AA786D3201D655900C16251 /* NSObject+SectionUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SectionUtils.h"; sourceTree = "<group>"; };
+		4AA786D9201D655900C16251 /* NSObject+SectionUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SectionUtils.m"; sourceTree = "<group>"; };
+		4AA7870B201D655B00C16251 /* DAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAView.h; sourceTree = "<group>"; };
+		4AA7870C201D655B00C16251 /* LITVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITVC.h; sourceTree = "<group>"; };
+		4AA78712201D655B00C16251 /* LITTextCellMultiLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTextCellMultiLine.m; sourceTree = "<group>"; };
+		4AA78713201D655B00C16251 /* LITTextCellLongTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTextCellLongTitle.h; sourceTree = "<group>"; };
+		4AA78714201D655B00C16251 /* LITTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTextCell.m; sourceTree = "<group>"; };
+		4AA78715201D655B00C16251 /* LITTextCellFormLongValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTextCellFormLongValue.h; sourceTree = "<group>"; };
+		4AA78716201D655B00C16251 /* LITCellBackgroundTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCellBackgroundTip.m; sourceTree = "<group>"; };
+		4AA78717201D655B00C16251 /* LITTextCellTitleOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTextCellTitleOnly.h; sourceTree = "<group>"; };
+		4AA78718201D655B00C16251 /* LITTextCellLongValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTextCellLongValue.h; sourceTree = "<group>"; };
+		4AA78719201D655B00C16251 /* LITTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTextCell.h; sourceTree = "<group>"; };
+		4AA7871A201D655B00C16251 /* LITTextCellLongTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTextCellLongTitle.m; sourceTree = "<group>"; };
+		4AA7871B201D655B00C16251 /* LITTextCellMultiLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTextCellMultiLine.h; sourceTree = "<group>"; };
+		4AA7871C201D655B00C16251 /* LITTextCellFormLongValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTextCellFormLongValue.m; sourceTree = "<group>"; };
+		4AA7871D201D655B00C16251 /* LITTextCellLongValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTextCellLongValue.m; sourceTree = "<group>"; };
+		4AA7871E201D655B00C16251 /* LITTextCellTitleOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTextCellTitleOnly.m; sourceTree = "<group>"; };
+		4AA7871F201D655B00C16251 /* LITCellBackgroundTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCellBackgroundTip.h; sourceTree = "<group>"; };
+		4AA78722201D655C00C16251 /* LITVCCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITVCCore.m; sourceTree = "<group>"; };
+		4AA78724201D655C00C16251 /* LITWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITWindow.h; sourceTree = "<group>"; };
+		4AA78725201D655C00C16251 /* LITVCCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITVCCore.h; sourceTree = "<group>"; };
+		4AA7875D201D655C00C16251 /* LITTriggerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTriggerCell.h; sourceTree = "<group>"; };
+		4AA7875E201D655C00C16251 /* LITTriggerCellLongValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTriggerCellLongValue.m; sourceTree = "<group>"; };
+		4AA7875F201D655C00C16251 /* LITTriggerCellFormLongValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTriggerCellFormLongValue.h; sourceTree = "<group>"; };
+		4AA78760201D655C00C16251 /* LITTriggerCellLongTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTriggerCellLongTitle.m; sourceTree = "<group>"; };
+		4AA78761201D655C00C16251 /* LITTriggerCellLongValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTriggerCellLongValue.h; sourceTree = "<group>"; };
+		4AA78762201D655C00C16251 /* LITTriggerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTriggerCell.m; sourceTree = "<group>"; };
+		4AA78763201D655C00C16251 /* LITTriggerCellLongTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTriggerCellLongTitle.h; sourceTree = "<group>"; };
+		4AA78764201D655C00C16251 /* LITTriggerCellFormLongValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTriggerCellFormLongValue.m; sourceTree = "<group>"; };
+		4AA78765201D655D00C16251 /* LITVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITVC.m; sourceTree = "<group>"; };
+		4AA7876A201D655D00C16251 /* DAActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAActivityViewController.m; sourceTree = "<group>"; };
+		4AA788E4201D66BF00C16251 /* LITCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITCommon.framework; sourceTree = "<group>"; };
+		4AA788E5201D66BF00C16251 /* LITNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITNetwork.framework; sourceTree = "<group>"; };
+		4AA78C06201D851500C16251 /* LITUICommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITUICommon.framework; sourceTree = "<group>"; };
+		4AA78C08201D854700C16251 /* LITUILegacy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITUILegacy.framework; sourceTree = "<group>"; };
+		4AA78E8F201EFB9900C16251 /* BEMCheckBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BEMCheckBox.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA7826F201D5A9400C16251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA78E90201EFB9A00C16251 /* BEMCheckBox.framework in Frameworks */,
+				4AA788E6201D66BF00C16251 /* LITCommon.framework in Frameworks */,
+				4AA78C09201D854800C16251 /* LITUILegacy.framework in Frameworks */,
+				4AA788E7201D66BF00C16251 /* LITNetwork.framework in Frameworks */,
+				4AA78C07201D851500C16251 /* LITUICommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA78269201D5A9400C16251 = {
+			isa = PBXGroup;
+			children = (
+				4AA78E8F201EFB9900C16251 /* BEMCheckBox.framework */,
+				4AA788E4201D66BF00C16251 /* LITCommon.framework */,
+				4AA78C06201D851500C16251 /* LITUICommon.framework */,
+				4AA78C08201D854700C16251 /* LITUILegacy.framework */,
+				4AA788E5201D66BF00C16251 /* LITNetwork.framework */,
+				4AA78275201D5A9400C16251 /* LITUI */,
+				4AA78274201D5A9400C16251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA78274201D5A9400C16251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78273201D5A9400C16251 /* LITUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA78275201D5A9400C16251 /* LITUI */ = {
+			isa = PBXGroup;
+			children = (
+				4AA785EB201D655500C16251 /* DAActivityViewController.h */,
+				4AA7876A201D655D00C16251 /* DAActivityViewController.m */,
+				4AA7870B201D655B00C16251 /* DAView.h */,
+				4AA7862D201D655600C16251 /* DAView.m */,
+				4AA78660201D655800C16251 /* LITHorizontalUnitsCell.h */,
+				4AA78647201D655700C16251 /* LITHorizontalUnitsCell.m */,
+				4AA785EE201D655500C16251 /* LITCell */,
+				4AA7862E201D655600C16251 /* LITHeaderView */,
+				4AA785DE201D655400C16251 /* LITInputCell */,
+				4AA785D7201D655400C16251 /* LITSectionButton */,
+				4AA7863B201D655600C16251 /* LITSectionUnit */,
+				4AA78650201D655700C16251 /* LITTipCell */,
+				4AA7875C201D655C00C16251 /* LITTriggerCell */,
+				4AA78711201D655B00C16251 /* LITValueCell */,
+				4AA7870C201D655B00C16251 /* LITVC.h */,
+				4AA78765201D655D00C16251 /* LITVC.m */,
+				4AA78725201D655C00C16251 /* LITVCCore.h */,
+				4AA78722201D655C00C16251 /* LITVCCore.m */,
+				4AA78724201D655C00C16251 /* LITWindow.h */,
+				4AA7860B201D655600C16251 /* LITWindow.m */,
+				4AA786D3201D655900C16251 /* NSObject+SectionUtils.h */,
+				4AA786D9201D655900C16251 /* NSObject+SectionUtils.m */,
+				4AA78276201D5A9400C16251 /* LITUI.h */,
+				4AA78277201D5A9400C16251 /* Info.plist */,
+			);
+			path = LITUI;
+			sourceTree = "<group>";
+		};
+		4AA785D7201D655400C16251 /* LITSectionButton */ = {
+			isa = PBXGroup;
+			children = (
+				4AA785D8201D655400C16251 /* LITCellForSectionButton.m */,
+				4AA785D9201D655400C16251 /* LITItemForSectionButton.h */,
+				4AA785DA201D655400C16251 /* LITSectionButton.h */,
+				4AA785DB201D655400C16251 /* LITCellForSectionButton.h */,
+				4AA785DC201D655400C16251 /* LITItemForSectionButton.m */,
+				4AA785DD201D655400C16251 /* LITSectionButton.m */,
+			);
+			path = LITSectionButton;
+			sourceTree = "<group>";
+		};
+		4AA785DE201D655400C16251 /* LITInputCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AA785DF201D655400C16251 /* LITTextFieldCell.h */,
+				4AA785E0201D655400C16251 /* LITTextFieldCellForm.m */,
+				4AA785E1201D655400C16251 /* LITTextFieldCellFormPassword.h */,
+				4AA785E2201D655400C16251 /* LITTextFieldCellForm.h */,
+				4AA785E3201D655400C16251 /* LITTextFieldCell.m */,
+				4AA785E4201D655400C16251 /* LITTextFieldCellFormPassword.m */,
+			);
+			path = LITInputCell;
+			sourceTree = "<group>";
+		};
+		4AA785EE201D655500C16251 /* LITCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AA785EF201D655500C16251 /* LITCell+Borders.m */,
+				4AA785F0201D655500C16251 /* LITCellSeparator.h */,
+				4AA785F1201D655500C16251 /* LITCell.m */,
+				4AA785F2201D655500C16251 /* LITCellSpace.m */,
+				4AA785F3201D655500C16251 /* LITCellSpaceAsBG.m */,
+				4AA785F4201D655500C16251 /* LITCellValueStoredInAssociatedVC.h */,
+				4AA785F5201D655500C16251 /* LITCellCharacter.m */,
+				4AA785F6201D655500C16251 /* LITCellBigTick.m */,
+				4AA785F7201D655500C16251 /* LITCell.h */,
+				4AA785F8201D655500C16251 /* LITCellSeparator.m */,
+				4AA785F9201D655500C16251 /* LITCell+Borders.h */,
+				4AA785FA201D655500C16251 /* LITCellSpace.h */,
+				4AA785FB201D655500C16251 /* LITCellCharacter.h */,
+				4AA785FC201D655500C16251 /* LITCellValueStoredInAssociatedVC.m */,
+				4AA785FD201D655500C16251 /* LITCellSpaceAsBG.h */,
+				4AA785FE201D655500C16251 /* LITCellBigTick.h */,
+			);
+			path = LITCell;
+			sourceTree = "<group>";
+		};
+		4AA7862E201D655600C16251 /* LITHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7862F201D655600C16251 /* LITHeaderViewTitledCheckBox.m */,
+				4AA78630201D655600C16251 /* LITHeaderViewHorizontalUnits.m */,
+				4AA78631201D655600C16251 /* LITHeaderViewSmallLight.h */,
+				4AA78632201D655600C16251 /* LITHeaderViewTinyDark.m */,
+				4AA78633201D655600C16251 /* LITHeaderViewMediumDark.m */,
+				4AA78634201D655600C16251 /* LITHeaderView.m */,
+				4AA78635201D655600C16251 /* LITHeaderViewSmallLight.m */,
+				4AA78636201D655600C16251 /* LITHeaderViewHorizontalUnits.h */,
+				4AA78637201D655600C16251 /* LITHeaderViewTitledCheckBox.h */,
+				4AA78638201D655600C16251 /* LITHeaderViewMediumDark.h */,
+				4AA78639201D655600C16251 /* LITHeaderViewTinyDark.h */,
+				4AA7863A201D655600C16251 /* LITHeaderView.h */,
+			);
+			path = LITHeaderView;
+			sourceTree = "<group>";
+		};
+		4AA7863B201D655600C16251 /* LITSectionUnit */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7863C201D655600C16251 /* LITSectionUnit.m */,
+				4AA7863D201D655600C16251 /* LITSectionUnit.h */,
+			);
+			path = LITSectionUnit;
+			sourceTree = "<group>";
+		};
+		4AA78650201D655700C16251 /* LITTipCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78651201D655700C16251 /* LITTipCellCenterDark.m */,
+				4AA78652201D655700C16251 /* LITTipCell.m */,
+				4AA78653201D655700C16251 /* LITTipCellDarkTextNormalBG.h */,
+				4AA78654201D655700C16251 /* LITTipCellCenterDark.h */,
+				4AA78655201D655700C16251 /* LITTipCell.h */,
+				4AA78656201D655700C16251 /* LITTipCellDarkTextNormalBG.m */,
+			);
+			path = LITTipCell;
+			sourceTree = "<group>";
+		};
+		4AA78711201D655B00C16251 /* LITValueCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AA78712201D655B00C16251 /* LITTextCellMultiLine.m */,
+				4AA78713201D655B00C16251 /* LITTextCellLongTitle.h */,
+				4AA78714201D655B00C16251 /* LITTextCell.m */,
+				4AA78715201D655B00C16251 /* LITTextCellFormLongValue.h */,
+				4AA78716201D655B00C16251 /* LITCellBackgroundTip.m */,
+				4AA78717201D655B00C16251 /* LITTextCellTitleOnly.h */,
+				4AA78718201D655B00C16251 /* LITTextCellLongValue.h */,
+				4AA78719201D655B00C16251 /* LITTextCell.h */,
+				4AA7871A201D655B00C16251 /* LITTextCellLongTitle.m */,
+				4AA7871B201D655B00C16251 /* LITTextCellMultiLine.h */,
+				4AA7871C201D655B00C16251 /* LITTextCellFormLongValue.m */,
+				4AA7871D201D655B00C16251 /* LITTextCellLongValue.m */,
+				4AA7871E201D655B00C16251 /* LITTextCellTitleOnly.m */,
+				4AA7871F201D655B00C16251 /* LITCellBackgroundTip.h */,
+			);
+			path = LITValueCell;
+			sourceTree = "<group>";
+		};
+		4AA7875C201D655C00C16251 /* LITTriggerCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7875D201D655C00C16251 /* LITTriggerCell.h */,
+				4AA7875E201D655C00C16251 /* LITTriggerCellLongValue.m */,
+				4AA7875F201D655C00C16251 /* LITTriggerCellFormLongValue.h */,
+				4AA78760201D655C00C16251 /* LITTriggerCellLongTitle.m */,
+				4AA78761201D655C00C16251 /* LITTriggerCellLongValue.h */,
+				4AA78762201D655C00C16251 /* LITTriggerCell.m */,
+				4AA78763201D655C00C16251 /* LITTriggerCellLongTitle.h */,
+				4AA78764201D655C00C16251 /* LITTriggerCellFormLongValue.m */,
+			);
+			path = LITTriggerCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AA78270201D5A9400C16251 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA7888D201D655F00C16251 /* LITTextCellLongTitle.h in Headers */,
+				4AA787BE201D655E00C16251 /* LITHeaderViewSmallLight.h in Headers */,
+				4AA788D8201D655F00C16251 /* LITTriggerCellLongTitle.h in Headers */,
+				4AA787C5201D655E00C16251 /* LITHeaderViewMediumDark.h in Headers */,
+				4AA787C6201D655E00C16251 /* LITHeaderViewTinyDark.h in Headers */,
+				4AA78771201D655E00C16251 /* LITSectionButton.h in Headers */,
+				4AA788D2201D655F00C16251 /* LITTriggerCell.h in Headers */,
+				4AA78778201D655E00C16251 /* LITTextFieldCellForm.h in Headers */,
+				4AA78770201D655E00C16251 /* LITItemForSectionButton.h in Headers */,
+				4AA788D4201D655F00C16251 /* LITTriggerCellFormLongValue.h in Headers */,
+				4AA78855201D655E00C16251 /* NSObject+SectionUtils.h in Headers */,
+				4AA78777201D655E00C16251 /* LITTextFieldCellFormPassword.h in Headers */,
+				4AA787C3201D655E00C16251 /* LITHeaderViewHorizontalUnits.h in Headers */,
+				4AA787C9201D655E00C16251 /* LITSectionUnit.h in Headers */,
+				4AA7878B201D655E00C16251 /* LITCell.h in Headers */,
+				4AA7878D201D655E00C16251 /* LITCell+Borders.h in Headers */,
+				4AA7888F201D655F00C16251 /* LITTextCellFormLongValue.h in Headers */,
+				4AA788D6201D655F00C16251 /* LITTriggerCellLongValue.h in Headers */,
+				4AA787DE201D655E00C16251 /* LITTipCell.h in Headers */,
+				4AA787C4201D655E00C16251 /* LITHeaderViewTitledCheckBox.h in Headers */,
+				4AA787E8201D655E00C16251 /* LITHorizontalUnitsCell.h in Headers */,
+				4AA7889F201D655F00C16251 /* LITVCCore.h in Headers */,
+				4AA78887201D655F00C16251 /* DAView.h in Headers */,
+				4AA78792201D655E00C16251 /* LITCellBigTick.h in Headers */,
+				4AA787C7201D655E00C16251 /* LITHeaderView.h in Headers */,
+				4AA78899201D655F00C16251 /* LITCellBackgroundTip.h in Headers */,
+				4AA78791201D655E00C16251 /* LITCellSpaceAsBG.h in Headers */,
+				4AA787DC201D655E00C16251 /* LITTipCellDarkTextNormalBG.h in Headers */,
+				4AA78891201D655F00C16251 /* LITTextCellTitleOnly.h in Headers */,
+				4AA78895201D655F00C16251 /* LITTextCellMultiLine.h in Headers */,
+				4AA787DD201D655E00C16251 /* LITTipCellCenterDark.h in Headers */,
+				4AA78775201D655E00C16251 /* LITTextFieldCell.h in Headers */,
+				4AA78772201D655E00C16251 /* LITCellForSectionButton.h in Headers */,
+				4AA7878F201D655E00C16251 /* LITCellCharacter.h in Headers */,
+				4AA78893201D655F00C16251 /* LITTextCell.h in Headers */,
+				4AA7889E201D655F00C16251 /* LITWindow.h in Headers */,
+				4AA78788201D655E00C16251 /* LITCellValueStoredInAssociatedVC.h in Headers */,
+				4AA78784201D655E00C16251 /* LITCellSeparator.h in Headers */,
+				4AA78892201D655F00C16251 /* LITTextCellLongValue.h in Headers */,
+				4AA78780201D655E00C16251 /* DAActivityViewController.h in Headers */,
+				4AA7878E201D655E00C16251 /* LITCellSpace.h in Headers */,
+				4AA78888201D655F00C16251 /* LITVC.h in Headers */,
+				4AA78278201D5A9400C16251 /* LITUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AA78272201D5A9400C16251 /* LITUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA7827B201D5A9400C16251 /* Build configuration list for PBXNativeTarget "LITUI" */;
+			buildPhases = (
+				4AA7826E201D5A9400C16251 /* Sources */,
+				4AA7826F201D5A9400C16251 /* Frameworks */,
+				4AA78270201D5A9400C16251 /* Headers */,
+				4AA78271201D5A9400C16251 /* Resources */,
+				4AA7827E201D5AA400C16251 /* lipo */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LITUI;
+			productName = LITUI;
+			productReference = 4AA78273201D5A9400C16251 /* LITUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA7826A201D5A9400C16251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = abovegem;
+				TargetAttributes = {
+					4AA78272201D5A9400C16251 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4AA7826D201D5A9400C16251 /* Build configuration list for PBXProject "LITUI" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AA78269201D5A9400C16251;
+			productRefGroup = 4AA78274201D5A9400C16251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA78272201D5A9400C16251 /* LITUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA78271201D5A9400C16251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AA7827E201D5AA400C16251 /* lipo */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = lipo;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ..\n./do_lipo_for_framework.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA7826E201D5A9400C16251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA7878A201D655E00C16251 /* LITCellBigTick.m in Sources */,
+				4AA787BC201D655E00C16251 /* LITHeaderViewTitledCheckBox.m in Sources */,
+				4AA78890201D655F00C16251 /* LITCellBackgroundTip.m in Sources */,
+				4AA7885A201D655E00C16251 /* NSObject+SectionUtils.m in Sources */,
+				4AA78897201D655F00C16251 /* LITTextCellLongValue.m in Sources */,
+				4AA78786201D655E00C16251 /* LITCellSpace.m in Sources */,
+				4AA78779201D655E00C16251 /* LITTextFieldCell.m in Sources */,
+				4AA78783201D655E00C16251 /* LITCell+Borders.m in Sources */,
+				4AA787DB201D655E00C16251 /* LITTipCell.m in Sources */,
+				4AA7877A201D655E00C16251 /* LITTextFieldCellFormPassword.m in Sources */,
+				4AA78789201D655E00C16251 /* LITCellCharacter.m in Sources */,
+				4AA7888E201D655F00C16251 /* LITTextCell.m in Sources */,
+				4AA788D9201D655F00C16251 /* LITTriggerCellFormLongValue.m in Sources */,
+				4AA7888C201D655F00C16251 /* LITTextCellMultiLine.m in Sources */,
+				4AA78785201D655E00C16251 /* LITCell.m in Sources */,
+				4AA787C8201D655E00C16251 /* LITSectionUnit.m in Sources */,
+				4AA787C1201D655E00C16251 /* LITHeaderView.m in Sources */,
+				4AA787DA201D655E00C16251 /* LITTipCellCenterDark.m in Sources */,
+				4AA787D2201D655E00C16251 /* LITHorizontalUnitsCell.m in Sources */,
+				4AA7878C201D655E00C16251 /* LITCellSeparator.m in Sources */,
+				4AA787C2201D655E00C16251 /* LITHeaderViewSmallLight.m in Sources */,
+				4AA78774201D655E00C16251 /* LITSectionButton.m in Sources */,
+				4AA7889C201D655F00C16251 /* LITVCCore.m in Sources */,
+				4AA78790201D655E00C16251 /* LITCellValueStoredInAssociatedVC.m in Sources */,
+				4AA7876F201D655E00C16251 /* LITCellForSectionButton.m in Sources */,
+				4AA788D3201D655F00C16251 /* LITTriggerCellLongValue.m in Sources */,
+				4AA787BD201D655E00C16251 /* LITHeaderViewHorizontalUnits.m in Sources */,
+				4AA788D7201D655F00C16251 /* LITTriggerCell.m in Sources */,
+				4AA78894201D655F00C16251 /* LITTextCellLongTitle.m in Sources */,
+				4AA788D5201D655F00C16251 /* LITTriggerCellLongTitle.m in Sources */,
+				4AA788DA201D655F00C16251 /* LITVC.m in Sources */,
+				4AA78776201D655E00C16251 /* LITTextFieldCellForm.m in Sources */,
+				4AA78898201D655F00C16251 /* LITTextCellTitleOnly.m in Sources */,
+				4AA788DE201D655F00C16251 /* DAActivityViewController.m in Sources */,
+				4AA787BF201D655E00C16251 /* LITHeaderViewTinyDark.m in Sources */,
+				4AA7879D201D655E00C16251 /* LITWindow.m in Sources */,
+				4AA78896201D655F00C16251 /* LITTextCellFormLongValue.m in Sources */,
+				4AA787DF201D655E00C16251 /* LITTipCellDarkTextNormalBG.m in Sources */,
+				4AA787BB201D655E00C16251 /* DAView.m in Sources */,
+				4AA78773201D655E00C16251 /* LITItemForSectionButton.m in Sources */,
+				4AA787C0201D655E00C16251 /* LITHeaderViewMediumDark.m in Sources */,
+				4AA78787201D655E00C16251 /* LITCellSpaceAsBG.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AA78279201D5A9400C16251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AA7827A201D5A9400C16251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AA7827C201D5A9400C16251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LITUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abovegem.app.framework.LITUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AA7827D201D5A9400C16251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LITUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abovegem.app.framework.LITUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA7826D201D5A9400C16251 /* Build configuration list for PBXProject "LITUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA78279201D5A9400C16251 /* Debug */,
+				4AA7827A201D5A9400C16251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA7827B201D5A9400C16251 /* Build configuration list for PBXNativeTarget "LITUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA7827C201D5A9400C16251 /* Debug */,
+				4AA7827D201D5A9400C16251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AA7826A201D5A9400C16251 /* Project object */;
+}
