@@ -17,6 +17,7 @@
 + (void)test;
 
 + (NSString *)identifier;
+- (NSString *)identifier;
 
 + (BOOL)isIPad;
 + (BOOL)isNotIPad;

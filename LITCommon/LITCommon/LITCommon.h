@@ -24,6 +24,7 @@ FOUNDATION_EXPORT const unsigned char LITCommonVersionString[];
 #import <LITCommon/NSString+AGUtils.h>
 #import <LITCommon/NSString+DAUtils.h>
 #import <LITCommon/NSString+CSVUtils.h>
+#import <LITCommon/NSString+LITUtils.h>
 
 
 #import <LITCommon/NSData+DAUtils.h>

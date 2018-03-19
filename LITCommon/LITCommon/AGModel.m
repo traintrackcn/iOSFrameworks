@@ -9,8 +9,9 @@
 #import "AGModel.h"
 #import "DSValueUtil.h"
 #import "GlobalDefine.h"
-#import "AGDateUtil.h"
+//#import "AGDateUtil.h"
 #import <objc/runtime.h>
+#import "NSString+LITUtils.h"
 //#import "DSNumberUtil.h"
 
 @interface AGModel(){
@@ -124,12 +125,14 @@
 - (NSDate *)dateForKey:(NSString *)key{
     NSString *value = [DSValueUtil toString:[self.raw objectForKey:key]];
 //    [self setBirthDate:d];
-    return [AGDateUtil dateFromString:value];
+//    return [AGDateUtil dateFromString:value];
+    return [value date];
 }
 
 - (NSDate *)dateForKey:(NSString *)key withTimeZone:(NSTimeZone *)timeZone{
     NSString *value = [DSValueUtil toString:[self.raw objectForKey:key]];
-    return [AGDateUtil dateFromString:value withTimeZone:timeZone];
+//    return [AGDateUtil dateFromString:value withTimeZone:timeZone];
+    return [value dateWithTimeZone:timeZone];
 }
 
 - (NSString *)stringForKey:(NSString *)key{

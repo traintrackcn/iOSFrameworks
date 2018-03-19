@@ -96,26 +96,28 @@
     TLOG(@"%@", self.className);
     [super viewDidAppear:animated];
     
-//    if (self.flagDoReload) {
-//        [self willDoReload];
-//        [self setFlagDoReload:NO];
-//    }
-    
     if (self.needsReloadIndexPath) {
-        @try {
-            [self reloadIndexPath:self.needsReloadIndexPath];
-            [self setNeedsReloadIndexPath:nil];
-        } @catch (NSException *exception) {
-            TLOG(@"exception -> %@", exception);
-        }
-        
+        [self reloadIndexPathAsNeeded];
+        [self setNeedsReloadIndexPath:nil];
     }
-    
     TLOG(@"needsReloadAll -> %@", @(self.needsReloadAll));
     if (self.needsReloadAll){
-        [self reloadVisibleIndexPaths];
+        [self reloadAllAsNeeded];
         [self setNeedsReloadAll:NO];
     }
+}
+
+- (void)reloadIndexPathAsNeeded{
+    @try {
+        [self reloadIndexPath:self.needsReloadIndexPath];
+        
+    } @catch (NSException *exception) {
+        TLOG(@"exception -> %@", exception);
+    }
+}
+
+- (void)reloadAllAsNeeded{
+    [self reloadVisibleIndexPaths];
 }
 
 - (void)viewWillDisappear:(BOOL)animated{
@@ -327,6 +329,11 @@
 
 - (BOOL)cacheEveryCell{
     return NO;
+}
+
+- (BOOL)dismissingFromNaviC{
+    if (self.navigationController) return NO;
+    return YES;
 }
 
 - (AGViewController *)previousViewController{

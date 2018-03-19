@@ -88,6 +88,12 @@
 - (id)ws;
 
 
+- (void)reloadAllAsNeeded; //for override only
+- (void)reloadIndexPathAsNeeded; //for override only
+
+
+- (BOOL)dismissingFromNaviC;
+
 @property (nonatomic, copy) NSIndexPath *associatedIndexPath;
 
 @property (nonatomic, strong) UIColor *backgroundColor;
@@ -95,6 +101,7 @@
 //@property (nonatomic, assign) BOOL flagDoReload;
 
 @property (nonatomic, weak) id previousViewController;
+
 
 
 @end

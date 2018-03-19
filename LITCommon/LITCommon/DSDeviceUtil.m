@@ -32,6 +32,10 @@
 }
 
 
+- (NSString *)identifier{
+    return [self.class identifier];
+}
+
 + (void)test{
 //    TLOG(@"model -> %@",[[UIDevice currentDevice] model]);
 }

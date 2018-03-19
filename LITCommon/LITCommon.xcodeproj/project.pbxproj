@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A24C8D3205F8E4D00BC261B /* NSString+LITUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A24C8D1205F8E4D00BC261B /* NSString+LITUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A24C8D4205F8E4D00BC261B /* NSString+LITUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A24C8D2205F8E4D00BC261B /* NSString+LITUtils.m */; };
 		4A44E1FC201CB72800DB9997 /* NSObject+Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44E1FA201CB72800DB9997 /* NSObject+Singleton.m */; };
 		4A44E1FD201CB72800DB9997 /* NSObject+Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A44E1FB201CB72800DB9997 /* NSObject+Singleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A44E1FE201CB86600DB9997 /* LITCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A44E1F0201CB61800DB9997 /* LITCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,6 +58,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A24C8D1205F8E4D00BC261B /* NSString+LITUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LITUtils.h"; sourceTree = "<group>"; };
+		4A24C8D2205F8E4D00BC261B /* NSString+LITUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LITUtils.m"; sourceTree = "<group>"; };
 		4A44E1ED201CB61800DB9997 /* LITCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LITCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A44E1F0201CB61800DB9997 /* LITCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITCommon.h; sourceTree = "<group>"; };
 		4A44E1F1201CB61800DB9997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -169,6 +173,8 @@
 				4AA7813E201CD93800C16251 /* NSString+DAUtils.m */,
 				4AA7897B201D79F000C16251 /* NSString+CSVUtils.h */,
 				4AA7897C201D79F000C16251 /* NSString+CSVUtils.m */,
+				4A24C8D1205F8E4D00BC261B /* NSString+LITUtils.h */,
+				4A24C8D2205F8E4D00BC261B /* NSString+LITUtils.m */,
 				4AA78138201CD93700C16251 /* ObjectPool */,
 				4A44E1F0201CB61800DB9997 /* LITCommon.h */,
 				4A44E1F1201CB61800DB9997 /* Info.plist */,
@@ -273,6 +279,7 @@
 				4AA78CCF201EBBB900C16251 /* CHCSVParser.h in Headers */,
 				4AA78CD4201EBBD300C16251 /* CreditCard-Validator.h in Headers */,
 				4AA7897D201D79F000C16251 /* NSString+CSVUtils.h in Headers */,
+				4A24C8D3205F8E4D00BC261B /* NSString+LITUtils.h in Headers */,
 				4A44E1FE201CB86600DB9997 /* LITCommon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +392,7 @@
 				4A44E25D201CBB3B00DB9997 /* GTMNSString+HTML.m in Sources */,
 				4AA7816B201CD93800C16251 /* NSNumber+AGUtils.m in Sources */,
 				4AA78166201CD93800C16251 /* NSString+DAUtils.m in Sources */,
+				4A24C8D4205F8E4D00BC261B /* NSString+LITUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
