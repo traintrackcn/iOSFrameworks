@@ -18,6 +18,7 @@
 @property (nonatomic, strong) void(^completion)(id data, id error);
 @property (nonatomic, assign) BOOL loading;
 @property (nonatomic, strong) id responseMetaData;
+@property (nonatomic, strong) id responseHeaders;
 
 @end
 
@@ -56,14 +57,15 @@
     [self setLoading:YES];
     DARequestUniversal *l = [DARequestUniversal instance];
     [l requestWithCompletion:^(id data, id error) {
-        [self requestCallback:data error:error meta:l.responseMetaData];
+        [self requestCallback:data error:error responseMeta:l.responseMetaData responseHeaders:l.responseHeaders];
     } method:self.method requestType:self.requestType requestBody:requestBody protocolVersion:self.protocolVersion headers:self.headers];
     
 }
 
-- (void)requestCallback:(id)data error:(id)error meta:(id)meta{
+- (void)requestCallback:(id)data error:(id)error responseMeta:(id)meta responseHeaders:(id)headers{
     
     [self setResponseMetaData:meta];
+    [self setResponseHeaders:headers];
     
     if (error) {
         [self completion:data error:error];

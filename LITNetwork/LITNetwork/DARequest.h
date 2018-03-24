@@ -19,6 +19,7 @@
 
 - (AGRemoteUnit *)rUnit;
 - (id)responseMetaData;
+- (id)responseHeaders;
 
 - (NSInteger)method;
 - (id)requestType:(id)userInfo;

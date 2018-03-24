@@ -17,6 +17,7 @@
 
 @property (nonatomic, weak) DARequest *ws;
 @property (nonatomic, strong) id responseMetaData;
+@property (nonatomic, strong) id responseHeaders;
 //@property (nonatomic, strong) AGRemoteUnit *rUnit;
 
 @end
@@ -56,6 +57,7 @@
 - (void)requestCallbackWithCompletion:(void (^)(id, id))completion data:(id)data error:(id)error userInfo:(id)userInfo rUnit:(AGRemoteUnit *)rUnit{
 //        TLOG(@"data -> %@", data);
     [self setResponseMetaData:rUnit.responseMetaData];
+    [self setResponseHeaders:rUnit.responseHeaders];
     
     if (error) {
 //        completion(nil, error);

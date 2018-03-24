@@ -34,6 +34,7 @@
 - (BOOL)debug;
 - (BOOL)loading;
 - (id)responseMetaData;
+- (id)responseHeaders;
 
 #pragma mark - utils
 - (id)decodeJSONString:(id)data;
