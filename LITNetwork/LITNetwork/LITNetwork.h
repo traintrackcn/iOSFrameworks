@@ -21,6 +21,7 @@ FOUNDATION_EXPORT const unsigned char LITNetworkVersionString[];
 #import <LITNetwork/AFNetworkActivityIndicatorManager.h>
 #import <LITNetwork/AFURLResponseSerialization.h>
 #import <LITNetwork/AFSecurityPolicy.h>
+#import <LITNetwork/AFHTTPRequestOperationManager.h>
 
 #import <LITNetwork/UIImage+AFNetworking.h>
 #import <LITNetwork/UIImageView+AFNetworking.h>

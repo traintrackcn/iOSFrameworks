@@ -182,7 +182,7 @@
 }
 
 - (void)remoterErrorOccured:(AGRemoterResult *)result requestType:(NSString *)requestType{
-    TLOG(@"");
+    TLOG(@"result -> %@", @(result.code));
     [self setResponseError:result.errorParsed];
     [self executeBlock];
 }

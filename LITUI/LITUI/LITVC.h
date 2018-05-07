@@ -75,7 +75,7 @@
 
 #pragma mark - error handlers
 - (BOOL)setMessagesForError:(id)error;
-
+- (NSArray *)messagesForError:(id)error;
 
 #pragma mark - cell request
 
@@ -93,6 +93,7 @@
 
 
 - (BOOL)dismissingFromNaviC;
+- (BOOL)initialized;
 
 @property (nonatomic, copy) NSIndexPath *associatedIndexPath;
 

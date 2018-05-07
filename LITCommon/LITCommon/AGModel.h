@@ -37,7 +37,7 @@
 - (BOOL)isAvailableForKey:(NSString *)key;
 - (id)objectForKey:(NSString *)key;
 
-- (void)assignValueWithKey:(NSString *)key toDic:(NSMutableDictionary *)d;
+- (void)assignValueWithKey:(NSString *)key fromRaw:(id)raw toNewRaw:(NSMutableDictionary *)newRaw;
 
 //- (void)setStringForKey:(NSString *)key selector:(SEL)selector;
 //- (NSArray *)propertyNames;

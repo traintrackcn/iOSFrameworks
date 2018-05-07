@@ -105,6 +105,8 @@
         [self reloadAllAsNeeded];
         [self setNeedsReloadAll:NO];
     }
+    
+    [self setInitialized:YES];
 }
 
 - (void)reloadIndexPathAsNeeded{
@@ -496,6 +498,16 @@
     if (!error) return NO;
     
     
+    NSArray *failureMessages = [self messagesForError:error];
+    if (failureMessages.count){
+        [self setFailureMessages:failureMessages];
+        return YES;
+    }
+    
+    return NO;
+}
+
+- (NSArray *)messagesForError:(id)error{
     AGRemoterError *remoterError;
     NSArray *failureMessages;
     
@@ -506,16 +518,13 @@
         remoterError = error;
     }else if ( [error isKindOfClass:[NSArray class]]){
         failureMessages = error;
-        if (failureMessages.count == 0) return NO;
+//        if (failureMessages.count == 0) return NO;
     }
     
     if (remoterError) failureMessages = [remoterError messages];
-    if (failureMessages) [self setFailureMessages:failureMessages];
-    
-    return YES;
+//    if (failureMessages) [self setFailureMessages:failureMessages];
+    return failureMessages;
 }
-
-
 
 #pragma mark - associated cell ops
 

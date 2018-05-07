@@ -73,6 +73,7 @@ typedef NS_ENUM(NSInteger, CSVFieldIndex) {
 
 - (NSString *)rgbForValue:(NSString *)value{
     NSArray *arr = [value componentsSeparatedByString:@"|"];
+//    TLOG(@"arr -> %@", arr);
     NSString *rgbValue;
     id rgbStuff;
     for (NSInteger i = 0; i < arr.count; i++) {
@@ -80,7 +81,7 @@ typedef NS_ENUM(NSInteger, CSVFieldIndex) {
 //        TLOG(@"rgbStuff -> %@", rgbStuff);
         if ([self isRGBKey:rgbStuff]) {
             rgbStuff = [self.dic objectForKey:rgbStuff];
-//            TLOG(@"sub_rgbStuff -> %@", rgbStuff);
+//            TLOG(@"sub_rgbStuff -> %@ %@", rgbStuff, self.dic);
             if (rgbStuff) return [self rgbForValue:rgbStuff]; //continue search rgb value
         }else if ([self isRGBValue:rgbStuff]){
             rgbValue = rgbStuff;

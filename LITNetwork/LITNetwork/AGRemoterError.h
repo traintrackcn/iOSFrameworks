@@ -21,8 +21,12 @@
 - (id)headers;
 - (NSArray *)messages;
 
+- (NSArray *)codes;
+- (BOOL)contains:(NSString *)errorCode;
+
 @property (nonatomic, weak) AGRemoterResult *result;
 @property (nonatomic, strong) NSString *type;
+@property (nonatomic, strong) NSString *name;
 
 @property (nonatomic, strong) NSString *developMessage;
 @property (nonatomic, strong) NSString *localizedDesc;

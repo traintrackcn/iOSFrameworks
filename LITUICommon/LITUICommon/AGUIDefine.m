@@ -15,6 +15,36 @@
 
 @implementation AGUIDefine
 
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        AGStyleCoordinator *c = [AGStyleCoordinator singleton];
+        [c.dic addEntriesFromDictionary:@{
+                                          @"RGB_WHITE": @"255,255,255",
+                                          @"RGB_BLACK": @"0,0,0"
+                                          }];
+//        SET_COLOR(@"RGB_WHITE", @"255,255,255");
+//        SET_COLOR(@"RGB_BLACK", @"0,0,0");
+    }
+    return self;
+}
+
+#pragma mark - utils
+
+- (void)setColor:(NSString *)key value:(NSString *)value{
+    @try {
+        AGStyleCoordinator *c = [AGStyleCoordinator singleton];
+        [c.dic setValue:value forKey:key];
+    } @catch (NSException *exception) {
+        TLOG(@"e -> %@", exception);
+    } @finally {
+        
+    }
+    
+}
+
+#pragma mark -
+
 - (NSArray *)availableLanguages{
     if (_availableLanguages) {
         return _availableLanguages;

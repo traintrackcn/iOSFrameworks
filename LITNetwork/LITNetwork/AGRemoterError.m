@@ -21,6 +21,7 @@
 @property (nonatomic, strong) id message;
 @property (nonatomic, strong) id stack;
 @property (nonatomic, strong) id data;
+@property (nonatomic, strong) NSArray *codes;
 
 @end
 
@@ -31,6 +32,8 @@
 - (void)parseErrorRaw:(id)errorRaw{
     
     [self setRaw:errorRaw];
+    
+    TLOG(@"errorRaw -> %@", errorRaw);
     
     if ([self isAvailableForKey:@"error-code"]) {
         [self setType:[self stringForKey:@"error-code"]];
@@ -64,18 +67,24 @@
         [self setData:[self objectForKey:@"errorData"]];
     }
     
-    if ([self isAvailableForKey:@"data"]){
-        [self setData:[self objectForKey:@"data"]];
-    }
+//    if ([self isAvailableForKey:@"data"]){
+//        [self setData:[self objectForKey:@"data"]];
+//    }
     
 }
 
 
 - (void)parseResponseRaw:(id)responseRaw{
-//    TLOG(@"responseRaw -> %@", responseRaw);
+    TLOG(@"responseRaw -> %@", responseRaw);
+    if ([responseRaw objectForKey:@"error"]){
+        [self setName:[responseRaw objectForKey:@"error"]];
+        [self setMessage:[responseRaw objectForKey:@"error"]];
+    }
+    
     if ([responseRaw objectForKey:@"message"]){
         [self setMessage:[responseRaw objectForKey:@"message"]];
     }
+    
 }
 
 - (void)parseError:(NSError *)error{
@@ -108,6 +117,32 @@
     }
 }
 
+#pragma mark - setters
+
+- (void)setData:(id)data{
+    _data = data;
+    
+    if (![data isKindOfClass:[NSArray class]]) return;
+    NSArray *arr = data;
+    NSMutableArray *tmpArr = [NSMutableArray array];
+    for (NSInteger i = 0; i < arr.count; i++) {
+        id raw = [arr objectAtIndex:i];
+        TLOG(@"raw -> %@ %@", raw, [raw class]);
+        if ([raw isKindOfClass:[NSDictionary class]]) {
+            NSString *errorCode = [DSValueUtil toString:[raw objectForKey:@"errorCode"]];
+            [tmpArr addObject:errorCode];
+        }
+    }
+    [self setCodes:tmpArr];
+    
+    TLOG(@"errorCodes -> %@", self.codes);
+}
+
+#pragma mark -
+
+- (BOOL)contains:(NSString *)errorCode{
+    return [self.codes containsObject:errorCode];
+}
 
 #pragma mark - properties
 

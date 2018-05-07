@@ -149,44 +149,56 @@
 
 //convert NSNumber to float will lose precision. e.g 1558038.94 -> 1558039
 - (double)floatForKey:(NSString *)key{
+    id obj = [self objectForKey:key];
+    if (![DSValueUtil isAvailable:obj]) return 0;
     return [[self.raw objectForKey:key] doubleValue];
 }
 
 - (NSNumber *)numberForKey:(NSString *)key{
-    id object = [self objectForKey:key];
+    id obj = [self objectForKey:key];
     
     NSNumber *num;
     
-    if ([object isKindOfClass:[NSString class]]) {
-        num = [NSNumber numberWithDouble:[(NSString *)object doubleValue]];
+//    if (![DSValueUtil isAvailable:obj]) return @(0);
+    
+    if ([obj isKindOfClass:[NSString class]]) {
+        num = [NSNumber numberWithDouble:[(NSString *)obj doubleValue]];
     }
     
-    if ([object isKindOfClass:[NSNumber class]]) {
-        num = object;
+    if ([obj isKindOfClass:[NSNumber class]]) {
+        num = obj;
     }
     
     return num;
 }
 
 - (id)objectForKey:(NSString *)key{
-    return [self.raw objectForKey:key];
+    return [self.raw objectForKey:key]?[self.raw objectForKey:key]:[NSNull null];
 }
 
 - (NSInteger)integerForKey:(NSString *)key{
+    id obj = [self objectForKey:key];
+    if (![DSValueUtil isAvailable:obj]) return 0;
     return [[self objectForKey:key] integerValue];
 }
 
 - (BOOL)boolForKey:(NSString *)key{
+    id obj = [self objectForKey:key];
+    if (![DSValueUtil isAvailable:obj]) return NO;
     return [[self objectForKey:key] boolValue];
 }
 
 - (BOOL)isAvailableForKey:(NSString *)key{
     if (!self.raw) return NO;
+    if (![DSValueUtil isAvailable:self.raw]) return NO;
     return [DSValueUtil isAvailable:[self.raw objectForKey:key]];
 }
 
-- (void)assignValueWithKey:(NSString *)key toDic:(NSMutableDictionary *)d{
-    if ([self objectForKey:key]) [d setObject:[self objectForKey:key] forKey:key];
+- (void)assignValueWithKey:(NSString *)key fromRaw:(id)raw toNewRaw:(NSMutableDictionary *)newRaw{
+    id obj = [raw objectForKey:key];
+    if ([DSValueUtil isAvailable:obj]){
+        [newRaw setObject:obj forKey:key];
+    }
 }
 
 //- (void)setStringForKey:(NSString *)key selector:(SEL)selector{
