@@ -23,7 +23,7 @@
 @property (nonatomic, strong) NSDictionary *headers;
 
 @property (nonatomic, strong) NSString *method;
-@property (nonatomic, strong) NSString *protocolVersion;
+@property (nonatomic, strong) NSString *apiVersion;
 @property (nonatomic, retain) NSString *requestType;
 @property (nonatomic, strong) id requestBody;
 

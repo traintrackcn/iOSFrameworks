@@ -42,10 +42,19 @@
 #pragma mark - properties
 
 - (NSURL *)defaultURL{
-    NSMutableString* urlStr = [NSMutableString stringWithString:@"/"];
-    if (self.protocolVersion) [urlStr appendString:self.protocolVersion];
-    if (self.requestType) [urlStr appendFormat:@"/%@",self.requestType];
-    _defaultURL = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@%@", self.serverUrl, urlStr]];
+    NSMutableString* urlStr = [NSMutableString stringWithFormat:@"%@", self.serverUrl];
+    
+    if (self.apiVersion &&
+        ![self.apiVersion isEqualToString:BLANK_API_VERSION]) {
+        [urlStr appendFormat:@"/%@",self.apiVersion];
+    }
+    
+    if (self.requestType) {
+        [urlStr appendFormat:@"/%@",self.requestType];
+    }
+    
+    _defaultURL = [[NSURL alloc] initWithString:urlStr];
+    
     return _defaultURL;
 }
 
@@ -65,13 +74,13 @@
     return uuidStr;
 }
 
-- (NSString *)protocolVersion{
-    if (!_protocolVersion) return [AGNetworkDefine singleton].defaultProtocolVersion;
-    return _protocolVersion;
+- (NSString *)apiVersion{
+    if (!_apiVersion) return NETWORK.defaultProtocolVersion;
+    return _apiVersion;
 }
 
 - (NSString *)serverUrl{
-    if (!_serverUrl) return [AGNetworkDefine singleton].defaultServerUrl;
+    if (!_serverUrl) return NETWORK.defaultServerUrl;
     return _serverUrl;
 }
 

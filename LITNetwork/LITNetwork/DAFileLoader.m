@@ -62,6 +62,28 @@
     return operation;
 }
 
+#pragma mark -
 
+- (void)REQUEST:(NSURL *)fileURL completion:(void(^)(id data, id error))completion{
+    AFHTTPRequestOperation *operation = [self operationInstanceWithFileURL:fileURL completion:completion];
+    [self enqueue:operation];
+}
+
+- (AFHTTPRequestOperation *)operationInstanceWithFileURL:(NSURL *)fileURL completion:(void(^)(id, id))completion{
+    NSMutableURLRequest* rq = [NSMutableURLRequest requestWithURL:fileURL];
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:rq];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        completion(responseObject, nil);
+//        TLOG(@"file completed %@", localURL.absoluteString);
+        [self dequeue:operation];
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        completion(nil, error);
+        [self dequeue:operation];
+    }];
+    
+    //    [operation start];
+    return operation;
+}
 
 @end

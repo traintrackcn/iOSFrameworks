@@ -18,12 +18,12 @@
 
 @optional
 - (AGRemoteUnitMethod)method;
-- (NSString *)protocolVersion;
+- (NSString *)apiVersion;
 - (id)requestBody;
 //- (id)requestForm;
 - (id)cache;
 - (id)headers;
-
+- (id)serverUrl;
 
 @end
 
@@ -35,6 +35,7 @@
 - (BOOL)loading;
 - (id)responseMetaData;
 - (id)responseHeaders;
+- (void)cancel;
 
 #pragma mark - utils
 - (id)decodeJSONString:(id)data;

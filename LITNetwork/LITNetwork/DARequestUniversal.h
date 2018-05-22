@@ -17,7 +17,7 @@
 @interface DARequestUniversal : DARequest
 
 //
-- (void)requestWithCompletion:(void (^)(id, id))completion method:(NSInteger)method requestType:(id)requestType requestBody:(id)requestBody protocolVersion:(id)protocolVersion headers:(id)headers;
+- (void)requestWithCompletion:(void (^)(id, id))completion method:(NSInteger)method requestType:(id)requestType requestBody:(id)requestBody apiVersion:(id)apiVersion headers:(id)headers serverUrl:(id)serverUrl;
 
 - (void)requestWithCompletion:(void (^)(id, id))completion method:(NSInteger)method requestType:(id)requestType requestBody:(id)requestBody;
 - (void)requestWithRandomRequestIdWithCompletion:(void (^)(id, id))completion method:(NSInteger)method requestType:(id)requestType requestBody:(id)requestBody;

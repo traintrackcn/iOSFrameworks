@@ -26,8 +26,9 @@
 - (id)requestBody:(id)userInfo;
 - (id)thirdPartyUrl:(id)userInfo;
 - (id)thirdParthHeaders:(id)userInfo;
+- (id)serverUrl:(id)userInfo;
 - (id)headers:(id)userInfo;
-- (id)protocolVersion:(id)userInfo;
+- (id)apiVersion:(id)userInfo;
 - (NSTimeInterval)timeoutInterval;
 
 - (void)requestWithCompletion:(void (^)(id, id))completion;

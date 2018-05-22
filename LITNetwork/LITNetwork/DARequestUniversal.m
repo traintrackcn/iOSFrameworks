@@ -29,14 +29,15 @@
 
 #pragma mark - full function request
 
-- (void)requestWithCompletion:(void (^)(id, id))completion method:(NSInteger)method requestType:(id)requestType requestBody:(id)requestBody protocolVersion:(id)protocolVersion headers:(id)headers{
+- (void)requestWithCompletion:(void (^)(id, id))completion method:(NSInteger)method requestType:(id)requestType requestBody:(id)requestBody apiVersion:(id)apiVersion headers:(id)headers serverUrl:(id)serverUrl{
     NSMutableDictionary *userInfo = [NSMutableDictionary dictionary];
     //    @{
     //      @"request-type":requestType,
     if (requestType) [userInfo setValue:requestType forKey:@"request-type"];
     if (requestBody) [userInfo setValue:requestBody forKey:@"request-body"];
-    if (protocolVersion) [userInfo setValue:protocolVersion forKey:@"protocol-version"];
+    if (apiVersion) [userInfo setValue:apiVersion forKey:@"api-version"];
     if (headers) [userInfo setValue:headers forKey:@"headers"];
+    if (serverUrl) [userInfo setValue:serverUrl forKey:@"server-url"];
     
     _requestType = requestType;
     
@@ -50,7 +51,7 @@
 #pragma mark -
 
 - (void)requestWithCompletion:(void (^)(id, id))completion method:(NSInteger)method requestType:(id)requestType requestBody:(id)requestBody{
-    [self requestWithCompletion:completion method:method requestType:requestType requestBody:requestBody protocolVersion:nil headers:nil];
+    [self requestWithCompletion:completion method:method requestType:requestType requestBody:requestBody apiVersion:nil headers:nil serverUrl:nil];
 }
 
 - (void)requestWithRandomRequestIdWithCompletion:(void (^)(id, id))completion method:(NSInteger)method requestType:(id)requestType requestBody:(id)requestBody{
@@ -77,12 +78,16 @@
     return [userInfo objectForKey:@"request-body"];
 }
 
-- (id)protocolVersion:(id)userInfo{
-    return [userInfo objectForKey:@"protocol-version"];
+- (id)apiVersion:(id)userInfo{
+    return [userInfo objectForKey:@"api-version"];
 }
 
 - (id)headers:(id)userInfo{
     return [userInfo objectForKey:@"headers"];
+}
+
+- (id)serverUrl:(id)userInfo{
+    return [userInfo objectForKey:@"server-url"];
 }
 
 @end

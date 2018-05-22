@@ -38,6 +38,7 @@
 
 //#define AG_NETWORK_DEFINE [AGNetworkDefine singleton]
 #define NETWORK [AGNetworkDefine singleton]
+#define BLANK_API_VERSION @"BLANK_API_VERSION"
 
 @interface AGNetworkDefine : AGModel
 

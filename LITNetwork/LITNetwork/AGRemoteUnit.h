@@ -39,8 +39,9 @@ typedef NS_ENUM(NSInteger, AGRemoteUnitMethod) {
 @property (nonatomic, assign) AGRemoteUnitMethod method;
 @property (nonatomic, strong) NSString *requestType;
 @property (nonatomic, strong) id requestBody;
-@property (nonatomic, strong) NSString *protocolVersion;
+@property (nonatomic, strong) NSString *apiVersion;
 
+@property (nonatomic, strong) NSString *serverUrl;
 @property (nonatomic, strong) NSURL *thirdPartyUrl;
 @property (nonatomic, strong) id thirdPartyHeaders;
 @property (nonatomic, strong) id headers;

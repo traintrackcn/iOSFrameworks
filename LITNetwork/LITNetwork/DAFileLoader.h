@@ -17,4 +17,6 @@
 
 - (void)REQUEST:(NSURL *)fileURL localURL:(NSURL *)localURL completion:(void(^)(id data, id error))completion;
 
+- (void)REQUEST:(NSURL *)fileURL completion:(void(^)(id data, id error))completion;
+
 @end

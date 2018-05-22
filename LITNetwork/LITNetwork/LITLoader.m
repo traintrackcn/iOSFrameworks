@@ -12,7 +12,7 @@
 #import "DARequestUniversal.h"
 
 @interface LITLoader(){
-    
+    DARequestUniversal *_l;
 }
 
 @property (nonatomic, strong) void(^completion)(id data, id error);
@@ -20,9 +20,18 @@
 @property (nonatomic, strong) id responseMetaData;
 @property (nonatomic, strong) id responseHeaders;
 
+
+
 @end
 
 @implementation LITLoader
+
+
+- (void)cancel{
+    [_l cancel];
+}
+
+#pragma mark -
 
 - (void)dealloc{
     
@@ -55,10 +64,10 @@
     }
     
     [self setLoading:YES];
-    DARequestUniversal *l = [DARequestUniversal instance];
-    [l requestWithCompletion:^(id data, id error) {
-        [self requestCallback:data error:error responseMeta:l.responseMetaData responseHeaders:l.responseHeaders];
-    } method:self.method requestType:self.requestType requestBody:requestBody protocolVersion:self.protocolVersion headers:self.headers];
+    _l = [DARequestUniversal instance];
+    [_l requestWithCompletion:^(id data, id error) {
+        [self requestCallback:data error:error responseMeta:_l.responseMetaData responseHeaders:_l.responseHeaders];
+    } method:self.method requestType:self.requestType requestBody:requestBody apiVersion:self.apiVersion headers:self.headers serverUrl:self.serverUrl];
     
 }
 
@@ -81,6 +90,8 @@
     [self setCompletion:nil];
     
     [self setLoading:NO];
+    
+    _l = nil;
 }
 
 - (void)parse:(id)data{
@@ -133,9 +144,9 @@
     return nil;
 }
 
-- (id)protocolVersion{
-    if (_delegate && [_delegate respondsToSelector:@selector(protocolVersion)]){
-        return [_delegate protocolVersion];
+- (id)apiVersion{
+    if (_delegate && [_delegate respondsToSelector:@selector(apiVersion)]){
+        return [_delegate apiVersion];
     }
     return nil;
 }
@@ -143,6 +154,13 @@
 - (id)headers{
     if (_delegate && [_delegate respondsToSelector:@selector(headers)]){
         return [_delegate headers];
+    }
+    return nil;
+}
+
+- (id)serverUrl{
+    if (_delegate && [_delegate respondsToSelector:@selector(serverUrl)]){
+        return [_delegate serverUrl];
     }
     return nil;
 }

@@ -64,10 +64,11 @@
     [_requestInfo setHideActivityIndicator:self.hideActivityIndicator];
     if (self.requestType) [_requestInfo setRequestType:self.requestType];
     if (self.requestBody) [_requestInfo setRequestBody:self.requestBody];
-    if (self.protocolVersion) [_requestInfo setProtocolVersion:self.protocolVersion];
+    if (self.apiVersion) [_requestInfo setApiVersion:self.apiVersion];
     if (self.thirdPartyUrl) [_requestInfo setThirdPartyUrl:self.thirdPartyUrl];
     if (self.thirdPartyHeaders) [_requestInfo setThirdPartyHeaders:self.thirdPartyHeaders];
     if (self.headers) [_requestInfo setHeaders:self.headers];
+    if (self.serverUrl) [_requestInfo setServerUrl:self.serverUrl];
     [_requestInfo setTimeoutInterval:self.timeoutInterval];
     return _requestInfo;
 }

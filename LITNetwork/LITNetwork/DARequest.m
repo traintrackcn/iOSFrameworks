@@ -89,14 +89,16 @@
     id thirdPartyUrl = [self thirdPartyUrl:userInfo];
     id thirdPartyHeaders = [self thirdParthHeaders:userInfo];
     id headers = [self headers:userInfo];
-    id protocolVersion = [self protocolVersion:userInfo];
+    id apiVersion = [self apiVersion:userInfo];
+    id serverUrl = [self serverUrl:userInfo];
     
     if (requestType) [_rUnit setRequestType:requestType];
     if (requestBody) [_rUnit setRequestBody:requestBody];
     if (thirdPartyUrl) [_rUnit setThirdPartyUrl:thirdPartyUrl];
     if (thirdPartyHeaders) [_rUnit setThirdPartyHeaders:thirdPartyHeaders];
     if (headers) [_rUnit setHeaders:headers];
-    if (protocolVersion) [_rUnit setProtocolVersion:protocolVersion];
+    if (apiVersion) [_rUnit setApiVersion:apiVersion];
+    if (serverUrl) [_rUnit setServerUrl:serverUrl];
 //    if (requestForm) [_rUnit setRequestForm:requestForm];
 //    TLOG(@"thirdPartyUrl -> %@", thirdPartyUrl);
     
@@ -129,7 +131,11 @@
     return nil;
 }
 
-- (id)protocolVersion:(id)userInfo{
+- (id)apiVersion:(id)userInfo{
+    return nil;
+}
+
+- (id)serverUrl:(id)userInfo{
     return nil;
 }
 

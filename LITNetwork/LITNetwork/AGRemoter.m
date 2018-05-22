@@ -299,12 +299,12 @@
 #pragma mark -
 
 
-- (void)REQUEST:(NSString *)requestType method:(NSString *)method requestBody:(id)requestBody randomRequestId:(BOOL)randomRequestId protocolVersion:(NSString *)protocolVersion{
+- (void)REQUEST:(NSString *)requestType method:(NSString *)method requestBody:(id)requestBody randomRequestId:(BOOL)randomRequestId apiVersion:(NSString *)apiVersion{
     DSRequestInfo *req = [DSRequestInfo instance];
     [req setRequestType:requestType];
     [req setRequestBody:requestBody];
     [req setMethod:method];
-    [req setProtocolVersion:protocolVersion];
+    [req setApiVersion:apiVersion];
     [req setRandomRequestId:randomRequestId];
     [self send:req];
 }
