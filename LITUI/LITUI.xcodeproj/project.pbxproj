@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1391AA20B62E87007C77B2 /* LITCollectionLayoutFullGridItems.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A13919C20B62E87007C77B2 /* LITCollectionLayoutFullGridItems.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A1391AB20B62E87007C77B2 /* LITCollectionLayoutFullGridItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13919D20B62E87007C77B2 /* LITCollectionLayoutFullGridItems.m */; };
+		4A1391AC20B62E87007C77B2 /* LITCollectionLayoutPageItems.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A13919E20B62E87007C77B2 /* LITCollectionLayoutPageItems.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A1391AD20B62E87007C77B2 /* LITCollectionLayoutPageItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13919F20B62E87007C77B2 /* LITCollectionLayoutPageItems.m */; };
+		4A1391AE20B62E87007C77B2 /* LITCollectionLayoutTwoItemsALine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1391A020B62E87007C77B2 /* LITCollectionLayoutTwoItemsALine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A1391AF20B62E87007C77B2 /* LITCollectionLayoutTwoItemsALine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1391A120B62E87007C77B2 /* LITCollectionLayoutTwoItemsALine.m */; };
+		4A1391B020B62E87007C77B2 /* LITCollectionLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1391A220B62E87007C77B2 /* LITCollectionLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A1391B120B62E87007C77B2 /* LITCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1391A320B62E87007C77B2 /* LITCollectionLayout.m */; };
+		4A1391B220B62E87007C77B2 /* LITCollectionLayoutHorizontalUnits.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1391A420B62E87007C77B2 /* LITCollectionLayoutHorizontalUnits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A1391B320B62E87007C77B2 /* LITCollectionLayoutHorizontalUnits.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1391A520B62E87007C77B2 /* LITCollectionLayoutHorizontalUnits.m */; };
+		4A1391B420B62E87007C77B2 /* LITCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1391A620B62E87007C77B2 /* LITCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A1391B520B62E87007C77B2 /* LITCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1391A720B62E87007C77B2 /* LITCollectionView.m */; };
+		4A1391B620B62E87007C77B2 /* LITCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1391A820B62E87007C77B2 /* LITCollectionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A1391B720B62E87007C77B2 /* LITCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1391A920B62E87007C77B2 /* LITCollectionCell.m */; };
+		4A85D1D920B632FC0093FDBE /* LITHorizontalUnitsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1391BA20B6305C007C77B2 /* LITHorizontalUnitsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A85D1DA20B634B70093FDBE /* LITHorizontalUnitsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1391BB20B6305C007C77B2 /* LITHorizontalUnitsCell.m */; };
 		4AA78278201D5A9400C16251 /* LITUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78276201D5A9400C16251 /* LITUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA7876F201D655E00C16251 /* LITCellForSectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785D8201D655400C16251 /* LITCellForSectionButton.m */; };
 		4AA78770201D655E00C16251 /* LITItemForSectionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785D9201D655400C16251 /* LITItemForSectionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,14 +69,12 @@
 		4AA787C7201D655E00C16251 /* LITHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7863A201D655600C16251 /* LITHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA787C8201D655E00C16251 /* LITSectionUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7863C201D655600C16251 /* LITSectionUnit.m */; };
 		4AA787C9201D655E00C16251 /* LITSectionUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7863D201D655600C16251 /* LITSectionUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AA787D2201D655E00C16251 /* LITHorizontalUnitsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78647201D655700C16251 /* LITHorizontalUnitsCell.m */; };
 		4AA787DA201D655E00C16251 /* LITTipCellCenterDark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78651201D655700C16251 /* LITTipCellCenterDark.m */; };
 		4AA787DB201D655E00C16251 /* LITTipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78652201D655700C16251 /* LITTipCell.m */; };
 		4AA787DC201D655E00C16251 /* LITTipCellDarkTextNormalBG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78653201D655700C16251 /* LITTipCellDarkTextNormalBG.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA787DD201D655E00C16251 /* LITTipCellCenterDark.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78654201D655700C16251 /* LITTipCellCenterDark.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA787DE201D655E00C16251 /* LITTipCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78655201D655700C16251 /* LITTipCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA787DF201D655E00C16251 /* LITTipCellDarkTextNormalBG.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA78656201D655700C16251 /* LITTipCellDarkTextNormalBG.m */; };
-		4AA787E8201D655E00C16251 /* LITHorizontalUnitsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78660201D655800C16251 /* LITHorizontalUnitsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA78855201D655E00C16251 /* NSObject+SectionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA786D3201D655900C16251 /* NSObject+SectionUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA7885A201D655E00C16251 /* NSObject+SectionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA786D9201D655900C16251 /* NSObject+SectionUtils.m */; };
 		4AA78887201D655F00C16251 /* DAView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7870B201D655B00C16251 /* DAView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -100,6 +114,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A13919C20B62E87007C77B2 /* LITCollectionLayoutFullGridItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCollectionLayoutFullGridItems.h; sourceTree = "<group>"; };
+		4A13919D20B62E87007C77B2 /* LITCollectionLayoutFullGridItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCollectionLayoutFullGridItems.m; sourceTree = "<group>"; };
+		4A13919E20B62E87007C77B2 /* LITCollectionLayoutPageItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCollectionLayoutPageItems.h; sourceTree = "<group>"; };
+		4A13919F20B62E87007C77B2 /* LITCollectionLayoutPageItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCollectionLayoutPageItems.m; sourceTree = "<group>"; };
+		4A1391A020B62E87007C77B2 /* LITCollectionLayoutTwoItemsALine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCollectionLayoutTwoItemsALine.h; sourceTree = "<group>"; };
+		4A1391A120B62E87007C77B2 /* LITCollectionLayoutTwoItemsALine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCollectionLayoutTwoItemsALine.m; sourceTree = "<group>"; };
+		4A1391A220B62E87007C77B2 /* LITCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCollectionLayout.h; sourceTree = "<group>"; };
+		4A1391A320B62E87007C77B2 /* LITCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCollectionLayout.m; sourceTree = "<group>"; };
+		4A1391A420B62E87007C77B2 /* LITCollectionLayoutHorizontalUnits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCollectionLayoutHorizontalUnits.h; sourceTree = "<group>"; };
+		4A1391A520B62E87007C77B2 /* LITCollectionLayoutHorizontalUnits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCollectionLayoutHorizontalUnits.m; sourceTree = "<group>"; };
+		4A1391A620B62E87007C77B2 /* LITCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCollectionView.h; sourceTree = "<group>"; };
+		4A1391A720B62E87007C77B2 /* LITCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCollectionView.m; sourceTree = "<group>"; };
+		4A1391A820B62E87007C77B2 /* LITCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITCollectionCell.h; sourceTree = "<group>"; };
+		4A1391A920B62E87007C77B2 /* LITCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCollectionCell.m; sourceTree = "<group>"; };
+		4A1391BA20B6305C007C77B2 /* LITHorizontalUnitsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITHorizontalUnitsCell.h; sourceTree = "<group>"; };
+		4A1391BB20B6305C007C77B2 /* LITHorizontalUnitsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LITHorizontalUnitsCell.m; sourceTree = "<group>"; };
 		4AA78273201D5A9400C16251 /* LITUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LITUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA78276201D5A9400C16251 /* LITUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITUI.h; sourceTree = "<group>"; };
 		4AA78277201D5A9400C16251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -148,14 +178,12 @@
 		4AA7863A201D655600C16251 /* LITHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHeaderView.h; sourceTree = "<group>"; };
 		4AA7863C201D655600C16251 /* LITSectionUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITSectionUnit.m; sourceTree = "<group>"; };
 		4AA7863D201D655600C16251 /* LITSectionUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITSectionUnit.h; sourceTree = "<group>"; };
-		4AA78647201D655700C16251 /* LITHorizontalUnitsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITHorizontalUnitsCell.m; sourceTree = "<group>"; };
 		4AA78651201D655700C16251 /* LITTipCellCenterDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTipCellCenterDark.m; sourceTree = "<group>"; };
 		4AA78652201D655700C16251 /* LITTipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTipCell.m; sourceTree = "<group>"; };
 		4AA78653201D655700C16251 /* LITTipCellDarkTextNormalBG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTipCellDarkTextNormalBG.h; sourceTree = "<group>"; };
 		4AA78654201D655700C16251 /* LITTipCellCenterDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTipCellCenterDark.h; sourceTree = "<group>"; };
 		4AA78655201D655700C16251 /* LITTipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITTipCell.h; sourceTree = "<group>"; };
 		4AA78656201D655700C16251 /* LITTipCellDarkTextNormalBG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITTipCellDarkTextNormalBG.m; sourceTree = "<group>"; };
-		4AA78660201D655800C16251 /* LITHorizontalUnitsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITHorizontalUnitsCell.h; sourceTree = "<group>"; };
 		4AA786D3201D655900C16251 /* NSObject+SectionUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SectionUtils.h"; sourceTree = "<group>"; };
 		4AA786D9201D655900C16251 /* NSObject+SectionUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SectionUtils.m"; sourceTree = "<group>"; };
 		4AA7870B201D655B00C16251 /* DAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAView.h; sourceTree = "<group>"; };
@@ -210,6 +238,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A13919A20B62E87007C77B2 /* LITCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				4A1391B920B63050007C77B2 /* LITCellCollection */,
+				4A13919B20B62E87007C77B2 /* Layouts */,
+				4A1391A620B62E87007C77B2 /* LITCollectionView.h */,
+				4A1391A720B62E87007C77B2 /* LITCollectionView.m */,
+				4A1391A820B62E87007C77B2 /* LITCollectionCell.h */,
+				4A1391A920B62E87007C77B2 /* LITCollectionCell.m */,
+			);
+			path = LITCollectionView;
+			sourceTree = "<group>";
+		};
+		4A13919B20B62E87007C77B2 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				4A13919C20B62E87007C77B2 /* LITCollectionLayoutFullGridItems.h */,
+				4A13919D20B62E87007C77B2 /* LITCollectionLayoutFullGridItems.m */,
+				4A13919E20B62E87007C77B2 /* LITCollectionLayoutPageItems.h */,
+				4A13919F20B62E87007C77B2 /* LITCollectionLayoutPageItems.m */,
+				4A1391A020B62E87007C77B2 /* LITCollectionLayoutTwoItemsALine.h */,
+				4A1391A120B62E87007C77B2 /* LITCollectionLayoutTwoItemsALine.m */,
+				4A1391A220B62E87007C77B2 /* LITCollectionLayout.h */,
+				4A1391A320B62E87007C77B2 /* LITCollectionLayout.m */,
+				4A1391A420B62E87007C77B2 /* LITCollectionLayoutHorizontalUnits.h */,
+				4A1391A520B62E87007C77B2 /* LITCollectionLayoutHorizontalUnits.m */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		4A1391B920B63050007C77B2 /* LITCellCollection */ = {
+			isa = PBXGroup;
+			children = (
+				4A1391BA20B6305C007C77B2 /* LITHorizontalUnitsCell.h */,
+				4A1391BB20B6305C007C77B2 /* LITHorizontalUnitsCell.m */,
+			);
+			path = LITCellCollection;
+			sourceTree = "<group>";
+		};
 		4AA78269201D5A9400C16251 = {
 			isa = PBXGroup;
 			children = (
@@ -234,12 +301,11 @@
 		4AA78275201D5A9400C16251 /* LITUI */ = {
 			isa = PBXGroup;
 			children = (
+				4A13919A20B62E87007C77B2 /* LITCollectionView */,
 				4AA785EB201D655500C16251 /* DAActivityViewController.h */,
 				4AA7876A201D655D00C16251 /* DAActivityViewController.m */,
 				4AA7870B201D655B00C16251 /* DAView.h */,
 				4AA7862D201D655600C16251 /* DAView.m */,
-				4AA78660201D655800C16251 /* LITHorizontalUnitsCell.h */,
-				4AA78647201D655700C16251 /* LITHorizontalUnitsCell.m */,
 				4AA785EE201D655500C16251 /* LITCell */,
 				4AA7862E201D655600C16251 /* LITHeaderView */,
 				4AA785DE201D655400C16251 /* LITInputCell */,
@@ -415,7 +481,6 @@
 				4AA788D6201D655F00C16251 /* LITTriggerCellLongValue.h in Headers */,
 				4AA787DE201D655E00C16251 /* LITTipCell.h in Headers */,
 				4AA787C4201D655E00C16251 /* LITHeaderViewTitledCheckBox.h in Headers */,
-				4AA787E8201D655E00C16251 /* LITHorizontalUnitsCell.h in Headers */,
 				4AA7889F201D655F00C16251 /* LITVCCore.h in Headers */,
 				4AA78887201D655F00C16251 /* DAView.h in Headers */,
 				4AA78792201D655E00C16251 /* LITCellBigTick.h in Headers */,
@@ -433,9 +498,17 @@
 				4AA7889E201D655F00C16251 /* LITWindow.h in Headers */,
 				4AA78788201D655E00C16251 /* LITCellValueStoredInAssociatedVC.h in Headers */,
 				4AA78784201D655E00C16251 /* LITCellSeparator.h in Headers */,
+				4A1391B620B62E87007C77B2 /* LITCollectionCell.h in Headers */,
+				4A1391B020B62E87007C77B2 /* LITCollectionLayout.h in Headers */,
+				4A1391AE20B62E87007C77B2 /* LITCollectionLayoutTwoItemsALine.h in Headers */,
+				4A1391AC20B62E87007C77B2 /* LITCollectionLayoutPageItems.h in Headers */,
+				4A1391B420B62E87007C77B2 /* LITCollectionView.h in Headers */,
+				4A1391B220B62E87007C77B2 /* LITCollectionLayoutHorizontalUnits.h in Headers */,
+				4A1391AA20B62E87007C77B2 /* LITCollectionLayoutFullGridItems.h in Headers */,
 				4AA78892201D655F00C16251 /* LITTextCellLongValue.h in Headers */,
 				4AA78780201D655E00C16251 /* DAActivityViewController.h in Headers */,
 				4AA7878E201D655E00C16251 /* LITCellSpace.h in Headers */,
+				4A85D1D920B632FC0093FDBE /* LITHorizontalUnitsCell.h in Headers */,
 				4AA78888201D655F00C16251 /* LITVC.h in Headers */,
 				4AA78278201D5A9400C16251 /* LITUI.h in Headers */,
 			);
@@ -527,42 +600,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A85D1DA20B634B70093FDBE /* LITHorizontalUnitsCell.m in Sources */,
 				4AA7878A201D655E00C16251 /* LITCellBigTick.m in Sources */,
+				4A1391AF20B62E87007C77B2 /* LITCollectionLayoutTwoItemsALine.m in Sources */,
 				4AA787BC201D655E00C16251 /* LITHeaderViewTitledCheckBox.m in Sources */,
 				4AA78890201D655F00C16251 /* LITCellBackgroundTip.m in Sources */,
 				4AA7885A201D655E00C16251 /* NSObject+SectionUtils.m in Sources */,
 				4AA78897201D655F00C16251 /* LITTextCellLongValue.m in Sources */,
 				4AA78786201D655E00C16251 /* LITCellSpace.m in Sources */,
 				4AA78779201D655E00C16251 /* LITTextFieldCell.m in Sources */,
+				4A1391B720B62E87007C77B2 /* LITCollectionCell.m in Sources */,
 				4AA78783201D655E00C16251 /* LITCell+Borders.m in Sources */,
 				4AA787DB201D655E00C16251 /* LITTipCell.m in Sources */,
 				4AA7877A201D655E00C16251 /* LITTextFieldCellFormPassword.m in Sources */,
 				4AA78789201D655E00C16251 /* LITCellCharacter.m in Sources */,
 				4AA7888E201D655F00C16251 /* LITTextCell.m in Sources */,
 				4AA788D9201D655F00C16251 /* LITTriggerCellFormLongValue.m in Sources */,
+				4A1391B520B62E87007C77B2 /* LITCollectionView.m in Sources */,
 				4AA7888C201D655F00C16251 /* LITTextCellMultiLine.m in Sources */,
 				4AA78785201D655E00C16251 /* LITCell.m in Sources */,
 				4AA787C8201D655E00C16251 /* LITSectionUnit.m in Sources */,
 				4AA787C1201D655E00C16251 /* LITHeaderView.m in Sources */,
 				4AA787DA201D655E00C16251 /* LITTipCellCenterDark.m in Sources */,
-				4AA787D2201D655E00C16251 /* LITHorizontalUnitsCell.m in Sources */,
 				4AA7878C201D655E00C16251 /* LITCellSeparator.m in Sources */,
 				4AA787C2201D655E00C16251 /* LITHeaderViewSmallLight.m in Sources */,
 				4AA78774201D655E00C16251 /* LITSectionButton.m in Sources */,
 				4AA7889C201D655F00C16251 /* LITVCCore.m in Sources */,
 				4AA78790201D655E00C16251 /* LITCellValueStoredInAssociatedVC.m in Sources */,
 				4AA7876F201D655E00C16251 /* LITCellForSectionButton.m in Sources */,
+				4A1391B120B62E87007C77B2 /* LITCollectionLayout.m in Sources */,
 				4AA788D3201D655F00C16251 /* LITTriggerCellLongValue.m in Sources */,
 				4AA787BD201D655E00C16251 /* LITHeaderViewHorizontalUnits.m in Sources */,
 				4AA788D7201D655F00C16251 /* LITTriggerCell.m in Sources */,
 				4AA78894201D655F00C16251 /* LITTextCellLongTitle.m in Sources */,
 				4AA788D5201D655F00C16251 /* LITTriggerCellLongTitle.m in Sources */,
 				4AA788DA201D655F00C16251 /* LITVC.m in Sources */,
+				4A1391AD20B62E87007C77B2 /* LITCollectionLayoutPageItems.m in Sources */,
 				4AA78776201D655E00C16251 /* LITTextFieldCellForm.m in Sources */,
 				4AA78898201D655F00C16251 /* LITTextCellTitleOnly.m in Sources */,
 				4AA788DE201D655F00C16251 /* DAActivityViewController.m in Sources */,
 				4AA787BF201D655E00C16251 /* LITHeaderViewTinyDark.m in Sources */,
 				4AA7879D201D655E00C16251 /* LITWindow.m in Sources */,
+				4A1391AB20B62E87007C77B2 /* LITCollectionLayoutFullGridItems.m in Sources */,
+				4A1391B320B62E87007C77B2 /* LITCollectionLayoutHorizontalUnits.m in Sources */,
 				4AA78896201D655F00C16251 /* LITTextCellFormLongValue.m in Sources */,
 				4AA787DF201D655E00C16251 /* LITTipCellDarkTextNormalBG.m in Sources */,
 				4AA787BB201D655E00C16251 /* DAView.m in Sources */,

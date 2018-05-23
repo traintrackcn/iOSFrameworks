@@ -53,7 +53,16 @@ FOUNDATION_EXPORT const unsigned char LITUIVersionString[];
 #import <LITUI/LITTriggerCellLongTitle.h>
 #import <LITUI/LITTriggerCellFormLongValue.h>
 
+//Collection View Stuff
 #import <LITUI/LITHorizontalUnitsCell.h>
+#import <LITUI/LITCollectionView.h>
+#import <LITUI/LITCollectionCell.h>
+#import <LITUI/LITCollectionLayout.h>
+#import <LITUI/LITCollectionLayoutFullGridItems.h>
+#import <LITUI/LITCollectionLayoutPageItems.h>
+#import <LITUI/LITCollectionLayoutTwoItemsALine.h>
+#import <LITUI/LITCollectionLayoutHorizontalUnits.h>
+
 
 #import <LITUI/DAView.h>
 
