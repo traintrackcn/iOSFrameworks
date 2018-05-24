@@ -30,7 +30,7 @@
 - (void)prepareLayout{
     
     CGFloat x = 0;
-    CGFloat y = self.vSpace;
+    CGFloat y = 0;
     CGFloat w = self.itemSize.width;
     CGFloat h = self.itemSize.height;
     
@@ -62,7 +62,7 @@
 
 - (CGSize)collectionViewContentSize{
     CGFloat w = self.collectionView.frame.size.width;
-    CGFloat h = self.numberOfLines * self.itemSize.height + (self.numberOfLines + 1)*self.vSpace;
+    CGFloat h = self.numberOfLines * self.itemSize.height + (self.numberOfLines - 1)*self.vSpace;
     return CGSizeMake(w, h);
 }
 

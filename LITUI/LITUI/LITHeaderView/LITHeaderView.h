@@ -10,4 +10,6 @@
 
 @interface LITHeaderView : AGHeaderView
 
+- (id)associatedVC;
+
 @end
