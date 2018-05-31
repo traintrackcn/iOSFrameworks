@@ -12,6 +12,14 @@
 
 @implementation LITSectionUnit
 
+- (instancetype)initWithSection:(NSInteger)section config:(AGVCConfiguration *)config{
+    self = [super initWithSection:section config:config];
+    if (self) {
+        _ws = self;
+    }
+    return self;
+}
+
 - (id)headerCls{
     return nil;
 }

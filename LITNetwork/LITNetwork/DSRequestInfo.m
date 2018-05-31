@@ -15,6 +15,7 @@
 #import "AGRequestBinary.h"
 #import "LITRequestForm.h"
 #import "LITRequestFormField.h"
+#import "LITRequestRedmineBinary.h"
 
 @interface DSRequestInfo(){
     
@@ -140,7 +141,7 @@
     return _defaultBody;
 }
 
-- (NSData *)defaultBodyWithRequestBinary{ // will be defaultBodyWithRequestBodyAndRequestBinary some day
+- (NSData *)defaultBodyWithAGRequestBinary{ // will be defaultBodyWithRequestBodyAndRequestBinary some day
     NSString *boundary = [self boundaryInstance];
     _defaultBody = [NSMutableData data];
     
@@ -166,16 +167,20 @@
     return _defaultBody;
 }
 
-//- (NSData *)defaultBodyWithRequestBinary{ // will be defaultBodyWithRequestBodyAndRequestBinary some day
-//
-//    _defaultBody = [NSMutableData data];
-//    [_defaultBody appendData:self.requestBinary.data];
-////        NSString *headerForContentLength = [NSString stringWithFormat:@"%ld", (unsigned long)[_defaultBody length]];
-//    [self setValue:self.defaultBodyContentLength forHTTPHeaderField:@"Content-Length"];
-//    [self setValue:@"application/octet-stream" forHTTPHeaderField:@"Content-Type"];
-//
-//    return _defaultBody;
-//}
+- (NSData *)defaultBodyWithLITRequestRedmineBinary{
+    _defaultBody = [NSMutableData data];
+    
+    LITRequestRedmineBinary *requestBinary = self.requestBody;
+    [_defaultBody appendData:requestBinary.data];
+    NSString *contentLength = [NSString stringWithFormat:@"%ld", (unsigned long)[_defaultBody length]];
+    
+    //headers
+    [self setValue:[NSString stringWithFormat:@"application/octet-stream"] forHTTPHeaderField:HTTP_HEAD_CONTENT_TYPE];
+    [self setValue:contentLength forHTTPHeaderField:@"Content-Length"];
+    
+    
+    return _defaultBody;
+}
 
 - (NSData *)defaultBodyWithRequestForm{
     _defaultBody = [NSMutableData data];
@@ -207,7 +212,8 @@
 
 - (NSData *)defaultBody{
     if ([self.requestBody isKindOfClass:[LITRequestForm class]]) return [self defaultBodyWithRequestForm];
-    if ([self.requestBody isKindOfClass:[AGRequestBinary class]]) return [self defaultBodyWithRequestBinary];
+    if ([self.requestBody isKindOfClass:[AGRequestBinary class]]) return [self defaultBodyWithAGRequestBinary];
+    if ([self.requestBody isKindOfClass:[LITRequestRedmineBinary class]]) return [self defaultBodyWithLITRequestRedmineBinary];
     return [self defaultBodyWithRequestBody];
 }
 

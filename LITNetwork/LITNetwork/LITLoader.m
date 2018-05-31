@@ -86,6 +86,7 @@
 
 - (void)completion:(id)parsedData error:(id)error{
 //    TLOG(@"self.completion -> %@", self.completion);
+//    TLOG(@"parsedData -> %@ completion -> %@", parsedData, self.completion);
     if(self.completion) self.completion(parsedData, error);
     [self setCompletion:nil];
     

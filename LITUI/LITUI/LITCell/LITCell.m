@@ -34,6 +34,8 @@
         [self setSelectionStyle:UITableViewCellSelectionStyleNone];
         [self setAssociatedVC:associatedVC];
         [self setIndexPath:indexPath]; //make sure right indexPath when initializing cell
+        
+        [self setStyle];
     }
     return self;
 }
@@ -54,14 +56,20 @@
     _title = title;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated{
-    //    TLOG(@"selected -> %@", @(selected));
-    [super setSelected:selected animated:animated];
-    if (selected) {
-        [self applySelectedStyle];
-    }else{
-        [self applyUnselectedStyle];
-    }
+//- (void)setSelected:(BOOL)selected animated:(BOOL)animated{
+//    //    TLOG(@"selected -> %@", @(selected));
+//    [super setSelected:selected animated:animated];
+//    if (selected) {
+//        [self applySelectedStyle];
+//    }else{
+//        [self applyUnselectedStyle];
+//    }
+//}
+
+- (void)setStyle{
+    [self setBackgroundColor:COLOR(RGB_WHITE)];
+    self.textLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_TITLE_NORMAL);
+    self.detailTextLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_CONTENT_NORMAL);
 }
 
 #pragma mark - utils
@@ -146,17 +154,19 @@
     return STYLE_PADDING_LR_DEFAULT;
 }
 
-- (void)applySelectedStyle{
-    [self setBackgroundColor:COLOR(AG_UI_DEFINE.RGB_CELL_BACKGROUND_HIGHLIGHT)];
-    self.textLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_TITLE_HIGHLIGHT);
-    self.detailTextLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_CONTENT_HIGHLIGHT);
-}
 
-- (void)applyUnselectedStyle{
-    [self setBackgroundColor:COLOR(RGB_WHITE)];
-    self.textLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_TITLE_NORMAL);
-    self.detailTextLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_CONTENT_NORMAL);
-}
+
+//- (void)applySelectedStyle{
+//    [self setBackgroundColor:COLOR(AG_UI_DEFINE.RGB_CELL_BACKGROUND_HIGHLIGHT)];
+//    self.textLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_TITLE_HIGHLIGHT);
+//    self.detailTextLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_CONTENT_HIGHLIGHT);
+//}
+//
+//- (void)applyUnselectedStyle{
+//    [self setBackgroundColor:COLOR(RGB_WHITE)];
+//    self.textLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_TITLE_NORMAL);
+//    self.detailTextLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_CONTENT_NORMAL);
+//}
 
 
 

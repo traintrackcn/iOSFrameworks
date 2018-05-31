@@ -39,6 +39,7 @@ FOUNDATION_EXPORT const unsigned char LITNetworkVersionString[];
 #import <LITNetwork/LITRequestForm.h>
 #import <LITNetwork/LITRequestFormField.h>
 #import <LITNetwork/AGRequestBinary.h>
+#import <LITNetwork/LITRequestRedmineBinary.h>
 #import <LITNetwork/LITAsset.h>
 #import <LITNetwork/DSRequestInfo.h>
 

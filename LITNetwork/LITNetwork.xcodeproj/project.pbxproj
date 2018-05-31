@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A85D20D20B711260093FDBE /* LITRequestRedmineBinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A85D20B20B711260093FDBE /* LITRequestRedmineBinary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A85D20E20B711260093FDBE /* LITRequestRedmineBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D20C20B711260093FDBE /* LITRequestRedmineBinary.m */; };
 		4AA78188201CE96300C16251 /* LITNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78186201CE96300C16251 /* LITNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA781B6201CE9E500C16251 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78190201CE9E500C16251 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA781B7201CE9E500C16251 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78191201CE9E500C16251 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -83,6 +85,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A85D20B20B711260093FDBE /* LITRequestRedmineBinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITRequestRedmineBinary.h; sourceTree = "<group>"; };
+		4A85D20C20B711260093FDBE /* LITRequestRedmineBinary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LITRequestRedmineBinary.m; sourceTree = "<group>"; };
 		4AA78183201CE96300C16251 /* LITNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LITNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA78186201CE96300C16251 /* LITNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITNetwork.h; sourceTree = "<group>"; };
 		4AA78187201CE96300C16251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -204,8 +208,6 @@
 				4AA781E5201CEAA300C16251 /* AGRemoterResult.m */,
 				4AA781DC201CEAA300C16251 /* AGRemoteUnit.h */,
 				4AA781DD201CEAA300C16251 /* AGRemoteUnit.m */,
-				4AA781E7201CEAA300C16251 /* AGRequestBinary.h */,
-				4AA781F0201CEAA400C16251 /* AGRequestBinary.m */,
 				4AA781F8201CEAA500C16251 /* DAFileLoader.h */,
 				4AA781F1201CEAA400C16251 /* DAFileLoader.m */,
 				4AA781E6201CEAA300C16251 /* DANetworkLoader.h */,
@@ -226,6 +228,10 @@
 				4AA781E2201CEAA300C16251 /* LITRequestForm.m */,
 				4AA781FC201CEAA500C16251 /* LITRequestFormField.h */,
 				4AA781E4201CEAA300C16251 /* LITRequestFormField.m */,
+				4A85D20B20B711260093FDBE /* LITRequestRedmineBinary.h */,
+				4A85D20C20B711260093FDBE /* LITRequestRedmineBinary.m */,
+				4AA781E7201CEAA300C16251 /* AGRequestBinary.h */,
+				4AA781F0201CEAA400C16251 /* AGRequestBinary.m */,
 				4AA781DE201CEAA300C16251 /* ObjPoolRelated */,
 				4AA78186201CE96300C16251 /* LITNetwork.h */,
 				4AA78187201CE96300C16251 /* Info.plist */,
@@ -335,6 +341,7 @@
 				4AA781C8201CE9E500C16251 /* AFHTTPSessionManager.h in Headers */,
 				4AA781BB201CE9E500C16251 /* AFURLRequestSerialization.h in Headers */,
 				4AA781BC201CE9E500C16251 /* AFURLConnectionOperation.h in Headers */,
+				4A85D20D20B711260093FDBE /* LITRequestRedmineBinary.h in Headers */,
 				4AA781B8201CE9E500C16251 /* AFHTTPRequestOperation.h in Headers */,
 				4AA78188201CE96300C16251 /* LITNetwork.h in Headers */,
 				4AA781C5201CE9E500C16251 /* AFNetworking.h in Headers */,
@@ -457,6 +464,7 @@
 				4AA7820E201CEAA600C16251 /* LITFileUploader.m in Sources */,
 				4AA781D8201CE9E500C16251 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				4AA78203201CEAA600C16251 /* AGNetworkDefine.m in Sources */,
+				4A85D20E20B711260093FDBE /* LITRequestRedmineBinary.m in Sources */,
 				4AA781C4201CE9E500C16251 /* AFHTTPRequestOperation.m in Sources */,
 				4AA78200201CEAA600C16251 /* AGRemoteUnit.m in Sources */,
 				4AA7821F201CEAA600C16251 /* DARequestUniversal.m in Sources */,

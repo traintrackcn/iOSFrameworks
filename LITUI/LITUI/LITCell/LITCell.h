@@ -22,9 +22,10 @@
 
 - (void)_setValue:(id)value;
 - (void)_setTitle:(id)title;
-//- (void)_setSelected:(BOOL)selected;
+- (void)setStyle;
 
 #pragma mark - dispatchers
+
 - (void)reload;
 - (void)setValueForViewController:(id)value;
 - (NSArray *)parametersFromViewController;
@@ -33,8 +34,6 @@
 
 #pragma mark - styles
 + (CGFloat)height;
-- (void)applySelectedStyle;
-- (void)applyUnselectedStyle;
 @property (nonatomic, assign) CGFloat height;
 
 #pragma mark - properties
