@@ -24,11 +24,13 @@
 }
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier associatedViewController:(id)associatedViewController indexPath:(NSIndexPath *)indexPath;
+
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier associatedViewController:(id)associatedViewController indexPath:(NSIndexPath *)indexPath config:(AGVCConfiguration *)config;
 
 - (void)_setValue:(id)value;
 - (void)_setTitle:(id)title;
 - (void)_setSelected:(BOOL)selected;
+//- (void)_setHeight:(CGFloat)height;
 
 - (void)didSetValue:(id)value;
 - (void)layout;

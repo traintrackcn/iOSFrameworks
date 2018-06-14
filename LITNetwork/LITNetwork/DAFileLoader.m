@@ -71,6 +71,8 @@
 
 - (AFHTTPRequestOperation *)operationInstanceWithFileURL:(NSURL *)fileURL completion:(void(^)(id, id))completion{
     NSMutableURLRequest* rq = [NSMutableURLRequest requestWithURL:fileURL];
+    [self setExtraHeadersForURLRequest:rq];
+    
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:rq];
     
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
@@ -84,6 +86,21 @@
     
     //    [operation start];
     return operation;
+}
+
+- (void)setExtraHeadersForURLRequest:(NSMutableURLRequest *)req{
+    NSMutableDictionary *headers = self.headers;
+    for (NSInteger i = 0; i<headers.allKeys.count; i++) {
+        NSString *key = [headers.allKeys objectAtIndex:i];
+        NSString *value = [headers valueForKey:key];
+        [req setValue:value forHTTPHeaderField:key];
+    }
+}
+
+#pragma mark - headers
+
+- (id)headers{
+    return nil;
 }
 
 @end

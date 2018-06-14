@@ -228,8 +228,12 @@
 
 #pragma mark - styles
 
+- (void)_setHeight:(CGFloat)height{
+     _height = height;
+}
+
 - (void)setHeight:(CGFloat)height{
-    _height = height;
+    [self _setHeight:height];
     [self.config setCellHeight:height atIndexPath:self.indexPath];
 }
 

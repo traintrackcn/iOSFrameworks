@@ -843,7 +843,6 @@
     return [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:NSStringFromClass([UITableViewCell class])];
 }
 
-
 #pragma mark - properties
 
 - (UINavigationBar *)navigationBar{

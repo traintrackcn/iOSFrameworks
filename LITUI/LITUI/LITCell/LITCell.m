@@ -131,9 +131,22 @@
 - (void)setHeight:(CGFloat)height{
 //    TLOG(@"self.associatedVC -> %@", self.associatedVC);
     if (self.associatedTV){
-        [self.associatedTV setCellHeight:height atIndexPath:self.indexPath];
+        @try {
+            [self.associatedTV setCellHeight:height atIndexPath:self.indexPath];
+        } @catch (NSException *exception) {
+            TLOG(@"e -> %@", exception);
+        } @finally {
+            
+        }
+        
     }else{
-        [self.associatedVC setCellHeight:height atIndexPath:self.indexPath];
+        @try {
+            [self.associatedVC setCellHeight:height atIndexPath:self.indexPath];
+        } @catch (NSException *exception) {
+            TLOG(@"e -> %@", exception);
+        } @finally {
+            
+        }
     }
 }
 
