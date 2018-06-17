@@ -509,7 +509,7 @@ static inline BOOL AFStateTransitionIsValid(AFOperationState fromState, AFOperat
 }
 
 - (void)cancelConnection {
-    NSLog(@"cancelConnection");
+//    NSLog(@"cancelConnection");
     NSDictionary *userInfo = nil;
     if ([self.request URL]) {
         userInfo = @{NSURLErrorFailingURLErrorKey : [self.request URL]};
@@ -518,7 +518,7 @@ static inline BOOL AFStateTransitionIsValid(AFOperationState fromState, AFOperat
 
     if (![self isFinished]) {
         if (self.connection) {
-            NSLog(@"[self.connection cancel]");
+//            NSLog(@"[self.connection cancel]");
             [self.connection cancel];
             [self performSelector:@selector(connection:didFailWithError:) withObject:self.connection withObject:error];
         } else {

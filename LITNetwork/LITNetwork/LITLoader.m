@@ -12,14 +12,14 @@
 #import "DARequestUniversal.h"
 
 @interface LITLoader(){
-    DARequestUniversal *_l;
+//    DARequestUniversal *_l;
 }
 
 @property (nonatomic, strong) void(^completion)(id data, id error);
 @property (nonatomic, assign) BOOL loading;
 @property (nonatomic, strong) id responseMetaData;
 @property (nonatomic, strong) id responseHeaders;
-
+@property (nonatomic, weak) id ws;
 
 
 @end
@@ -28,14 +28,22 @@
 
 
 - (void)cancel{
-    [_l cancel];
+//    [_l cancel];
 }
 
 #pragma mark -
 
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        [self setWs:self];
+    }
+    return self;
+}
+
 - (void)dealloc{
     
-    TLOG(@"%@", NSStringFromClass(self.class));
+    TLOG(@"%@ %@", NSStringFromClass(self.class), self.requestType);
 }
 
 - (void)requestWithCompletion:(void (^)(id, id))completion{
@@ -64,9 +72,9 @@
     }
     
     [self setLoading:YES];
-    _l = [DARequestUniversal instance];
+    DARequestUniversal *_l = [DARequestUniversal instance];
     [_l requestWithCompletion:^(id data, id error) {
-        [self requestCallback:data error:error responseMeta:_l.responseMetaData responseHeaders:_l.responseHeaders];
+        [self.ws requestCallback:data error:error responseMeta:_l.responseMetaData responseHeaders:_l.responseHeaders];
     } method:self.method requestType:self.requestType requestBody:requestBody apiVersion:self.apiVersion headers:self.headers serverUrl:self.serverUrl];
     
 }
@@ -92,7 +100,7 @@
     
     [self setLoading:NO];
     
-    _l = nil;
+//    _l = nil;
 }
 
 - (void)parse:(id)data{

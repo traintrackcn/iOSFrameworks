@@ -36,7 +36,7 @@
         NSArray *arr = [value componentsSeparatedByString:@"T"];
         NSArray *arr1 = [arr.lastObject componentsSeparatedByString:@"Z"];
         value = [NSString stringWithFormat:@"%@ %@", arr.firstObject, arr1.firstObject];
-        TLOG(@"value -> %@", value);
+//        TLOG(@"value -> %@", value);
         [df setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
         
     }else if ([value rangeOfString:@" "].location != NSNotFound){

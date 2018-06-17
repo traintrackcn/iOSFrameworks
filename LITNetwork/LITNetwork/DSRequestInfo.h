@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+#define REQUEST_METHOD_GET @"GET"
+#define REQUEST_METHOD_POST @"POST"
+#define REQUEST_METHOD_PUT @"PUT"
+#define REQUEST_METHOD_DELETE @"DELETE"
+#define REQUEST_METHOD_HEAD @"HEAD"
 
 @interface DSRequestInfo : NSMutableURLRequest
 

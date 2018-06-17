@@ -93,14 +93,14 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated{
-    TLOG(@"%@", self.className);
+//    TLOG(@"%@", self.className);
     [super viewDidAppear:animated];
     
     if (self.needsReloadIndexPath) {
         [self reloadIndexPathAsNeeded];
         [self setNeedsReloadIndexPath:nil];
     }
-    TLOG(@"needsReloadAll -> %@", @(self.needsReloadAll));
+//    TLOG(@"needsReloadAll -> %@", @(self.needsReloadAll));
     if (self.needsReloadAll){
         [self reloadAllAsNeeded];
         [self setNeedsReloadAll:NO];

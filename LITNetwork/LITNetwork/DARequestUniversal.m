@@ -24,7 +24,7 @@
 @implementation DARequestUniversal
 
 -(void)dealloc{
-    TLOG(@"%@", _requestType);
+//    TLOG(@"%@", _requestType);
 }
 
 #pragma mark - full function request

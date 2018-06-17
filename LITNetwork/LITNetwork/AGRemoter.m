@@ -45,6 +45,10 @@
     return instance;
 }
 
+- (void)dealloc{
+    
+}
+
 #pragma mark - main ops
 
 - (void)send:(DSRequestInfo *)requestInfo{
@@ -62,13 +66,16 @@
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:requestInfo];
     operation.responseSerializer = [AFJSONResponseSerializer serializer];
     
+    
+    __weak AGRemoter *ws = self;
+    
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-        [self operation:operation successfulWithResponse:responseObject];
-        [self dequeue:operation];
+        [ws operation:operation successfulWithResponse:responseObject];
+        [ws dequeue:operation];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         //        TLOG(@"before failure callback");
-        [self operation:operation failedWithError:error];
-        [self dequeue:operation];
+        [ws operation:operation failedWithError:error];
+        [ws dequeue:operation];
     }];
     
     [self enqueue:operation hideActivityIndicator:requestInfo.hideActivityIndicator];

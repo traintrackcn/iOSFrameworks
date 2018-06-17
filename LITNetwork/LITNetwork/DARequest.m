@@ -15,7 +15,7 @@
     AGRemoteUnit *_rUnit;
 }
 
-@property (nonatomic, weak) DARequest *ws;
+//@property (nonatomic, weak) DARequest *ws;
 @property (nonatomic, strong) id responseMetaData;
 @property (nonatomic, strong) id responseHeaders;
 //@property (nonatomic, strong) AGRemoteUnit *rUnit;
@@ -48,9 +48,10 @@
 - (void)requestWithCompletion:(void (^)(id, id))completion userInfo:(id)userInfo{
 //    TLOG(@"");
     AGRemoteUnit *rUnit = [self rUnit:userInfo];
+    __weak DARequest *ws = self;
     [rUnit requestWithCompletion:^(id data, id error) {
 //        TLOG(@"");
-        [self.ws requestCallbackWithCompletion:completion data:data error:error userInfo:userInfo rUnit:rUnit];
+        [ws requestCallbackWithCompletion:completion data:data error:error userInfo:userInfo rUnit:rUnit];
     }];
 }
 
@@ -153,11 +154,11 @@
     return _rUnit;
 }
 
-- (DARequest *)ws{
-    if (!_ws) {
-        _ws = self;
-    }
-    return _ws;
-}
+//- (DARequest *)ws{
+//    if (!_ws) {
+//        _ws = self;
+//    }
+//    return _ws;
+//}
 
 @end
