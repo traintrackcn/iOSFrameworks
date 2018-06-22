@@ -83,10 +83,10 @@
         [_textView setDelegate:nil];
         [_textView setEditable:NO];
 //        [_textView setAutoresizingMask:UIViewAutoresizingFlexibleWidth];
-        [_textView setTextColor:COLOR(AGUI.RGB_TITLE_NORMAL)];
+        [_textView setTextColor:COLOR(UI.RGB_TITLE_NORMAL)];
         
         [_textView.layer setBorderWidth:1.0];
-        [_textView.layer setBorderColor:COLOR(AGUI.RGB_CELL_BORDER).CGColor];
+        [_textView.layer setBorderColor:COLOR(UI.RGB_CELL_BORDER).CGColor];
     }
     return _textView;
 }

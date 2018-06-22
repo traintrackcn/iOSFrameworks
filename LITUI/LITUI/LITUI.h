@@ -20,6 +20,7 @@ FOUNDATION_EXPORT const unsigned char LITUIVersionString[];
 
 #import <LITUI/LITSectionButton.h>
 #import <LITUI/LITItemForSectionButton.h>
+#import <LITUI/LITImageButton.h>
 
 #import <LITUI/LITSectionUnit.h>
 #import <LITUI/NSObject+SectionUtils.h>

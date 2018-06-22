@@ -110,11 +110,11 @@
 }
 
 - (UIColor *)detailTextColor{
-    return COLOR(AG_UI_DEFINE.RGB_CELL_TITLE_NORMAL);
+    return COLOR(UI.RGB_CELL_TITLE_NORMAL);
 }
 
 - (UIColor *)borderColor{
-    return COLOR(AG_UI_DEFINE.RGB_CELL_BORDER);
+    return COLOR(UI.RGB_CELL_BORDER);
 }
 
 - (CGFloat)borderWidth{

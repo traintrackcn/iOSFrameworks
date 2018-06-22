@@ -9,6 +9,7 @@
 #import "LITJSONLoader.h"
 #import "DSRequestInfo.h"
 #import "AFHTTPRequestOperation.h"
+#import "AGNetworkDefine.h"
 
 @interface LITJSONLoader()
 
@@ -26,7 +27,7 @@
 - (void)requestWithCompletion:(void (^)(LITJSONLoaderResponse *res))completion{
     
     NSAssert(!self.loading, @"Please create multiple loaders for concurrent requests");
-    TLOG(@"%@", self.key);
+    TLOG(@"%@", self.debugDescription);
     if (self.requestBody){
         TLOG(@"%@", self.requestBody);
     }
@@ -44,7 +45,7 @@
 }
 
 - (void)dealloc{
-    TLOG(@"%@",self.key);
+    TLOG(@"%@",self.debugDescription);
 }
 
 
@@ -66,6 +67,7 @@
 
 - (void)complete{
     TLOG(@"response code -> %@", self.response.code);
+    [self.response setLoader:self];
     self.completion(self.response);
     [self reset];
 }
@@ -109,7 +111,18 @@
 #pragma mark - properties
 
 - (NSString *)key{
-    return [NSString stringWithFormat:@"%@ [%@] %@", self, self.method, self.requestType];
+    return [NSString stringWithFormat:@"%@", self];
+}
+
+- (NSString *)debugDescription{
+    NSMutableString *str = [NSMutableString stringWithFormat:@"[%@] %@", self.method, self.serverUrl];
+    
+    if (![self.apiVersion isEqualToString:BLANK_API_VERSION]){
+        [str appendFormat:@"/%@", self.apiVersion];
+    }
+    
+    [str appendFormat:@"/%@", self.requestType];
+    return str;
 }
 
 - (LITJSONLoaderResponse *)response{

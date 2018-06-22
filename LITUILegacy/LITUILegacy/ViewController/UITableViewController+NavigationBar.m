@@ -109,7 +109,22 @@
     UIBarButtonItem *item = [self.objPool objectForKey:key];
     
     if (!item) {
-        item = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"IconSearch"] landscapeImagePhone:nil style:UIBarButtonItemStylePlain target:self action:@selector(didTapSearch:)];
+        UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 44, 44)];
+        UIImage *img = [UIImage imageNamed:@"IconSearch"];
+        img = [DSImage image:img withMaskColor:COLOR(RGB_THEME)];
+        CGFloat w = 24;
+        CGFloat h = w;
+        CGFloat x = v.frame.size.width - w;
+        CGFloat y = (v.frame.size.height - h)/2.0;
+        UIImageView *imgV = [[UIImageView alloc] initWithFrame:CGRectMake(x, y, w, h)];
+        [imgV setContentMode:UIViewContentModeScaleAspectFit];
+        [imgV setImage:img];
+        [v addSubview:imgV];
+        [v setUserInteractionEnabled:YES];
+        UITapGestureRecognizer *gr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapSearch:)];
+        [v addGestureRecognizer:gr];
+        item = [[UIBarButtonItem alloc] initWithCustomView:v];
+        //        v.layer.borderWidth = 1;
         [self.objPool setObject:item forKey:key];
     }
     return item;

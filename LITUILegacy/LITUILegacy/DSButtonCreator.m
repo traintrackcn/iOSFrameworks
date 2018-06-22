@@ -29,7 +29,7 @@
 
 + (UIBarButtonItem *)createNavigationBarButtonWithImageNamed:(NSString *)imageName target:(id)target action:(SEL)action{
     UIImage *img = [UIImage imageNamed:imageName];
-    img = [DSImage image:img withMaskColor:COLOR(AG_UI_DEFINE.RGB_BUTTON_BACKGROUND_NORMAL)];
+    img = [DSImage image:img withMaskColor:COLOR(UI.RGB_BUTTON_BACKGROUND_NORMAL)];
     UIBarButtonItem *menuBarItem = [[UIBarButtonItem alloc] initWithImage:img style:UIBarButtonItemStylePlain target:target action:action];
     return menuBarItem;
     
@@ -104,7 +104,7 @@
 
 + (UIBarButtonItem *)closeBarButtonItemWithTarget:(id)target action:(SEL)action{
     UIImage *img = [UIImage imageNamed:@"IconClose"];
-    img = [DSImage image:img withMaskColor:COLOR(AG_UI_DEFINE.RGB_BUTTON_BACKGROUND_NORMAL)];
+    img = [DSImage image:img withMaskColor:COLOR(UI.RGB_BUTTON_BACKGROUND_NORMAL)];
     UIBarButtonItem *barBtnItem = [[UIBarButtonItem alloc] initWithImage:img style:UIBarButtonItemStylePlain target:target action:action];
     return barBtnItem;
     

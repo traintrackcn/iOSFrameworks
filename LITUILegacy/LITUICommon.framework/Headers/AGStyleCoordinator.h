@@ -14,6 +14,7 @@
 
 - (UIColor *)colorForValue:(NSString *)value;
 - (NSString *)rgbForValue:(NSString *)value;
+- (NSMutableDictionary *)dic;
 
 
 @end

@@ -12,6 +12,4 @@
 
 - (void)reload:(BOOL)animated;
 
-@property (nonatomic, weak) id ws;
-
 @end

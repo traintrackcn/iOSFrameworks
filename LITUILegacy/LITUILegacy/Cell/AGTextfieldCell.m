@@ -43,7 +43,7 @@
 //    CGFloat w = self.frame.size.width/3.0;
     titleLabel = [[UILabel alloc] init];
     [titleLabel setFont:FONT_WITH_SIZE(16)];
-    [titleLabel setTextColor:COLOR(AGUI.RGB_INPUT_TITLE)];
+    [titleLabel setTextColor:COLOR(UI.RGB_INPUT_TITLE)];
     [titleLabel setNumberOfLines:2];
     [titleLabel setAdjustsFontSizeToFitWidth:YES];
     
@@ -56,7 +56,7 @@
         starLabel= [[UILabel alloc] init];
         UIFont *f = [UIFont boldSystemFontOfSize:24.0];
         [starLabel setText:@"*"];
-        [starLabel setTextColor:COLOR(AGUI.RGB_INPUT_STAR)];
+        [starLabel setTextColor:COLOR(UI.RGB_INPUT_STAR)];
         [starLabel setFont:f];
         [self.contentView addSubview:starLabel];
     }
@@ -97,10 +97,10 @@
     inputView = [[UITextView alloc] initWithFrame:frame];
     [self.inputBox setDelegate:self];
     [self.inputBox setAutoresizingMask:UIViewAutoresizingFlexibleWidth];
-    [self.inputBox setTextColor:COLOR(AGUI.RGB_INPUT_NORMAL)];
+    [self.inputBox setTextColor:COLOR(UI.RGB_INPUT_NORMAL)];
     
     [self.inputBox.layer setBorderWidth:1.0];
-    [self.inputBox.layer setBorderColor:COLOR(AGUI.RGB_CELL_BORDER).CGColor];
+    [self.inputBox.layer setBorderColor:COLOR(UI.RGB_CELL_BORDER).CGColor];
     [self.inputBox setFont:FONT_WITH_SIZE(16)];
     [self.inputBox setDelegate:self.textInputDelegate];
 //    [AGDebugUtil makeBorderForView:inputView];
@@ -119,9 +119,9 @@
 //    [self.inputField setRightViewMode:UITextFieldViewModeAlways];
     [self.inputField setTextAlignment:NSTextAlignmentRight];
     [self.inputField setClearButtonMode:UITextFieldViewModeWhileEditing];
-    [self.inputField setTextColor:COLOR(AGUI.RGB_INPUT_NORMAL)];
+    [self.inputField setTextColor:COLOR(UI.RGB_INPUT_NORMAL)];
     [self.inputField setAdjustsFontSizeToFitWidth:YES];
-    [self.inputField.layer setBorderColor:COLOR(AGUI.RGB_CELL_BORDER).CGColor];
+    [self.inputField.layer setBorderColor:COLOR(UI.RGB_CELL_BORDER).CGColor];
     [self.inputField setAutocapitalizationType:UITextAutocapitalizationTypeNone];
 //    [self.inputField.layer setBorderWidth:1.0];
     [self.inputField setFont:FONT_WITH_SIZE(16)];

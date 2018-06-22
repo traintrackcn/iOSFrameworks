@@ -59,6 +59,7 @@
 
 #define RGB_BACKGROUND_NORMAL @"RGB_BACKGROUND_NORMAL|252,252,252"
 
+#define RGB_THEME @"RGB_THEME"
 #define RGB_THEME_FOR_CONTROL @"RGB_THEME_FOR_CONTROL"
 
 #define RGB_AVC_FAILURE_MESSAGE_TITLE @"RGB_AVC_FAILURE_MESSAGE_TITLE|117,55,55"
@@ -94,7 +95,7 @@
 
 
 #pragma mark - common colors
-@property (nonatomic, strong) NSString *RGB_THEME;
+//@property (nonatomic, strong) NSString *RGB_THEME;
 @property (nonatomic, strong) NSString *RGB_DISABLED;
 
 #pragma mark - title colors

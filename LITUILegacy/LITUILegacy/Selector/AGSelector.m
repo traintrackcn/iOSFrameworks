@@ -74,7 +74,7 @@
     titleV = [[UILabel alloc] initWithFrame:CGRectMake(x, 30, w, 40)];
     [titleV setTextAlignment:NSTextAlignmentCenter];
     [titleV setFont:[UIFont systemFontOfSize:24]];
-    [titleV setTextColor:COLOR(AG_UI_DEFINE.RGB_THEME)];
+    [titleV setTextColor:COLOR(RGB_THEME)];
     [layoutV addSubview:titleV];
 }
 

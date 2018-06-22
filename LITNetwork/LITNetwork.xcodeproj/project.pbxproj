@@ -82,10 +82,12 @@
 		4AA7821E201CEAA600C16251 /* LITRequestFormField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA781FC201CEAA500C16251 /* LITRequestFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA7821F201CEAA600C16251 /* DARequestUniversal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA781FD201CEAA500C16251 /* DARequestUniversal.m */; };
 		4AA78221201CEADC00C16251 /* LITCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA78220201CEADC00C16251 /* LITCommon.framework */; };
-		4AFDC53820D562DB008F7416 /* LITJSONLoaderResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFDC53420D562DA008F7416 /* LITJSONLoaderResponse.m */; };
-		4AFDC53920D562DB008F7416 /* LITJSONLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFDC53520D562DA008F7416 /* LITJSONLoader.m */; };
-		4AFDC53A20D562DB008F7416 /* LITJSONLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFDC53620D562DB008F7416 /* LITJSONLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AFDC53B20D562DB008F7416 /* LITJSONLoaderResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFDC53720D562DB008F7416 /* LITJSONLoaderResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AFDC57320D749CD008F7416 /* LITJSONLoaderResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFDC56D20D749CC008F7416 /* LITJSONLoaderResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AFDC57420D749CD008F7416 /* LITJSONLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFDC56E20D749CC008F7416 /* LITJSONLoader.m */; };
+		4AFDC57520D749CD008F7416 /* NSObject+LITJSONLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFDC56F20D749CC008F7416 /* NSObject+LITJSONLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AFDC57620D749CD008F7416 /* LITJSONLoaderResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFDC57020D749CC008F7416 /* LITJSONLoaderResponse.m */; };
+		4AFDC57720D749CD008F7416 /* LITJSONLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFDC57120D749CC008F7416 /* LITJSONLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AFDC57820D749CD008F7416 /* NSObject+LITJSONLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFDC57220D749CC008F7416 /* NSObject+LITJSONLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,10 +168,12 @@
 		4AA781FC201CEAA500C16251 /* LITRequestFormField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITRequestFormField.h; sourceTree = "<group>"; };
 		4AA781FD201CEAA500C16251 /* DARequestUniversal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DARequestUniversal.m; sourceTree = "<group>"; };
 		4AA78220201CEADC00C16251 /* LITCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LITCommon.framework; sourceTree = "<group>"; };
-		4AFDC53420D562DA008F7416 /* LITJSONLoaderResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITJSONLoaderResponse.m; sourceTree = "<group>"; };
-		4AFDC53520D562DA008F7416 /* LITJSONLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITJSONLoader.m; sourceTree = "<group>"; };
-		4AFDC53620D562DB008F7416 /* LITJSONLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITJSONLoader.h; sourceTree = "<group>"; };
-		4AFDC53720D562DB008F7416 /* LITJSONLoaderResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITJSONLoaderResponse.h; sourceTree = "<group>"; };
+		4AFDC56D20D749CC008F7416 /* LITJSONLoaderResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITJSONLoaderResponse.h; sourceTree = "<group>"; };
+		4AFDC56E20D749CC008F7416 /* LITJSONLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITJSONLoader.m; sourceTree = "<group>"; };
+		4AFDC56F20D749CC008F7416 /* NSObject+LITJSONLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LITJSONLoader.h"; sourceTree = "<group>"; };
+		4AFDC57020D749CC008F7416 /* LITJSONLoaderResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITJSONLoaderResponse.m; sourceTree = "<group>"; };
+		4AFDC57120D749CC008F7416 /* LITJSONLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITJSONLoader.h; sourceTree = "<group>"; };
+		4AFDC57220D749CC008F7416 /* NSObject+LITJSONLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LITJSONLoader.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,10 +210,7 @@
 		4AA78185201CE96300C16251 /* LITNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				4AFDC53620D562DB008F7416 /* LITJSONLoader.h */,
-				4AFDC53520D562DA008F7416 /* LITJSONLoader.m */,
-				4AFDC53720D562DB008F7416 /* LITJSONLoaderResponse.h */,
-				4AFDC53420D562DA008F7416 /* LITJSONLoaderResponse.m */,
+				4AFDC56C20D749CC008F7416 /* LITJSONLoader */,
 				4AA781DB201CEAA200C16251 /* AGNetworkDefine.h */,
 				4AA781E1201CEAA300C16251 /* AGNetworkDefine.m */,
 				4AA781F4201CEAA400C16251 /* AGRemoter.h */,
@@ -311,6 +312,19 @@
 			path = ObjPoolRelated;
 			sourceTree = "<group>";
 		};
+		4AFDC56C20D749CC008F7416 /* LITJSONLoader */ = {
+			isa = PBXGroup;
+			children = (
+				4AFDC57120D749CC008F7416 /* LITJSONLoader.h */,
+				4AFDC56E20D749CC008F7416 /* LITJSONLoader.m */,
+				4AFDC56D20D749CC008F7416 /* LITJSONLoaderResponse.h */,
+				4AFDC57020D749CC008F7416 /* LITJSONLoaderResponse.m */,
+				4AFDC56F20D749CC008F7416 /* NSObject+LITJSONLoader.h */,
+				4AFDC57220D749CC008F7416 /* NSObject+LITJSONLoader.m */,
+			);
+			path = LITJSONLoader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -354,10 +368,11 @@
 				4AA781BB201CE9E500C16251 /* AFURLRequestSerialization.h in Headers */,
 				4AA781BC201CE9E500C16251 /* AFURLConnectionOperation.h in Headers */,
 				4A85D20D20B711260093FDBE /* LITRequestRedmineBinary.h in Headers */,
-				4AFDC53A20D562DB008F7416 /* LITJSONLoader.h in Headers */,
-				4AFDC53B20D562DB008F7416 /* LITJSONLoaderResponse.h in Headers */,
 				4AA781B8201CE9E500C16251 /* AFHTTPRequestOperation.h in Headers */,
 				4AA78188201CE96300C16251 /* LITNetwork.h in Headers */,
+				4AFDC57520D749CD008F7416 /* NSObject+LITJSONLoader.h in Headers */,
+				4AFDC57720D749CD008F7416 /* LITJSONLoader.h in Headers */,
+				4AFDC57320D749CD008F7416 /* LITJSONLoaderResponse.h in Headers */,
 				4AA781C5201CE9E500C16251 /* AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +475,7 @@
 				4AA78206201CEAA600C16251 /* LITRequestFormField.m in Sources */,
 				4AA781D4201CE9E500C16251 /* UIImageView+AFNetworking.m in Sources */,
 				4AA781C2201CE9E500C16251 /* AFHTTPRequestOperationManager.m in Sources */,
+				4AFDC57420D749CD008F7416 /* LITJSONLoader.m in Sources */,
 				4AA78219201CEAA600C16251 /* AGRemoter.m in Sources */,
 				4AA781C9201CE9E500C16251 /* UIAlertView+AFNetworking.m in Sources */,
 				4AA781C3201CE9E500C16251 /* AFURLRequestSerialization.m in Sources */,
@@ -467,17 +483,17 @@
 				4AA7820C201CEAA600C16251 /* DSRequestInfo.m in Sources */,
 				4AA78211201CEAA600C16251 /* LITAsset.m in Sources */,
 				4AA781D9201CE9E500C16251 /* UIWebView+AFNetworking.m in Sources */,
-				4AFDC53920D562DB008F7416 /* LITJSONLoader.m in Sources */,
 				4AA78201201CEAA600C16251 /* NSObject+FileLoader.m in Sources */,
 				4AA78207201CEAA600C16251 /* AGRemoterResult.m in Sources */,
 				4AA781CE201CE9E500C16251 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				4AA781D7201CE9E500C16251 /* UIButton+AFNetworking.m in Sources */,
 				4AA78213201CEAA600C16251 /* DAFileLoader.m in Sources */,
 				4AA781BE201CE9E500C16251 /* AFHTTPSessionManager.m in Sources */,
+				4AFDC57620D749CD008F7416 /* LITJSONLoaderResponse.m in Sources */,
 				4AA781C6201CE9E500C16251 /* AFNetworkReachabilityManager.m in Sources */,
 				4AA78210201CEAA600C16251 /* LITLoader.m in Sources */,
-				4AFDC53820D562DB008F7416 /* LITJSONLoaderResponse.m in Sources */,
 				4AA7820E201CEAA600C16251 /* LITFileUploader.m in Sources */,
+				4AFDC57820D749CD008F7416 /* NSObject+LITJSONLoader.m in Sources */,
 				4AA781D8201CE9E500C16251 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				4AA78203201CEAA600C16251 /* AGNetworkDefine.m in Sources */,
 				4A85D20E20B711260093FDBE /* LITRequestRedmineBinary.m in Sources */,

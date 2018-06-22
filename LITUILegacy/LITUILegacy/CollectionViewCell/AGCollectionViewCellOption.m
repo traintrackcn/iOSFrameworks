@@ -44,7 +44,7 @@
     [titleL setClipsToBounds:YES];
     [titleL.layer setCornerRadius:4.0];
     [titleL setAdjustsFontSizeToFitWidth:YES];
-    [titleL.layer setBorderColor:COLOR(AG_UI_DEFINE.RGB_OPTION_BORDER).CGColor];
+    [titleL.layer setBorderColor:COLOR(UI.RGB_OPTION_BORDER).CGColor];
     [self.contentView addSubview:titleL];
 }
 
@@ -52,12 +52,12 @@
 - (void)setSelected:(BOOL)selected{
     if (selected) {
         [titleL.layer setBorderWidth:0];
-        [titleL setBackgroundColor:COLOR(AG_UI_DEFINE.RGB_OPTION_BACKGROUND_HIGHLIGHT)];
-        [titleL setTextColor:COLOR(AG_UI_DEFINE.RGB_OPTION_TITLE_HIGHLIGHT)];
+        [titleL setBackgroundColor:COLOR(UI.RGB_OPTION_BACKGROUND_HIGHLIGHT)];
+        [titleL setTextColor:COLOR(UI.RGB_OPTION_TITLE_HIGHLIGHT)];
     }else{
         [titleL.layer setBorderWidth:1];
-        [titleL setBackgroundColor:COLOR(AG_UI_DEFINE.RGB_OPTION_BACKGROUND_NORMAL)];
-        [titleL setTextColor:COLOR(AG_UI_DEFINE.RGB_OPTION_TITLE_NORMAL)];
+        [titleL setBackgroundColor:COLOR(UI.RGB_OPTION_BACKGROUND_NORMAL)];
+        [titleL setTextColor:COLOR(UI.RGB_OPTION_TITLE_NORMAL)];
     }
 }
 

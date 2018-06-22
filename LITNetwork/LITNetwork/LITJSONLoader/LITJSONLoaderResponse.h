@@ -9,15 +9,19 @@
 #import <LITCommon/LITCommon.h>
 
 @class AFHTTPRequestOperation;
+@class LITJSONLoader;
+
 @interface LITJSONLoaderResponse : AGModel
+
+- (NSString *)key;
 
 - (void)parse:(AFHTTPRequestOperation *)operation;
 
-
 @property (nonatomic, copy) NSString *code;
-@property (nonatomic, strong) id metaData;
+@property (nonatomic, weak) id metaData;
 @property (nonatomic, copy) id headers;
-@property (nonatomic, strong) id parsedData;
-@property (nonatomic, strong) id parsedError;
+@property (nonatomic, weak) id parsedData;
+@property (nonatomic, weak) id parsedError;
+@property (nonatomic, weak) LITJSONLoader *loader;
 
 @end

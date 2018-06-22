@@ -8,6 +8,7 @@
 
 #import "DANetworkLoader.h"
 #import "LITJSONLoaderResponse.h"
+#import "NSObject+LITJSONLoader.h"
 
 @interface LITJSONLoader : DANetworkLoader
 

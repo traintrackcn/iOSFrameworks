@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/AGStyleCoordinator.h</key>
 		<data>
-		S4/c2LCPet8zt5uHVMhBvNJg8rg=
+		nYwW44P+4yzd8meqYxkEnCI5ms8=
 		</data>
 		<key>Headers/AGTextCoordinator.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/AGUIDefine.h</key>
 		<data>
-		PN1At9jHOLyzljtDSPyUTIoSbms=
+		HvJUvaTj7DRcplxewpez3jkEZlA=
 		</data>
 		<key>Headers/AGUITextKeyDefine.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3FZmWShBgfVGAkY699a0jl0XlJE=
+		gXe+QgGL1q4cl7jcrM2sxQJuWjg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -150,11 +150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S4/c2LCPet8zt5uHVMhBvNJg8rg=
+			nYwW44P+4yzd8meqYxkEnCI5ms8=
 			</data>
 			<key>hash2</key>
 			<data>
-			o2ZePg9Z8FtvK81Ait2JjMlmZdl/Q+qByEmS5Ip7ILQ=
+			190tImt1gkcEOV5triBmIe20Cf6aeTv/fcK2cyAW3SU=
 			</data>
 		</dict>
 		<key>Headers/AGTextCoordinator.h</key>
@@ -172,11 +172,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PN1At9jHOLyzljtDSPyUTIoSbms=
+			HvJUvaTj7DRcplxewpez3jkEZlA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z6hqe7ri6hAQCsE+sLfUpKvNek9AdODJpUJrGjhWq0k=
+			mX8NRfefrdyPZWGIIGcXZU5T69BU5Ohp78cyDh50iA4=
 			</data>
 		</dict>
 		<key>Headers/AGUITextKeyDefine.h</key>

@@ -20,7 +20,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self assemble];
-        [self setBackgroundColor:COLOR(AG_UI_DEFINE.RGB_HEADER_BACKGROUND)];
+        [self setBackgroundColor:COLOR(UI.RGB_HEADER_BACKGROUND)];
     }
     return self;
 }

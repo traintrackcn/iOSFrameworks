@@ -1,0 +1,11 @@
+framework module hyperosloCache {
+  umbrella header "hyperosloCache.h"
+
+  export *
+  module * { export * }
+}
+
+module hyperosloCache.Swift {
+    header "hyperosloCache-Swift.h"
+    requires objc
+}

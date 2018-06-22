@@ -48,7 +48,6 @@
 @property (nonatomic, strong) NSIndexPath *indexPath;
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) id value;
-@property (nonatomic, weak) id ws;
 @property (nonatomic, weak) id associatedVC;
 @property (nonatomic, weak) id associatedTV; // for LITCellTableView use
 

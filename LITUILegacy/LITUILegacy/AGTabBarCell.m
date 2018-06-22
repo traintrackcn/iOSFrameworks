@@ -27,7 +27,7 @@ NSString *AGTabBarCellDidChange = @"AGTabBarCellDidChange";
 //        [collectionV setBackgroundColor:self.backgroundColorValue];
         [self.contentView insertSubview:self.borderBottomViewStyleSolid belowSubview:self.collectionView];
 //        [self.collectionView setBackgroundColor:COLOR(AGUIDEFINE.RGB_BACKGROUND_TAB_BAR)];
-        [self.contentView setBackgroundColor:COLOR(AG_UI_DEFINE.RGB_TAB_BAR_BACKGROUND)];
+        [self.contentView setBackgroundColor:COLOR(UI.RGB_TAB_BAR_BACKGROUND)];
     }
     return self;
 }
@@ -49,7 +49,7 @@ NSString *AGTabBarCellDidChange = @"AGTabBarCellDidChange";
 #pragma mark - styles
 
 - (UIColor *)borderColor{
-    return COLOR(AG_UI_DEFINE.RGB_BORDER_DARKER);
+    return COLOR(UI.RGB_BORDER_DARKER);
 }
 
 @end

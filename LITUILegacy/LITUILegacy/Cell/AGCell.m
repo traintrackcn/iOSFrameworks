@@ -269,20 +269,20 @@
 //}
 //
 //- (UIColor *)borderColor{
-//    return COLOR(AG_UI_DEFINE.RGB_BORDER);
+//    return COLOR(UI.RGB_BORDER);
 //}
 
 
 - (void)applySelectedStyle{
-    [self setBackgroundColor:COLOR(AG_UI_DEFINE.RGB_CELL_BACKGROUND_HIGHLIGHT)];
-    self.textLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_TITLE_HIGHLIGHT);
-    self.detailTextLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_CONTENT_HIGHLIGHT);
+    [self setBackgroundColor:COLOR(UI.RGB_CELL_BACKGROUND_HIGHLIGHT)];
+    self.textLabel.textColor = COLOR(UI.RGB_CELL_TITLE_HIGHLIGHT);
+    self.detailTextLabel.textColor = COLOR(UI.RGB_CELL_CONTENT_HIGHLIGHT);
 }
 
 - (void)applyUnselectedStyle{
     [self setBackgroundColor:COLOR(RGB_WHITE)];
-    self.textLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_TITLE_NORMAL);
-    self.detailTextLabel.textColor = COLOR(AG_UI_DEFINE.RGB_CELL_CONTENT_NORMAL);
+    self.textLabel.textColor = COLOR(UI.RGB_CELL_TITLE_NORMAL);
+    self.detailTextLabel.textColor = COLOR(UI.RGB_CELL_CONTENT_NORMAL);
 }
 
 

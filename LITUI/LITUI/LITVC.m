@@ -26,7 +26,6 @@
 //@property (nonatomic, strong) UIView *interactiveContainer;
 @property (nonatomic, assign) BOOL initialized;
 @property (nonatomic, strong) AGObjectPool *objPool;
-@property (nonatomic, weak) id ws;
 @property (nonatomic, strong) LITVCCore *core;
 
 @end
@@ -42,7 +41,6 @@
 - (id)init{
     self = [super init];
     if (self) {
-        [self setWs:self];
         [self setBackgroundColor:COLOR(RGB_BACKGROUND_NORMAL)];
     }
     return self;
@@ -59,6 +57,7 @@
 - (void)viewDidLoad{
     TLOG(@"%@", self.className);
     [super viewDidLoad];
+    [self.tableView setDelaysContentTouches:NO];
     [self.parentView addSubview:self.overlayContainer];
     [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     if (self.backgroundColor) {

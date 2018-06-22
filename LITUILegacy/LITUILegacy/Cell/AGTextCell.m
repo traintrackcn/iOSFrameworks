@@ -64,7 +64,7 @@
         CGFloat w = [DSDeviceUtil bounds].size.width/2-self.paddingLR;
         CGFloat h = self.height;
         _textLabel = [[UILabel alloc] initWithFrame:CGRectMake(x, y, w, h)];
-        [_textLabel setTextColor:COLOR(AG_UI_DEFINE.RGB_CELL_TITLE_HIGHLIGHT)];
+        [_textLabel setTextColor:COLOR(UI.RGB_CELL_TITLE_HIGHLIGHT)];
         [_textLabel setNumberOfLines:0];
         [_textLabel setAdjustsFontSizeToFitWidth:YES];
         [_textLabel setFont:FONT_WITH_SIZE(16)];
@@ -80,7 +80,7 @@
 //        CGFloat y = 0;
 //        CGFloat h = self.height;
         _detailTextLabel = [super detailTextLabel];
-        [_detailTextLabel setTextColor:COLOR(AG_UI_DEFINE.RGB_CELL_TITLE_HIGHLIGHT)];
+        [_detailTextLabel setTextColor:COLOR(UI.RGB_CELL_TITLE_HIGHLIGHT)];
         [_detailTextLabel setFont:FONT_WITH_SIZE(16)];
         [_detailTextLabel setAdjustsFontSizeToFitWidth:YES];
         [_detailTextLabel setNumberOfLines:0];

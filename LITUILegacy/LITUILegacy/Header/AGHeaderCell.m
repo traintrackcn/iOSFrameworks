@@ -66,7 +66,7 @@
 #pragma mark - styles
 
 - (UIColor *)titleColor{
-    return COLOR(AG_UI_DEFINE.RGB_THEME);
+    return COLOR(RGB_THEME);
 }
 
 - (UIFont *)titleFont{

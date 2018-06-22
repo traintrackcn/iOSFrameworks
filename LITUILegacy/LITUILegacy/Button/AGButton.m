@@ -50,7 +50,7 @@
     }
     
     if (state == UIControlStateNormal) {
-        color = COLOR(AGUI.RGB_BUTTON_TITLE_NORMAL);
+        color = COLOR(UI.RGB_BUTTON_TITLE_NORMAL);
     }
     
     return color;
@@ -65,11 +65,11 @@
     UIImage *img = [[UIImage alloc] init];
     
     if (state == UIControlStateDisabled) {
-        img = [DSImage rectangleWithSize:CGSizeMake(1, 1) fillColor:COLOR(AG_UI_DEFINE.RGB_DISABLED)];
+        img = [DSImage rectangleWithSize:CGSizeMake(1, 1) fillColor:COLOR(UI.RGB_DISABLED)];
     }
     
     if (state == UIControlStateNormal) {
-        img = [DSImage rectangleWithSize:CGSizeMake(1, 1) fillColor:COLOR(AG_UI_DEFINE.RGB_THEME)];
+        img = [DSImage rectangleWithSize:CGSizeMake(1, 1) fillColor:COLOR(RGB_THEME)];
     }
     
     return img;

@@ -23,6 +23,8 @@
 		4A1391B720B62E87007C77B2 /* LITCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1391A920B62E87007C77B2 /* LITCollectionCell.m */; };
 		4A85D1D920B632FC0093FDBE /* LITHorizontalUnitsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1391BA20B6305C007C77B2 /* LITHorizontalUnitsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A85D1DA20B634B70093FDBE /* LITHorizontalUnitsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1391BB20B6305C007C77B2 /* LITHorizontalUnitsCell.m */; };
+		4A917C1920D9E68D008E236D /* LITImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A917C1720D9E68C008E236D /* LITImageButton.m */; };
+		4A917C1A20D9E68D008E236D /* LITImageButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A917C1820D9E68C008E236D /* LITImageButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA78278201D5A9400C16251 /* LITUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA78276201D5A9400C16251 /* LITUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA7876F201D655E00C16251 /* LITCellForSectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785D8201D655400C16251 /* LITCellForSectionButton.m */; };
 		4AA78770201D655E00C16251 /* LITItemForSectionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA785D9201D655400C16251 /* LITItemForSectionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -130,6 +132,8 @@
 		4A1391A920B62E87007C77B2 /* LITCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITCollectionCell.m; sourceTree = "<group>"; };
 		4A1391BA20B6305C007C77B2 /* LITHorizontalUnitsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITHorizontalUnitsCell.h; sourceTree = "<group>"; };
 		4A1391BB20B6305C007C77B2 /* LITHorizontalUnitsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LITHorizontalUnitsCell.m; sourceTree = "<group>"; };
+		4A917C1720D9E68C008E236D /* LITImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITImageButton.m; sourceTree = "<group>"; };
+		4A917C1820D9E68C008E236D /* LITImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITImageButton.h; sourceTree = "<group>"; };
 		4AA78273201D5A9400C16251 /* LITUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LITUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA78276201D5A9400C16251 /* LITUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LITUI.h; sourceTree = "<group>"; };
 		4AA78277201D5A9400C16251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -277,6 +281,15 @@
 			path = LITCellCollection;
 			sourceTree = "<group>";
 		};
+		4A917C1620D9E68C008E236D /* LITImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				4A917C1720D9E68C008E236D /* LITImageButton.m */,
+				4A917C1820D9E68C008E236D /* LITImageButton.h */,
+			);
+			path = LITImageButton;
+			sourceTree = "<group>";
+		};
 		4AA78269201D5A9400C16251 = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +314,7 @@
 		4AA78275201D5A9400C16251 /* LITUI */ = {
 			isa = PBXGroup;
 			children = (
+				4A917C1620D9E68C008E236D /* LITImageButton */,
 				4A13919A20B62E87007C77B2 /* LITCollectionView */,
 				4AA785EB201D655500C16251 /* DAActivityViewController.h */,
 				4AA7876A201D655D00C16251 /* DAActivityViewController.m */,
@@ -510,6 +524,7 @@
 				4AA7878E201D655E00C16251 /* LITCellSpace.h in Headers */,
 				4A85D1D920B632FC0093FDBE /* LITHorizontalUnitsCell.h in Headers */,
 				4AA78888201D655F00C16251 /* LITVC.h in Headers */,
+				4A917C1A20D9E68D008E236D /* LITImageButton.h in Headers */,
 				4AA78278201D5A9400C16251 /* LITUI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,6 +652,7 @@
 				4AA788DA201D655F00C16251 /* LITVC.m in Sources */,
 				4A1391AD20B62E87007C77B2 /* LITCollectionLayoutPageItems.m in Sources */,
 				4AA78776201D655E00C16251 /* LITTextFieldCellForm.m in Sources */,
+				4A917C1920D9E68D008E236D /* LITImageButton.m in Sources */,
 				4AA78898201D655F00C16251 /* LITTextCellTitleOnly.m in Sources */,
 				4AA788DE201D655F00C16251 /* DAActivityViewController.m in Sources */,
 				4AA787BF201D655E00C16251 /* LITHeaderViewTinyDark.m in Sources */,

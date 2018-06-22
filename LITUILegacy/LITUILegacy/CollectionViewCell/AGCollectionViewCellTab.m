@@ -64,7 +64,7 @@
         CGFloat y = self.frame.size.height - h;
         CGFloat x = (self.frame.size.width - w)/2.0;
         _pointIconView = [[UIImageView alloc] initWithFrame:CGRectMake(x, y, w, h)];
-        UIImage *img = [DSImage triangleWithSize:CGSizeMake(w, h) fillColor:COLOR(RGB_WHITE) borderColor:COLOR(AGUI.RGB_BORDER_DARKER)];
+        UIImage *img = [DSImage triangleWithSize:CGSizeMake(w, h) fillColor:COLOR(RGB_WHITE) borderColor:COLOR(UI.RGB_BORDER_DARKER)];
         [_pointIconView setImage:img];
 //        [AGDebugUtil makeBorderForView:_pointIconView];
     }
@@ -76,11 +76,11 @@
 - (void)setSelected:(BOOL)selected{
     if (selected) {
         [self.titleLabel setFont:FONT_WITH_SIZE(13.0)];
-        [self.titleLabel setTextColor:COLOR(AG_UI_DEFINE.RGB_THEME)];
+        [self.titleLabel setTextColor:COLOR(RGB_THEME)];
         [self.pointIconView setHidden:NO];
     }else{
         [self.titleLabel setFont:FONT_WITH_SIZE(13.0)];
-        [self.titleLabel setTextColor:COLOR(AG_UI_DEFINE.RGB_TAB_BAR_NORMAL)];
+        [self.titleLabel setTextColor:COLOR(UI.RGB_TAB_BAR_NORMAL)];
         [self.pointIconView setHidden:YES];
     }
 }

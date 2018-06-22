@@ -30,7 +30,6 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier associatedVC:(id)associatedVC indexPath:(NSIndexPath *)indexPath{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        [self setWs:self];
         [self setSelectionStyle:UITableViewCellSelectionStyleNone];
         [self setAssociatedVC:associatedVC];
         [self setIndexPath:indexPath]; //make sure right indexPath when initializing cell

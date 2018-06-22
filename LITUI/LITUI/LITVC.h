@@ -85,7 +85,6 @@
 
 //- (LITVCCore *)core;
 - (AGObjectPool *)objPool;
-- (id)ws;
 
 
 - (void)reloadAllAsNeeded; //for override only

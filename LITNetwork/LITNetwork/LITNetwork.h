@@ -44,6 +44,7 @@ FOUNDATION_EXPORT const unsigned char LITNetworkVersionString[];
 #import <LITNetwork/DSRequestInfo.h>
 #import <LITNetwork/LITJSONLoaderResponse.h>
 #import <LITNetwork/LITJSONLoader.h>
+#import <LITNetwork/NSObject+LITJSONLoader.h>
 
 #import <LITNetwork/DARequest.h>
 #import <LITNetwork/DARequestUniversal.h>

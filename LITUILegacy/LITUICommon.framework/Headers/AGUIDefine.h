@@ -12,13 +12,10 @@
 
 #import "AGStyleCoordinator.h"
 
-#define AG_UI_DEFINE [AGUIDefine singleton]
-#define AGUI [AGUIDefine singleton]
-#define AG_UI [AGUIDefine singleton]
 #define UI [AGUIDefine singleton]
-
 #define COLOR(aValue) [[AGStyleCoordinator singleton] colorForValue:aValue]
 #define RGB(aValue) [[AGStyleCoordinator singleton] rgbForValue:aValue]
+#define SET_COLOR(aKey, aValue) [UI setColor:aKey value:aValue]
 
 //sizes
 #define STYLE_NAVIGATION_BAR_HEIGHT 44.0
@@ -32,11 +29,11 @@
 
 
 //fonts
-#define FONT_WITH_SIZE(aSize) [UIFont fontWithName:AG_UI_DEFINE.fontNameDefault size:aSize]
-#define FONT_BOLD_WITH_SIZE(aSize) [UIFont fontWithName:AG_UI_DEFINE.fontNameBold size:aSize]
-#define FONT_LIGHT_WITH_SIZE(aSize) [UIFont fontWithName:AG_UI_DEFINE.fontNameLight size:aSize]
-#define FONT_REGULAR_WITH_SIZE(aSize) [UIFont fontWithName:AG_UI_DEFINE.fontNameRegular size:aSize]
-#define FONT_MEDIUM_WITH_SIZE(aSize) [UIFont fontWithName:AG_UI_DEFINE.fontNameMedium size:aSize]
+#define FONT_WITH_SIZE(aSize) [UIFont fontWithName:UI.fontNameDefault size:aSize]
+#define FONT_BOLD_WITH_SIZE(aSize) [UIFont fontWithName:UI.fontNameBold size:aSize]
+#define FONT_LIGHT_WITH_SIZE(aSize) [UIFont fontWithName:UI.fontNameLight size:aSize]
+#define FONT_REGULAR_WITH_SIZE(aSize) [UIFont fontWithName:UI.fontNameRegular size:aSize]
+#define FONT_MEDIUM_WITH_SIZE(aSize) [UIFont fontWithName:UI.fontNameMedium size:aSize]
 
 //base colors
 #define RGB_WHITE @"255,255,255"
@@ -62,6 +59,7 @@
 
 #define RGB_BACKGROUND_NORMAL @"RGB_BACKGROUND_NORMAL|252,252,252"
 
+#define RGB_THEME @"RGB_THEME"
 #define RGB_THEME_FOR_CONTROL @"RGB_THEME_FOR_CONTROL"
 
 #define RGB_AVC_FAILURE_MESSAGE_TITLE @"RGB_AVC_FAILURE_MESSAGE_TITLE|117,55,55"
@@ -77,7 +75,7 @@
 
 - (BOOL)sessionRoleIsRetailCustomer;
 - (NSString *)sessionRoleCode;
-
+- (void)setColor:(NSString *)key value:(NSString *)value;
 
 
 @property (nonatomic, strong) Class loginViewControllerClass;
@@ -97,7 +95,7 @@
 
 
 #pragma mark - common colors
-@property (nonatomic, strong) NSString *RGB_THEME;
+//@property (nonatomic, strong) NSString *RGB_THEME;
 @property (nonatomic, strong) NSString *RGB_DISABLED;
 
 #pragma mark - title colors

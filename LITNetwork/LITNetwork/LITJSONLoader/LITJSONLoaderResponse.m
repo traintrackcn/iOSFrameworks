@@ -7,8 +7,8 @@
 //
 
 #import "LITJSONLoaderResponse.h"
-
 #import "AFHTTPRequestOperation.h"
+#import "LITJSONLoader.h"
 
 @implementation LITJSONLoaderResponse
 
@@ -19,6 +19,10 @@
     [self setHeaders:response.allHeaderFields];
 
     if (operation.isCancelled) [self setCode:@"Cancelled"];
+}
+
+- (NSString *)key{
+    return self.loader.key;
 }
 
 @end

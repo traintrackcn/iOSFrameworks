@@ -107,10 +107,10 @@
     return _RGB_DISABLED;
 }
 
-- (NSString *)RGB_THEME{
-    if (!_RGB_THEME) return @"0,0,0";
-    return _RGB_THEME;
-}
+//- (NSString *)RGB_THEME{
+//    if (!_RGB_THEME) return @"0,0,0";
+//    return _RGB_THEME;
+//}
 
 
 
@@ -169,7 +169,7 @@
 }
 
 - (NSString *)RGB_CELL_BACKGROUND_HIGHLIGHT{
-    if (!_RGB_CELL_BACKGROUND_HIGHLIGHT) return self.RGB_THEME;
+    if (!_RGB_CELL_BACKGROUND_HIGHLIGHT) return RGB_THEME;
     return _RGB_CELL_BACKGROUND_HIGHLIGHT;
 }
 
@@ -196,12 +196,12 @@
 }
 
 - (NSString *)RGB_INPUT_CURSOR {
-    if (!_RGB_INPUT_CURSOR) return self.RGB_THEME;
+    if (!_RGB_INPUT_CURSOR) return RGB_THEME;
     return _RGB_INPUT_CURSOR;
 }
 
 - (NSString *)RGB_INPUT_ICON{
-    if (!_RGB_INPUT_ICON) return self.RGB_THEME;
+    if (!_RGB_INPUT_ICON) return RGB_THEME;
     return _RGB_INPUT_ICON;
 }
 
@@ -223,7 +223,7 @@
 }
 
 - (NSString *)RGB_BUTTON_BORDER {
-    if (!_RGB_BUTTON_BORDER) return self.RGB_THEME;
+    if (!_RGB_BUTTON_BORDER) return RGB_THEME;
     return _RGB_BUTTON_BORDER;
 }
 
