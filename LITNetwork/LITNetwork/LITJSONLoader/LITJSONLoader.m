@@ -66,7 +66,7 @@
 }
 
 - (void)complete{
-    TLOG(@"response code -> %@", self.response.code);
+    TLOG(@"[%@]%@ ", self.response.code, self.debugDescription);
     [self.response setLoader:self];
     self.completion(self.response);
     [self reset];

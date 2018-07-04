@@ -15,7 +15,6 @@
 @interface NSObject (VC)
 
 - (AGObjectPool *)objPool;
-- (id)ws;
 - (void)addOverlay:(UIView *)view;
 - (void)enableOverlay:(BOOL)enabled;
 - (UIView *)overlayContainer;

@@ -54,7 +54,7 @@
     
 //    __weak AGManyCellsViewController *ws = self;
     [self.rUnitForData requestWithCompletion:^(id data, id error) {
-        [self.ws requestItemsCallback:data error:error];
+        [self requestItemsCallback:data error:error];
     }];
 }
 

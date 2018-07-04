@@ -32,10 +32,6 @@
 
 #pragma mark - properties
 
-- (id)ws{
-    return nil;
-}
-
 - (AGObjectPool *)objPool{
     return nil;
 }

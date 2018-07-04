@@ -601,8 +601,9 @@
         AGHeaderView *v = [[cls alloc] initWithFrame:CGRectMake(0, 0, self.tableView.frame.size.width, [cls height])];
         [v setAssociatedViewController:self];
         [v setSection:section];
-        [v setValue:value];
         [v setTitle:title];
+        [v setValue:value];
+        
         return v;
     }
     

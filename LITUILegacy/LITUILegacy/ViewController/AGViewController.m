@@ -50,7 +50,6 @@
 - (id)init{
     self = [super init];
     if (self) {
-        [self setWs:self];
         [self setConfig:[AGVCConfiguration instance]];
         [self.config setTarget:self];
         animationDuration = .33;

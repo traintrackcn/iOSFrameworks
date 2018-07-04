@@ -117,7 +117,6 @@ typedef NS_ENUM(NSInteger, SectionDummyCell){
 
 - (BOOL)visible;
 
-@property (nonatomic, weak) id ws;
 @property (nonatomic, copy) NSIndexPath *associatedIndexPath;
 @property (nonatomic, strong) AGVCConfiguration *config;
 @property (nonatomic, strong) UIColor *backgroundColor;
