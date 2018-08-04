@@ -29,6 +29,16 @@
     return [self.cellHs objectForKey:key];
 }
 
+- (void)resetForSection:(NSInteger)section{
+    NSArray *keys = [self.cellHs.allKeys copy];
+    for (NSInteger i = 0; i<keys.count; i++) {
+        NSString *key = [keys objectAtIndex:i];
+        if ([key rangeOfString:[NSString stringWithFormat:@"%@_", @(section)]].location!= NSNotFound){
+            [self.cellHs removeObjectForKey:key];
+        }
+    }
+}
+
 #pragma mark - utils
 
 - (NSString *)keyOfIndexPath:(NSIndexPath *)indexPath{

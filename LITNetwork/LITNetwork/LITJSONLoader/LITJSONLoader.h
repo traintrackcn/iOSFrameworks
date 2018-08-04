@@ -28,6 +28,12 @@
 - (id)headers;
 - (id)serverUrl;
 
+#pragma mark - debug switchs
+- (BOOL)debugHeaders;
+- (BOOL)debugRequest;
+- (BOOL)debugRequestComplete;
+- (BOOL)debugDealloc;
+
 #pragma mark - parsers
 - (id)parseRawData:(id)raw;
 - (id)parseRawError:(id)raw;

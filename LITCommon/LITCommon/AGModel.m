@@ -91,7 +91,10 @@
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:self];
     //    TLOG(@"save %@ %d", key, data.length);
     [self.userDefaults setObject:data forKey:self.key];
-    TLOG(@"%@ SAVED", self.key);
+    
+    if (self.debugSaved){
+        TLOG(@"%@ SAVED", self.key);
+    }
 }
 
 - (void)saveToDisk{
@@ -227,5 +230,11 @@
 //    free(properties);
 //    return propertyNames;
 //}
+
+#pragma mark - debug switches
+
+- (BOOL)debugSaved{
+    return NO;
+}
 
 @end

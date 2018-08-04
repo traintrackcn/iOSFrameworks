@@ -18,12 +18,13 @@
 //- (NSString *)keyOfSection:(NSInteger)section;
 - (DASectionButton *)sectionButton:(NSInteger)section;
 - (id)sectionItemWithClass:(Class)cls inSection:(NSInteger)section DEPRECATED_WITH_MSG("Use sectionWithClass:inSection: instead");
-- (id)sectionItemInSection:(NSInteger)section; DEPRECATED_WITH_MSG("Use sectionInSection:inSection: instead");
+//- (id)sectionItemInSection:(NSInteger)section; DEPRECATED_WITH_MSG("Use sectionInSection:inSection: instead");
 - (id)sectionWithClass:(Class)cls withConfig:(AGVCConfiguration *)config inSection:(NSInteger)section DEPRECATED;
 
 
 - (id)sectionWithClass:(Class)cls inSection:(NSInteger)section;
 - (id)sectionInSection:(NSInteger)section;
 - (void)resetSection:(NSInteger)section;
+- (void)resetSections;
 
 @end

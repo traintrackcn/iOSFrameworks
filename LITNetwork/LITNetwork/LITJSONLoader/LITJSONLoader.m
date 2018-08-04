@@ -27,10 +27,20 @@
 - (void)requestWithCompletion:(void (^)(LITJSONLoaderResponse *res))completion{
     
     NSAssert(!self.loading, @"Please create multiple loaders for concurrent requests");
-    TLOG(@"%@", self.debugDescription);
-    if (self.requestBody){
-        TLOG(@"%@", self.requestBody);
+    
+    if (self.headers
+        && self.debugHeaders){
+        TLOG(@"%@", self.headers);
     }
+    
+    if (self.debugRequest){
+        TLOG(@"%@", self.debugDescription);
+        if (self.requestBody){
+            TLOG(@"%@", self.requestBody);
+        }
+    }
+    
+    
     [self setLoading:YES];
     [self setCompletion:completion];
     
@@ -45,7 +55,9 @@
 }
 
 - (void)dealloc{
-    TLOG(@"%@",self.debugDescription);
+    if (self.debugDealloc){
+        TLOG(@"%@",self.debugDescription);
+    }
 }
 
 
@@ -66,7 +78,11 @@
 }
 
 - (void)complete{
-    TLOG(@"[%@]%@ ", self.response.code, self.debugDescription);
+    
+    if (self.debugRequestComplete){
+        TLOG(@"[%@]%@ ", self.response.code, self.debugDescription);
+    }
+    
     [self.response setLoader:self];
     self.completion(self.response);
     [self reset];
@@ -178,15 +194,16 @@
 }
 
 - (id)apiVersion{
-    return nil;
+    return NETWORK.defaultProtocolVersion;
 }
 
 - (id)headers{
-    return nil;
+    NSMutableDictionary *headers = [NSMutableDictionary dictionaryWithDictionary:NETWORK.defaultHeaders];
+    return headers;
 }
 
 - (id)serverUrl{
-    return nil;
+    return NETWORK.defaultServerUrl;
 }
 
 - (BOOL)indicator{
@@ -195,6 +212,24 @@
 
 - (NSTimeInterval)timeoutInterval{
     return 60;
+}
+
+#pragma mark - debug switches
+
+- (BOOL)debugRequest{
+    return NO;
+}
+
+- (BOOL)debugRequestComplete{
+    return NO;
+}
+
+- (BOOL)debugHeaders{
+    return self.debugRequest;
+}
+
+- (BOOL)debugDealloc{
+    return NO;
 }
 
 @end

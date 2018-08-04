@@ -16,6 +16,7 @@
 
 - (void)setCellH:(NSNumber *)h atIndexPath:(NSIndexPath *)indexPath;
 - (NSNumber *)cellHAtIndexPath:(NSIndexPath *)indexPath;
+- (void)resetForSection:(NSInteger)section;
 
 @property (nonatomic, weak) LITVC *vc;
 

@@ -8,8 +8,12 @@
 
 @import LITUILegacy;
 
+@class AGObjectPool;
+
 @interface LITSectionUnit : AGSectionUnit
 
 - (void)reload:(BOOL)animated;
+
+- (AGObjectPool *)objPool;
 
 @end
