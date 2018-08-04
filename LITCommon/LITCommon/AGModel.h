@@ -41,6 +41,8 @@
 
 //- (void)setStringForKey:(NSString *)key selector:(SEL)selector;
 //- (NSArray *)propertyNames;
+#pragma mark - debug switchs
 
+- (BOOL)debugSaved;
 
 @end

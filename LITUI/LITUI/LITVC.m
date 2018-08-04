@@ -26,7 +26,7 @@
 //@property (nonatomic, strong) UIView *interactiveContainer;
 @property (nonatomic, assign) BOOL initialized;
 @property (nonatomic, strong) AGObjectPool *objPool;
-@property (nonatomic, strong) LITVCCore *core;
+
 
 @end
 
@@ -57,9 +57,15 @@
 - (void)viewDidLoad{
     TLOG(@"%@", self.className);
     [super viewDidLoad];
-    [self.tableView setDelaysContentTouches:NO];
+    
+    self.tableView.estimatedRowHeight = 0;
+    self.tableView.estimatedSectionHeaderHeight = 0;
+    self.tableView.estimatedSectionFooterHeight = 0;
+    self.tableView.delaysContentTouches = NO;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
     [self.parentView addSubview:self.overlayContainer];
-    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    
     if (self.backgroundColor) {
         UIView *bgV = [[UIView alloc] initWithFrame:CGRectMake(0, 0, STYLE_DEVICE_WIDTH, STYLE_DEVICE_HEIGHT)];
         //        bgV.layer.borderWidth = 1;
@@ -412,10 +418,12 @@
 //    NSInteger idx = indexPath.row;
 //    TLOG(@"%@ %@-%@ h -> %@ ", NSStringFromClass(cellCls), @(section), @(idx), @(h));
 //    TLOG(@"indexPath -> %@ h -> %@", indexPath, @(h));
+//    TLOG(@"section -> %@ h -> %@", @(indexPath.section), @(h));
     return h;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath{
+//    TLOG(@"");
     return [self tableView:tableView heightForRowAtIndexPath:indexPath];
 }
 
@@ -426,7 +434,8 @@
     //    NSInteger rows = [self numberOfRowsInSection:section];
     CGFloat h = 0;
     if (cls) h = [cls height];
-    //    TLOG(@"cls -> %@ h -> %@", cls, @(h));
+//    TLOG(@"cls -> %@ h -> %@", cls, @(h));
+//    TLOG(@"header -> %@ h -> %@", @(section), @(h));
     return h;
 }
 
@@ -451,7 +460,11 @@
     [unit didSelect:idx];
 }
 
-
+//- (CGSize)preferredContentSize{
+//    // Force the table view to calculate its height
+//    [self.tableView layoutIfNeeded];
+//    return self.tableView.contentSize;
+//}
 
 #pragma mark - table view stuff
 
@@ -462,6 +475,7 @@
 
 - (NSInteger)numberOfRowsInSection:(NSInteger)section{
     LITSectionUnit *unit = [self sectionInSection:section];
+//    TLOG(@"%@ numberOfRows -> %@",@(section), @(unit.numberOfRows));
     return unit.numberOfRows;
 }
 

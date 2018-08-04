@@ -83,7 +83,7 @@
 - (void)action:(id)action atIndexPath:(NSIndexPath *)indexPath;
 - (BOOL)visible;
 
-//- (LITVCCore *)core;
+@property (nonatomic, strong) LITVCCore *core;
 - (AGObjectPool *)objPool;
 
 

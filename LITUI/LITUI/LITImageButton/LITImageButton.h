@@ -13,5 +13,8 @@
 + (instancetype)instanceWithFrame:(CGRect)frame image:(UIImage *)image imageSize:(CGSize)imageSize alignment:(NSTextAlignment)alignment;
 
 - (void)setTarget:(id)target action:(SEL)action;
+- (void)setImage:(UIImage *)image imageSize:(CGSize)imageSize;
+
+@property (nonatomic, assign) BOOL badge;
 
 @end

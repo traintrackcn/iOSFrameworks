@@ -13,28 +13,37 @@
 #import "LITSectionUnit.h"
 #import "LITCell.h"
 #import "LITVC.h"
+#import "LITVCCore.h"
 
 
 #define KEY_SECTION_PREFIX @"KEY_SECTION_PREFIX"
+#define KEY_SECTION_DIC @"KEY_SECTION_DIC"
 
 @implementation NSObject (SectionUtils)
 
 - (DASectionButton *)sectionButton:(NSInteger)section{
-    NSString *key = [self keyOfSection:section];
-    DASectionButton *item = [self.objPool objectForKey:key];
+//    NSString *key = [self keyOfSection:section];
+    id key = @(section);
+    DASectionButton *item = [self.sectionDic objectForKey:key];
     if (!item) {
         item = [DASectionButton instanceWithSection:section config:self.config];
-        [self.objPool setObject:item forKey:key ];
+        [self.sectionDic setObject:item forKey:key ];
     }
     return item;
 }
+
+
+
+#pragma mark -
+
+
 
 
 - (id)sectionItemWithClass:(Class)cls inSection:(NSInteger)section{
     id item = [self sectionInSection:section];
     if (!item) {
         item = [cls instanceWithSection:section config:self.config];
-        [self.objPool setObject:item forKey:[self keyOfSection:section]];
+        [self.sectionDic setObject:item forKey:@(section)];
     }
     return item;
     
@@ -44,19 +53,10 @@
     id item = [self sectionInSection:section];
     if (!item) {
         item = [cls instanceWithSection:section config:config];
-        [self.objPool setObject:item forKey:[self keyOfSection:section]];
+        [self.sectionDic setObject:item forKey:@(section)];
     }
     return item;
 }
-
-- (id)sectionItemInSection:(NSInteger)section{
-    NSString *key = [self keyOfSection:section];
-    id item = [self.objPool objectForKey:key];
-    return item;
-}
-
-
-
 
 #pragma mark - LIT stuff
 
@@ -75,22 +75,38 @@
 }
 
 - (id)sectionInSection:(NSInteger)section{
-    NSString *key = [self keyOfSection:section];
-    id item = [self.objPool objectForKey:key];
+//    NSString *key = [self keyOfSection:section];
+    id item = [self.sectionDic objectForKey:@(section)];
 //    TLOG(@"key -> %@ item -> %@", key , item);
     return item;
 }
 
 - (void)resetSection:(NSInteger)section{
-    NSString *key = [self keyOfSection:section];
-    [self.objPool removeObjectForKey:key];
+//    NSString *key = [self keyOfSection:section];
+    [self.sectionDic removeObjectForKey:@(section)];
 }
+
+- (void)resetSections{
+    [self.objPool removeObjectForKey:KEY_SECTION_DIC];
+}
+
+#pragma mark -
+
+- (NSMutableDictionary *)sectionDic{
+    id dic = [self.objPool objectForKey:KEY_SECTION_DIC];
+    if (!dic){
+        dic = [NSMutableDictionary dictionary];
+        [self.objPool setObject:dic forKey:KEY_SECTION_DIC];
+    }
+    return dic;
+}
+
 
 #pragma mark - utils
 
-- (NSString *)keyOfSection:(NSInteger)section{
-    return [NSString stringWithFormat:@"%@_%@", KEY_SECTION_PREFIX, [NSNumber numberWithInteger:section]];
-
-}
+//- (NSString *)keyOfSection:(NSInteger)section{
+//    return [NSString stringWithFormat:@"%@_%@", KEY_SECTION_PREFIX, [NSNumber numberWithInteger:section]];
+//
+//}
 
 @end
