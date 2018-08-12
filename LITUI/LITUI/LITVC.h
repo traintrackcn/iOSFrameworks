@@ -27,6 +27,7 @@
 #pragma mark - associated cell ops
 - (void)setValueForAssociatedIndexPath:(id)value;
 - (void)setNeedsReloadAssociatedIndexPath;
+- (void)setNeedReloadSection:(NSInteger)section;
 - (void)setNeedsReloadAssociatedViewController;
 //- (void)reloadAssociatedIndexPath;
 

@@ -20,8 +20,9 @@
 
 @property (nonatomic, strong) UIView *overlayContainer;
 @property (nonatomic, strong) NSMutableArray *externalViews;
-@property (nonatomic, copy) NSIndexPath *needsReloadIndexPath;
-@property (nonatomic, assign) BOOL needsReloadAll;
+@property (nonatomic, copy) NSIndexPath *indexPathNeedReloading;
+@property (nonatomic, copy) NSNumber *sectionNeedReloading;
+@property (nonatomic, assign) BOOL allNeedReloading;
 @property (nonatomic, assign) BOOL visible;
 //@property (nonatomic, strong) UIView *interactiveContainer;
 @property (nonatomic, assign) BOOL initialized;
@@ -101,14 +102,20 @@
 //    TLOG(@"%@", self.className);
     [super viewDidAppear:animated];
     
-    if (self.needsReloadIndexPath) {
+    if (self.indexPathNeedReloading) {
         [self reloadIndexPathAsNeeded];
-        [self setNeedsReloadIndexPath:nil];
+        self.indexPathNeedReloading = nil;
     }
 //    TLOG(@"needsReloadAll -> %@", @(self.needsReloadAll));
-    if (self.needsReloadAll){
+    if (self.allNeedReloading){
         [self reloadAllAsNeeded];
-        [self setNeedsReloadAll:NO];
+        self.allNeedReloading = NO;
+    }
+    
+    if (self.sectionNeedReloading){
+        NSInteger section = self.sectionNeedReloading.integerValue;
+        [self reloadVisibleIndexPathsInSection:section animated:YES];
+        self.sectionNeedReloading = nil;
     }
     
     [self setInitialized:YES];
@@ -116,7 +123,7 @@
 
 - (void)reloadIndexPathAsNeeded{
     @try {
-        [self reloadIndexPath:self.needsReloadIndexPath];
+        [self reloadIndexPath:self.indexPathNeedReloading];
         
     } @catch (NSException *exception) {
         TLOG(@"exception -> %@", exception);
@@ -554,12 +561,16 @@
 }
 
 - (void)setNeedsReloadAssociatedIndexPath{
-    [self.previousViewController setNeedsReloadIndexPath:self.associatedIndexPath];
+    [self.previousViewController setIndexPathNeedReloading:self.associatedIndexPath];
 }
 
 - (void)setNeedsReloadAssociatedViewController{
     TLOG(@"%@", self.className);
-    [self.previousViewController setNeedsReloadAll:YES];
+    [self.previousViewController setAllNeedReloading:YES];
+}
+
+- (void)setNeedReloadSection:(NSInteger)section{
+    [self.previousViewController setSectionNeedReloading:@(section)];
 }
 
 #pragma mark - external requests
