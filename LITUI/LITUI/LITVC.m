@@ -21,6 +21,7 @@
 @property (nonatomic, strong) UIView *overlayContainer;
 @property (nonatomic, strong) NSMutableArray *externalViews;
 @property (nonatomic, copy) NSIndexPath *indexPathNeedReloading;
+@property (nonatomic, copy) NSNumber *sectionNeedReloading;
 @property (nonatomic, assign) BOOL allNeedReloading;
 @property (nonatomic, assign) BOOL visible;
 //@property (nonatomic, strong) UIView *interactiveContainer;
@@ -111,11 +112,11 @@
         self.allNeedReloading = NO;
     }
     
-//    if (self.sectionNeedReloading){
-//        NSInteger section = self.sectionNeedReloading.integerValue;
-//        [self reloadVisibleIndexPathsInSection:section animated:YES];
-//        self.sectionNeedReloading = nil;
-//    }
+    if (self.sectionNeedReloading){
+        NSInteger section = self.sectionNeedReloading.integerValue;
+        [self reloadVisibleIndexPathsInSection:section animated:YES];
+        self.sectionNeedReloading = nil;
+    }
     
     [self setInitialized:YES];
 }
@@ -559,15 +560,20 @@
     }
 }
 
-- (void)setNeedsReloadAssociatedIndexPath{
-    [self.previousViewController setIndexPathNeedReloading:self.associatedIndexPath];
+- (void)setReloadAssociatedIndexPath:(NSIndexPath *)indexPath{
+    NSIndexPath *ip = self.associatedIndexPath;
+    if (indexPath) ip = indexPath;
+    [self.previousViewController setIndexPathNeedReloading:ip];
 }
 
-- (void)setNeedsReloadAssociatedViewController{
+- (void)setReloadPreviousVC{
     TLOG(@"%@", self.className);
     [self.previousViewController setAllNeedReloading:YES];
 }
 
+- (void)setReloadSectionOfPreviousVC:(NSInteger)section{
+    [self.previousViewController setSectionNeedReloading:@(section)];
+}
 
 #pragma mark - external requests
 

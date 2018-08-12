@@ -26,9 +26,9 @@
 
 #pragma mark - associated cell ops
 - (void)setValueForAssociatedIndexPath:(id)value;
-- (void)setNeedsReloadAssociatedIndexPath;
-//- (void)setNeedReloadSection:(NSInteger)section;
-- (void)setNeedsReloadAssociatedViewController;
+- (void)setReloadIndexPathOfPreviousVC:(NSIndexPath *)indexPath;
+- (void)setReloadSectionOfPreviousVC:(NSInteger)section;
+- (void)setReloadPreviousVC;
 //- (void)reloadAssociatedIndexPath;
 
 #pragma mark - transfer to other views
