@@ -9,7 +9,7 @@
 @import UIKit;
 
 @interface UITableViewController (NavigationBar)
-
+- (void)resetNavigationBar;
 - (void)hideNextVCBackButtonTitle;
 - (void)hideNavigationBarBackground;
 - (void)hideNavigationBarBorder;

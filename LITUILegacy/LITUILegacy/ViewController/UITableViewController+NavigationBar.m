@@ -38,6 +38,13 @@
     [self hideNavigationBarBorder];
 }
 
+- (void)resetNavigationBar{
+    UINavigationBar *naviBar = self.navigationController.navigationBar;
+    [naviBar setBackgroundImage:[[UINavigationBar appearance] backgroundImageForBarMetrics:UIBarMetricsDefault]
+                  forBarMetrics:UIBarMetricsDefault];
+    naviBar.shadowImage = [UINavigationBar appearance].shadowImage;
+}
+
 - (void)setNavigationBarBorderColor:(UIColor *)borderColor{
     UIImage *img = [DSImage rectangleWithSize:CGSizeMake(1, 1) fillColor:borderColor];
     UINavigationBar *naviBar = self.navigationController.navigationBar;
