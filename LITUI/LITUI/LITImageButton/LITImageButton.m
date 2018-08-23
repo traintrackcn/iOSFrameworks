@@ -34,6 +34,14 @@
     return instance;
 }
 
+- (instancetype)initWithFrame:(CGRect)frame{
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.clipsToBounds = YES;
+    }
+    return self;
+}
+
 - (void)setTarget:(id)target action:(SEL)action{
     UITapGestureRecognizer *gr = [[UITapGestureRecognizer alloc] initWithTarget:target action:action];
     [self addGestureRecognizer:gr];
@@ -61,7 +69,7 @@
     CGFloat w = self.imgSize.width;
     CGFloat h = self.imgSize.height;
     CGFloat x = (self.frame.size.width - w)/2.0;
-    CGFloat y = (self.frame.size.height - w)/2.0;
+    CGFloat y = (self.frame.size.height - h)/2.0;
     
     if (self.alignment == NSTextAlignmentRight){
         x = self.frame.size.width - w;
@@ -79,7 +87,7 @@
         CGFloat w = self.imgSize.width;
         CGFloat h = self.imgSize.height;
         CGFloat x = (self.frame.size.width - w)/2.0;
-        CGFloat y = (self.frame.size.height - w)/2.0;
+        CGFloat y = (self.frame.size.height - h)/2.0;
         
         if (self.alignment == NSTextAlignmentRight){
             x = self.frame.size.width - w;
@@ -88,6 +96,8 @@
         }
         
         _imgV = [[UIImageView alloc] initWithFrame:CGRectMake(x, y, w, h)];
+        _imgV.contentMode = UIViewContentModeScaleAspectFit;
+//        _imgV.layer.borderWidth = .5f;
         [_imgV setImage:self.img];
         
         
