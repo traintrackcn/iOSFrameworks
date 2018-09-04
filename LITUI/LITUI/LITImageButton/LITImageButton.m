@@ -34,13 +34,13 @@
     return instance;
 }
 
-- (instancetype)initWithFrame:(CGRect)frame{
-    self = [super initWithFrame:frame];
-    if (self) {
-        self.clipsToBounds = YES;
-    }
-    return self;
-}
+//- (instancetype)initWithFrame:(CGRect)frame{
+//    self = [super initWithFrame:frame];
+//    if (self) {
+//        self.clipsToBounds = YES;
+//    }
+//    return self;
+//}
 
 - (void)setTarget:(id)target action:(SEL)action{
     UITapGestureRecognizer *gr = [[UITapGestureRecognizer alloc] initWithTarget:target action:action];

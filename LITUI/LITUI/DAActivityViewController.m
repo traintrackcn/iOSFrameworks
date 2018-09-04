@@ -23,13 +23,17 @@
 - (instancetype)initWithActivityItems:(NSArray *)activityItems applicationActivities:(NSArray<__kindof UIActivity *> *)applicationActivities{
     self = [super initWithActivityItems:activityItems applicationActivities:applicationActivities];
     if (self) {
-        self.excludedActivityTypes = @[UIActivityTypePrint,
-                                       UIActivityTypeAssignToContact,
-                                       UIActivityTypeSaveToCameraRoll,
-                                       UIActivityTypeAirDrop,
-                                       UIActivityTypeOpenInIBooks
-//                                       UIActivityTypeCopyToPasteboard
-                                       ]; //Exclude whichever aren't relevant
+//        self.excludedActivityTypes = @[UIActivityTypePrint,
+//                                       UIActivityTypeAssignToContact,
+//                                       UIActivityTypeSaveToCameraRoll,
+//                                       UIActivityTypeAirDrop,
+//                                       UIActivityTypeOpenInIBooks,
+//                                       @"com.apple.mobilenotes.SharingExtension",
+//                                       @"com.apple.reminders.RemindersEditorExtension",
+//                                       @"com.tencent.xin.sharetimeline",
+//                                       @"com.apple.mobileslideshow.StreamShareService"
+////                                       UIActivityTypeCopyToPasteboard
+//                                       ]; //Exclude whichever aren't relevant
         [self setCompletionWithItemsHandler:^(NSString *activityType, BOOL completed, NSArray *returnedItems, NSError *activityError) {
             TLOG(@"completed: %@, \n%d, \n%@, \n%@,", activityType, completed, returnedItems, activityError);
             

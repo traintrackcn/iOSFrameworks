@@ -11,6 +11,7 @@
 @interface LITCollectionLayoutFullGridItems : LITCollectionLayout
 
 - (void)setItemsPerLine:(NSInteger)itemsPerLine withItemHeight:(CGFloat)itemH;
+//- (void)setItemSize:(CGSize)itemSize;
 
 @property (nonatomic, assign) CGFloat hSpace;
 @property (nonatomic, assign) CGFloat vSpace;

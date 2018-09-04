@@ -18,6 +18,7 @@
 
 @implementation LITCollectionLayoutFullGridItems
 
+
 - (instancetype)init{
     self = [super init];
     if (self) {
@@ -78,11 +79,15 @@
     [self setItemSize:CGSizeMake(itemW, itemH)];
 }
 
+//- (void)setItemSize:(CGSize)itemSize{
+//    _itemSize = itemSize;
+//}
+
 
 #pragma mark - properties
 
 - (NSInteger)itemsPerLine{
-    NSInteger num = ceilf(self.collectionW/self.itemSize.width);
+    NSInteger num = floorf(self.collectionW/self.itemSize.width);
     CGFloat hSpaceLeft = (int)self.collectionW%(int)self.itemSize.width;
 //    TLOG(@"hSpaceLeft -> %@ num -> %@ collectionW -> %@ itemW -> %@", @(hSpaceLeft), @(num), @(self.collectionW), @(self.itemSize.width));
     if (hSpaceLeft - (num-1)*self.hSpace < 0) {
